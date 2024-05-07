@@ -8,14 +8,14 @@ import SectionDivider from "@components/SectionDivider";
 
 export default function Home() {
   return (
-    <main className="">
+    <main className="flex flex-col items-center px-4">
     <Introduction />
     <SectionDivider />
-    {/* <About />
+    <About />
     <Projects />
     <Skills />
     <Experience />
-    <Contact /> */}
+    <Contact />
     </main>
   );
 }

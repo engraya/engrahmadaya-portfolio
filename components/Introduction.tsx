@@ -28,7 +28,7 @@ function Introduction() {
               duration: 0.2,
             }}
           >
-            {/* <Image
+            <Image
               src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?fit=crop&w=368&h=368&q=100"
               alt="Ricardo portrait"
               width="192"
@@ -36,7 +36,7 @@ function Introduction() {
               quality="95"
               priority={true}
               className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
-            /> */}
+            />
           </motion.div>
 
           <motion.span
@@ -96,21 +96,21 @@ function Introduction() {
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
 
-        <a
+        <Link
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
           href="https://linkedin.com"
           target="_blank"
         >
           <BsLinkedin />
-        </a>
+        </Link>
 
-        <a
+        <Link
           className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
           href="https://github.com"
           target="_blank"
         >
           <FaGithubSquare />
-        </a>
+        </Link>
       </motion.div>
     </section>
   )
