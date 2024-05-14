@@ -4,9 +4,9 @@ import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { BsArrowRight, BsLinkedin } from "react-icons/bs";
+import { ImDownload } from "react-icons/im";
 import { HiDownload } from "react-icons/hi";
-import { FaGithubSquare } from "react-icons/fa";
+import { SiWechat } from "react-icons/si";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@context/ActiceSectionContext";
 import ayaPassport from "@public/ayaPassport.png"
@@ -61,11 +61,11 @@ function Introduction() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Ahmad.</span> I'm a{" "}
-        <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold">2 years</span> of experience. I enjoy
-        building <span className="italic">robust & sclalable apps</span>. My stack is{" "}
-        <span className="underline">Nextjs, Typescript and Tailwind</span>.
+        <span className="font-bold">Hello, I'm Ahmad, </span>a{" "}
+        <span className="font-bold">full-stack Engineer</span> with{" "}
+        <span className="font-bold">3 years</span> of experience. I enjoy
+        building <span className="italic">robust & sclalable solutions</span>. My stack is{" "}
+        <span className="underline">Nextjs, React, Typescript, Tailwind & Django</span>.
       </motion.h1>
 
       <motion.div
@@ -85,7 +85,7 @@ function Introduction() {
           }}
         >
           Contact me{" "}
-          <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
+          <SiWechat className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
 
         <a
@@ -94,7 +94,7 @@ function Introduction() {
           download
         >
           Download CV{" "}
-          <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
+          <ImDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
         <div>
           

@@ -4,7 +4,13 @@ import { Bio } from '@lib/constants';
 import { BsLinkedin, BsGithub, BsFacebook, BsTwitter, BsInstagram } from "react-icons/bs";
 const Footer = () => {
   return (
-    <footer className="mb-10 px-4 text-center text-gray-500">
+    <footer className="mb-10 px-4 text-center text-emerald-100">
+      <h6 className="mb-2 block text-xs">
+        + {Bio.whatsapp}
+      </h6>
+      <h6 className="mb-2 block text-xs">
+        {Bio.mail}
+      </h6>
       <small className="mb-2 block text-xs">
         &copy; 2024 engraya. All rights reserved.
       </small>

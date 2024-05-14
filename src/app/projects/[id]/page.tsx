@@ -31,7 +31,7 @@ function ProjectDetailsPage({params} : {
     <div className="flex flex-col md:flex-row -mx-4">
       <div className="md:flex-1 px-4">
         <div className="h-[460px] rounded-lg bg-gray-300 dark:bg-gray-700 mb-4">
-          <Image className="w-full h-full object-cover" src={image} width={500} height={500} alt="Product Image" />
+          <Image className="w-full h-full object-cover overflow-hidden" src={image} width={500} height={500} alt="Product Image" />
         </div>
         <div className="flex -mx-2 mb-4">
           <div className="w-1/2 px-2">
@@ -48,28 +48,34 @@ function ProjectDetailsPage({params} : {
       </div>
       <div className="md:flex-1 px-4">
         <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-2">{title}</h2>
+        <span className="font-bold text-gray-700 dark:text-gray-300">Description:</span>
         <p className="text-gray-100 dark:text-gray-300 text-sm mb-4">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed
-          ante justo. Integer euismod libero id mauris malesuada tincidunt.
+        {description}
         </p>
         <div className="flex mb-4">
           <div className="mr-4">
             <span className="font-bold text-gray-700 dark:text-gray-300">Category: </span>
             <span className="text-gray-600 dark:text-gray-300">{category}</span>
           </div>
-          <div className="mr-4">
+          {/* <div className="mr-4">
             <span className="font-bold text-gray-700 dark:text-gray-300">Hosting Platform: </span>
             <span className="text-gray-600 dark:text-gray-300">In Stock</span>
           </div>
           <div className="mr-4">
             <span className="font-bold text-gray-700 dark:text-gray-300">Hosted: </span>
             <span className="text-gray-600 dark:text-gray-300">In Stock</span>
-          </div>
+          </div> */}
         </div>
         <div className="mb-4">
           <span className="font-bold text-gray-700 dark:text-gray-300">Url</span>
           <div className="flex items-center mt-2">
-          <span className="text-gray-600 dark:text-gray-300">{webapp}</span>
+          <span className="text-gray-300 dark:text-gray-300">{webapp}</span>
+          </div>
+        </div>
+        <div className="mb-4">
+          <span className="font-bold text-gray-700 dark:text-gray-300">Repository</span>
+          <div className="flex items-center mt-2">
+          <span className="text-gray-300 dark:text-gray-300">{github}</span>
           </div>
         </div>
         <div className="mb-4">
@@ -80,12 +86,6 @@ function ProjectDetailsPage({params} : {
             ))}
 
           </div>
-        </div>
-        <div>
-          <span className="font-bold text-gray-700 dark:text-gray-300">Description:</span>
-          <p className="text-gray-100 dark:text-gray-300 text-sm mt-2">
-            {description}
-          </p>
         </div>
       </div>
     </div>

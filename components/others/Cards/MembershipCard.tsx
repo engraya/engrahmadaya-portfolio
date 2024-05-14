@@ -1,5 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
+import Image from 'next/image'
+
 
 const Document = styled.img`
     display: none;
@@ -64,7 +66,7 @@ const Top = styled.div`
     gap: 12px
 `
 
-const Image = styled.img`
+const ImageComponent = styled.img`
     height: 50px;
     background-color: #000;
     border-radius: 10px;
@@ -130,7 +132,7 @@ const MemebershipCard = ({ membership } : Membership) => {
     return (
         <Card>
             <Top>
-                <Image src={membership.img} />
+                <Image src={membership.img} height={50} width={50} alt='member-image' className='h-16 bg-black rounded-tl-lg mt-1 sm:h-10' />
                 <Body>
                     <div className='text-emerald-100 font-bold text-lg'>{membership.membershipTitle}</div>
                     <div className='text-sm font-normal text-emerald-100'>{membership.membershipBody}</div>

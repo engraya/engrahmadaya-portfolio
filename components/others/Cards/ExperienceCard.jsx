@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-
+import Image from 'next/image'
 const Document = styled.img`
     display: none;
     height: 70px;
@@ -75,7 +75,7 @@ const Top = styled.div`
     gap: 12px
 `
 
-const Image = styled.img`
+const ImageComponent = styled.img`
     height: 50px;
     background-color: #000;
     border-radius: 10px;

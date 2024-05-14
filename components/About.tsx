@@ -21,7 +21,7 @@ function About() {
       <p className="mb-3 text-emerald-100">
         After graduating with a degree in{" "}
         <span className="font-medium">Civil Engineering</span>, I decided to pursue my
-        passion for programming.{" "}
+        passion for software engineering & programming.{" "}
         <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
         feeling of finally figuring out a solution to a problem. I am familiar with the latest trends of Frontend and Backend. My core stack

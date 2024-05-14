@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import Image from 'next/image'
 
 
 const Document = styled.img`
@@ -74,15 +75,6 @@ const Top = styled.div`
     gap: 12px
 `
 
-const Image = styled.img`
-    height: 50px;
-    background-color: #000;
-    border-radius: 10px;
-    margin-top: 4px;
-    @media only screen and (max-width: 768px){
-        height: 40px;
-    }
-`
 
 const Body = styled.div`
     width: 100%;
@@ -100,14 +92,6 @@ const Name = styled.div`
     }
 `
 
-const Degree = styled.div`
-    font-size: 14px;
-    font-weight: 500;
-    color: ${({ theme }) => theme.text_secondary + 99};
-    @media only screen and (max-width: 768px){
-        font-size: 12px;
-    }
-`
 
 const Date = styled.div`
     font-size: 12px;
@@ -118,14 +102,6 @@ const Date = styled.div`
     }
 `
 
-const Grade = styled.div`
-    font-size: 14px;
-    font-weight: 500;
-    color: ${({ theme }) => theme.text_secondary + 99};
-    @media only screen and (max-width: 768px){
-        font-size: 12px;
-    }
-`
 
 
 
@@ -133,7 +109,7 @@ const EducationCard = ({ education }) => {
     return (
         <Card>
             <Top>
-                <Image src={education.img} />
+                <Image src={education.img} height={50} width={50} alt='edu-image' className='h-16 bg-black rounded-tl-lg mt-1 sm:h-10' />
                 <Body>
                     <div className='text-lg font-bold text-emerald-100'>{education.school}</div>
                     <div className='text-sm font-normal text-emerald-100'>{education.degree}</div>

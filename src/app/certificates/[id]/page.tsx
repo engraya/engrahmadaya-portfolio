@@ -6,7 +6,7 @@ function CertificateDetails({params} : {
     params : { id : any } 
 }) {
     const { id } = params;
-    const {title, date, image, issuingBody } = certificates[id];
+    const {title, date, image, issuingBody, liveDemo } = certificates[id];
   return (
 <div className="dark:bg-gray-800 py-8">
   <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -22,7 +22,7 @@ function CertificateDetails({params} : {
         </div>
         <div className="flex -mx-2 mb-4">
           <div className="w-1/2 px-2">
-            <Link href={image} target='_blank'>
+            <Link href={liveDemo} target='_blank'>
             <button className="w-full bg-gradient-to-r from-emerald-300 to-blue-500  dark:bg-gray-600 text-white py-2 px-4 rounded-full font-bold hover:bg-gray-800 dark:hover:bg-gray-700">Live Demo</button>
             </Link>
           </div>

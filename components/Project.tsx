@@ -11,7 +11,7 @@ type ProjectProps = {
   title : string
   description  :string
   tags : string[]
-  imageUrl : string
+  imageUrl :  any
 }
 
 function Project({

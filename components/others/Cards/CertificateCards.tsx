@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-
+import Image from 'next/image'
 
 const Button = styled.button`
     display: none;
@@ -38,10 +38,9 @@ const Card = styled.div`
     }
 `
 
-const Image = styled.img`
+const ImageComponent = styled.img`
     width: 100%;
     height: 180px;
-    ${'' /* background-color: ${({ theme }) => theme.white}; */}
     border-radius: 10px;
     box-shadow: 0 0 16px 2px rgba(0,0,0,0.3);
 `
@@ -106,7 +105,8 @@ type Certificate = {
 const CertificateCards = ({certificate} : Certificate) => {
     return (
         <Card>
-            <Image src={certificate.image}/>
+
+            <Image src={certificate.image} width={500} height={500} alt='certificate' className="w-full h-[180px] rounded-10"/>
             <Details>
                 <div className='font-bold text-emerald-100 text-md'>{certificate.title}</div>
                 <div className='font-medium text-emerald-100 text-sm'>{certificate.date}</div>
