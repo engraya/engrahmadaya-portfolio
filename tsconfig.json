@@ -21,6 +21,6 @@
       "@*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/others/Education/index.js", "components/others/Cards/EducationCard.jsx", "components/others/Experience/index.js", "components/others/Memberships/index.js", "components/others/Cards/ExperienceCard.jsx", "components/others/Certifications/index.js", "components/others/CertificateDetails/index.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/others/Education/index.js", "components/others/Cards/EducationCard.jsx", "components/others/Experience/index.js", "components/others/Memberships/index.js", "components/others/Cards/ExperienceCard.jsx", "components/others/Certifications/index.js", "components/others/CertificateDetails/index.jsx", "components/others/Cards/ProjectCards.jsx", "components/others/Projects/index.js", "components/others/Skills/index.js", "components/others/SoftSkills/index.js"],
   "exclude": ["node_modules"]
 }

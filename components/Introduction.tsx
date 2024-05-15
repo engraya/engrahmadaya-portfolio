@@ -61,7 +61,7 @@ function Introduction() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Ahmad, </span>a{" "}
+        <span className="font-bold">Hello, I&rsquo;m Ahmad, </span>a{" "}
         <span className="font-bold">full-stack Engineer</span> with{" "}
         <span className="font-bold">3 years</span> of experience. I enjoy
         building <span className="italic">robust & sclalable solutions</span>. My stack is{" "}

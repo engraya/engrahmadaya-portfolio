@@ -39,28 +39,6 @@ const Wrapper = styled.div`
     }
 `;
 
-const Title = styled.div`
-font-size: 42px;
-text-align: center;
-font-weight: 600;
-margin-top: 20px;
-  color: ${({ theme }) => theme.text_primary};
-  @media (max-width: 768px) {
-      margin-top: 12px;
-      font-size: 32px;
-  }
-`;
-
-const Desc = styled.div`
-    font-size: 18px;
-    text-align: center;
-    max-width: 600px;
-    color: ${({ theme }) => theme.text_secondary};
-    @media (max-width: 768px) {
-        margin-top: 12px;
-        font-size: 16px;
-    }
-`;
 
 const TimelineSection = styled.div`
     width: 100%;
@@ -83,7 +61,7 @@ const Memberships = () => {
                 <TimelineSection>
                     <Timeline>
                         {memberships.map((membership,index) => (
-                            <TimelineItem>
+                            <TimelineItem key={membership}>
                                 <TimelineSeparator>
                                     <TimelineDot variant="outlined" color="secondary" />
                                     {index !== memberships.length - 1 && <TimelineConnector style={{ background: '#61d6e6' }} />}

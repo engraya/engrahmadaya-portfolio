@@ -13,16 +13,6 @@ const Document = styled.img`
     }
 `
 
-const Description = styled.div`
-    width: 100%;
-    font-size: 15px;
-    font-weight: 400;
-    color: ${({ theme }) => theme.text_primary + 99};
-    margin-bottom: 10px;
-    @media only screen and (max-width: 768px){
-        font-size: 12px;
-    }
-`
 
 const Span = styled.span`
 overflow: hidden;
@@ -148,7 +138,7 @@ const ExperienceCard = ({ experience }) => {
     return (
         <Card>
             <Top>
-                <Image src={experience.img} />
+                <Image src={experience.img} alt="experience-image" />
                 <Body>
                     <div className='font-bold text-emerald-100 text-md'>{experience.role}</div>
                     <div className='text-xs font-normal text-emerald-100'>{experience.company}</div>
@@ -167,7 +157,7 @@ const ExperienceCard = ({ experience }) => {
                             <b>Skills:</b>
                             <ItemWrapper>
                                 {experience?.skills?.map((skill, index) => (
-                                    <Skill>• {skill}</Skill>
+                                    <Skill key={skill}>• {skill}</Skill>
                                 ))}
                             </ItemWrapper>
                         </Skills>
