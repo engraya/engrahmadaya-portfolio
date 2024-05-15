@@ -492,7 +492,7 @@ export const Bio = {
       liveDemo : "https://firebasestorage.googleapis.com/v0/b/portfolio-storage-cdfc1.appspot.com/o/EFFECTIVE%20COMMUNICATION%20FOR%20REMOTE%20TEAMS_1.jpg?alt=media&token=d8095213-31a9-4467-a52f-5ca47eff67b2"
     },
   
-  ] as const;
+  ]
   
   export const softSkills = [
   
