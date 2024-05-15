@@ -16,7 +16,6 @@ function CertificatesPage() {
             <Link href={`/certificates/${certificate.id}`}>
             <CertificateCard certificate={certificate}/>
             </Link>
-
           </div>
         ))}
       </div>

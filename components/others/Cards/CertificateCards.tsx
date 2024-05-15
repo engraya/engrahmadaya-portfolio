@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Image from 'next/image'
-
+import { StaticImageData } from 'next/image'
 const Button = styled.button`
     display: none;
     width: 100%;
@@ -53,7 +53,8 @@ type CertificateProps = {
     title : string
     date : string
     issuingBody : string
-    image : string
+    image :  | StaticImageData
+    liveDemo : string
 }
 
 type Certificate = {
