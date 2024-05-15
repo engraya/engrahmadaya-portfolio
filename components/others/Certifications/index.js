@@ -1,6 +1,5 @@
 import React from 'react'
-import { useState } from 'react'
-import { Container, Wrapper, Title, Desc, CardContainer, ToggleButtonGroup, ToggleButton, Divider } from './CertificatesStyle'
+import { Container, Wrapper, CardContainer, ToggleButtonGroup } from './CertificatesStyle'
 import CertificateCard from '../Cards/CertificateCards'
 import { certificates } from '../../../lib/constants'
 import SectionHeading from '@components/SectionHeading'
