@@ -15,6 +15,7 @@ import realtime from "./realtimecharrooms.png"
 import weather from "./weatherapp.png"
 import games from "./web4games.png"
 import amore from "./amore.png"
+import realtimeDashboard from "./real-time-dashboard.png"
 
 export {
 afan,
@@ -33,5 +34,6 @@ news ,
 realtime, 
 weather ,
 games ,
+realtimeDashboard,
 amore
 }

@@ -64,7 +64,8 @@ import {
     realtime, 
     weather ,
     amore,
-    games 
+    games, 
+    realtimeDashboard
    } from "@public/projects/projectSources";
 export const Bio = {
     name: "Ahmad Yakubu Ahmad",
@@ -222,14 +223,14 @@ export const Bio = {
     },
       {
       id: 3,
-      title: "Farmers Management System",
+      title: "Real Time Kanban Dashboard",
       description:
-        "Introducing FarmMate, a robust and user-friendly Farmers Management System built on the Django framework. FarmMate is designed to streamline and optimize the management of agricultural activities, providing farmers with powerful tools to enhance productivity and decision-making.",
-      image: farmers,
-      tags: ["MongoDb", "Node Js", "Express Js"],
+        "Realtime dahsboard foe managing company task, reports, companies data in realtime built with React and Refine Framework",
+      image: realtimeDashboard,
+      tags: ["React", "Typescript", "Refine", "Ant Design", "GraphQL", "Docker"],
       category: "web app",
-      github: "https://github.com/engraya/Farmers-Management-System",
-      webapp: "https://github.com/engraya/Farmers-Management-System",
+      github: "https://github.com/engraya/realtime-admin-kanban-dashboard",
+      webapp: "https://realtime-dashboard-neon.vercel.app/",
     },
       {
       id: 4,
@@ -292,7 +293,7 @@ export const Bio = {
       description:
         "Embark on a meteorological journey with web weatherApp!, my latest ReactJS masterpiece! 🚀 Immerse yourself in a visually stunning and user-friendly weather experience, powered by real-time data from OpenWeather API.",
       image: weather,
-      tags: ["React Js", "Node Js", "Express Js"],
+      tags: ["React", "Node Js", "Express Js"],
       category: "web app",
       github: "https://github.com/engraya/web-weatherApp",
       webapp: "https://engraya.github.io/web-weatherApp/",
@@ -303,7 +304,7 @@ export const Bio = {
       description:
         "A cutting-edge chatroom app built with ReactJS and powered by ChatEngine API! 🌐💬, Imagine a space where instant communication meets seamless file sharing. With this app, I've created a virtual haven for myself and my friends😂—Lawan, Usman, Muhammad, Kalifa, and Abubakar—to connect, chat, and exchange files effortlessly.",
       image: realtime,
-      tags: ["React Js", "Node Js", "Express Js", "chatEngine.io"],
+      tags: ["React", "Node Js", "Express Js", "chatEngine.io"],
       category: "web app",
       github: "https://github.com/engraya/realTime-chatRooms",
       webapp: "https://github.com/engraya/realTime-chatRooms",
@@ -314,7 +315,7 @@ export const Bio = {
       description:
         "Explore detailed information on a wide range of coins, from market capitalization to trading volume. Make informed decisions with ease, Stay ahead of the game with live prices, trends, and market updates for your favorite cryptocurrencies. Watch your investments like never before!",
       image: coin,
-      tags: ["React Js", "TailwindCSS"],
+      tags: ["React", "TailwindCSS"],
       category: "web app",
       github: "https://github.com/engraya/crypto-Coin-GPT",
       webapp: "https://cryptocoingpt.vercel.app/",
@@ -326,7 +327,7 @@ export const Bio = {
         "Designed for simplicity and efficiency, stripeProduct checkout empowers businesses to provide customers with a hassle-free online shopping experience. Whether you're a small business owner or a developer looking to enhance your e-commerce projects, stripeProduct checkout is your go-to solution for a smooth and secure checkout process.",
       image:
         "https://firebasestorage.googleapis.com/v0/b/portfolio-storage-cdfc1.appspot.com/o/Screenshot%20(1223).png?alt=media&token=d226b970-f01b-482c-8c4d-2875caaabfdf",
-      tags: ["React Js", "React Bootstrap", "Stripe API"],
+      tags: ["React", "React Bootstrap", "Stripe API"],
       category: "web app",
       github: "https://github.com/engraya/stripe-product-checkout",
       webapp: "https://github.com/engraya/stripe-product-checkout",
@@ -337,7 +338,7 @@ export const Bio = {
       description:
         "Embark on a virtual journey around the globe with 'Global Escapades: Your Passport to Beauty' 🌍✈️. This open-source fullstack React app takes you on a visual adventure, showcasing the most breathtaking places our planet has to offer. From iconic landmarks to hidden gems, explore the world from the comfort of your screen.",
       image: global,
-      tags: ["React Js", "TailwindCSS", "Firebase"],
+      tags: ["React", "TailwindCSS", "Firebase"],
       category: "web app",
       github: "https://github.com/engraya/global-escapades",
       webapp: "https://global-escapades.vercel.app/",
@@ -348,7 +349,7 @@ export const Bio = {
       description:
         "Embark on a gastronomic journey with Delectable – the ultimate food lover's paradise! 🌍🍽️ Uncover a world of delicious recipes, culinary wonders, and mouthwatering delights from every corner of the globe. Here's what makes Delectable your go-to app for all things food:",
       image: delectable,
-      tags: ["React Js", "TailwindCSS", "Firebase"],
+      tags: ["React", "TailwindCSS", "Firebase"],
       category: "web app",
       github: "https://github.com/engraya/delectable-food-webapp",
       webapp: "https://delectable.vercel.app/",
@@ -359,7 +360,7 @@ export const Bio = {
       description:
         "MULTI INTERVENTION DEVELOPMENT INITIATIVES, (MIDIN) a dedicated humanitarian organization committed to creating positive change in communities.The goal of this project was to develop a user-friendly and informative website that reflects the organization's values and highlights its various initiatives.",
       image: midin,
-      tags: ["React Js"],
+      tags: ["React"],
       category: "web app",
       github: "https://github.com/engraya/MIDIN-Org-Web-Project",
       webapp: "https://midin.vercel.app/",
