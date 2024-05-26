@@ -65,6 +65,7 @@ import {
     weather ,
     amore,
     games, 
+    shopoholics,
     realtimeDashboard
    } from "@public/projects/projectSources";
 export const Bio = {
@@ -322,15 +323,14 @@ export const Bio = {
     },
       {
       id: 12,
-      title: "stripeProduct checkout",
+      title: "Shopoholics",
       description:
-        "Designed for simplicity and efficiency, stripeProduct checkout empowers businesses to provide customers with a hassle-free online shopping experience. Whether you're a small business owner or a developer looking to enhance your e-commerce projects, stripeProduct checkout is your go-to solution for a smooth and secure checkout process.",
-      image:
-        "https://firebasestorage.googleapis.com/v0/b/portfolio-storage-cdfc1.appspot.com/o/Screenshot%20(1223).png?alt=media&token=d226b970-f01b-482c-8c4d-2875caaabfdf",
-      tags: ["React", "React Bootstrap", "Stripe API"],
+        "Shopoholics, an open-source Fullstack ecommerce app designed to revolutionize your online shopping experience! 🛒",
+      image: shopoholics,
+      tags: ["Nextjs", "Typescript", "Tailwind", "Sanity", "Stripe", "ShadCN"],
       category: "web app",
-      github: "https://github.com/engraya/stripe-product-checkout",
-      webapp: "https://github.com/engraya/stripe-product-checkout",
+      github: "https://github.com/engraya/shopoHolics",
+      webapp: "https://shopoholics.vercel.app/",
     },
     {
       id: 13,
