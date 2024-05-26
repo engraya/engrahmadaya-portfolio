@@ -71,7 +71,7 @@ import {
 export const Bio = {
     name: "Ahmad Yakubu Ahmad",
     roles: [
-      "Fullstack Engineer",
+      "Fullstack Engineer", 
       "Civil Engineer",
       "Freelancer",
     ],
@@ -334,17 +334,6 @@ export const Bio = {
     },
     {
       id: 13,
-      title: "global escapades",
-      description:
-        "Embark on a virtual journey around the globe with 'Global Escapades: Your Passport to Beauty' 🌍✈️. This open-source fullstack React app takes you on a visual adventure, showcasing the most breathtaking places our planet has to offer. From iconic landmarks to hidden gems, explore the world from the comfort of your screen.",
-      image: global,
-      tags: ["React", "TailwindCSS", "Firebase"],
-      category: "web app",
-      github: "https://github.com/engraya/global-escapades",
-      webapp: "https://global-escapades.vercel.app/",
-    },
-    {
-      id: 14,
       title: " Delectable",
       description:
         "Embark on a gastronomic journey with Delectable – the ultimate food lover's paradise! 🌍🍽️ Uncover a world of delicious recipes, culinary wonders, and mouthwatering delights from every corner of the globe. Here's what makes Delectable your go-to app for all things food:",
@@ -355,7 +344,7 @@ export const Bio = {
       webapp: "https://delectable.vercel.app/",
     },
     {
-      id: 15,
+      id: 14,
       title: "Midin Web Project",
       description:
         "MULTI INTERVENTION DEVELOPMENT INITIATIVES, (MIDIN) a dedicated humanitarian organization committed to creating positive change in communities.The goal of this project was to develop a user-friendly and informative website that reflects the organization's values and highlights its various initiatives.",
@@ -366,7 +355,7 @@ export const Bio = {
       webapp: "https://midin.vercel.app/",
     },
     {
-      id: 16,
+      id: 15,
       title: "MotoHub",
       description:
         "MotoHub - the hottest spot on the web to explore sleek, stylish, and cutting-edge cars from around the globe! 🌐🔥",
