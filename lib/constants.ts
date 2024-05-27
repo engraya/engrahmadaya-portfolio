@@ -71,7 +71,7 @@ import {
 export const Bio = {
     name: "Ahmad Yakubu Ahmad",
     roles: [
-      "Fullstack Engineer", 
+      "Fullstack Engineer" 
       "Civil Engineer",
       "Freelancer",
     ],
