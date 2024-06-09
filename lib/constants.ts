@@ -66,6 +66,7 @@ import {
     amore,
     games, 
     shopoholics,
+    shelterium,
     realtimeDashboard
    } from "@public/projects/projectSources";
 export const Bio = {
@@ -364,6 +365,17 @@ export const Bio = {
       category: "web app",
       github: "https://github.com/engraya/nEXT-mOTOhUB",
       webapp: "https://next-motohub.vercel.app/",
+    },
+    {
+      id: 16,
+      title: "Shelterium",
+      description:
+        "Shelterium, the ultimate real estate app for buying, renting, and selling properties. 🏠🔑✨🌟",
+      image: shelterium,
+      tags: ["Nextjs", "Typescript", "TailwindCSS", "React"],
+      category: "web app",
+      github: "https://github.com/engraya/Shelterium",
+      webapp: "https://shelterium.vercel.app/",
     }
   
   ];

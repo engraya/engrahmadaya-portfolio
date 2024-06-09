@@ -17,9 +17,11 @@ import games from "./web4games.png"
 import amore from "./amore.png"
 import realtimeDashboard from "./real-time-dashboard.png"
 import shopoholics from "./shopoholics.png"
+import shelterium from "./shelterium.png"
 
 export {
 afan,
+shelterium,
 shopoholics,
 coin , 
 delectable,
