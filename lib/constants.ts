@@ -191,9 +191,9 @@ export const Bio = {
    
       {
       id: 0,
-      title: "Mandera Mart Ecommerce App",
+      title: "Mandera Mart",
       description:
-        "Welcome to Mandera Mart Ecommerce, an exquisite online shopping experience meticulously crafted with the power of Django. Our e-commerce platform seamlessly blends sophistication with user-friendly functionality, providing a delightful journey for both shoppers and merchants alike.",
+        "Mandera Mart Ecommerce, an e-commerce platform seamlessly blends sophistication with user-friendly functionality.",
       image: mandera,
       tags: ["HTML", "CSS", "JavaScript", "Python", "Django", "Bootstrap"],
       category: "web app",
@@ -202,9 +202,9 @@ export const Bio = {
     },
       {
       id: 1,
-      title: "Drivers Management System",
+      title: "Drivers Management",
       description:
-        "Experience seamless control over your fleet with our Driver Management System App built on Django. This robust application empowers you to efficiently manage and monitor your drivers, ensuring optimal performance and safety.",
+        "Experience seamless control over your fleet with our Driver Management System App built on Django.",
       image: drivers,
       tags: ["HTML", "CSS", "JavaScript", "Python", "Django", "Bootstrap"],
       category: "web app",
@@ -216,7 +216,7 @@ export const Bio = {
       id: 2,
       title: "Web4Games",
       description:
-        "Embark on a thrilling gaming experience with Web4Games, a dynamic web application that brings the excitement of [briefly describe the genre or main theme of the game] to your fingertips. Developed using Django, this project seamlessly combines a captivating user interface with robust functionality to deliver a gaming adventure like no other.",
+        "A dynamic web application Developed using Django, delivers a gaming adventure like no other.",
       image: games,
       tags: ["HTML", "CSS", "JavaScript", "Python", "Django", "Bootstrap"],
       category: "web app",
@@ -238,7 +238,7 @@ export const Bio = {
       id: 4,
       title: "Employee Report System",
       description:
-        "Introducing our cutting-edge Employee Report System app, a robust solution designed to streamline and enhance workforce management. This feature-rich application empowers businesses to efficiently manage employee information, performance evaluations, and reporting in a seamless digital environment.",
+        "Empowers businesses to efficiently manage employee information, performance evaluations, and reporting in a seamless digital environment.",
       image: employees,
       tags: ["MongoDb", "Node Js", "Express Js", "Bootstrap"],
       category: "web app",
@@ -249,7 +249,7 @@ export const Bio = {
       id: 5,
       title: "Audrey Sam Amore Consult",
       description:
-        "Discover a dating and consultancy experience like no other. Audrey-Sam-Amore-Consult goes beyond traditional matchmaking, using advanced algorithms to connect like-minded individuals based on compatibility, interests, and values. Say goodbye to swiping and hello to genuine connections.",
+        " Audrey-Sam-Amore-Consult explore match making, dating and consultancy experience like no other.",
       image: amore,
       tags: ["HTML", "CSS", "JavaScript", "Python", "Django", "Bootstrap"],
       category: "web app",
@@ -258,9 +258,9 @@ export const Bio = {
     },
       {
       id: 6,
-      title: "newsRedirect",
+      title: "NewsRedirect",
       description:
-        "Stay ahead of the curve with our latest news app,newsRedirect. This cutting-edge application brings you a seamless and immersive news experience like never before.",
+        "NewsRedirect application brings you a seamless and immersive news experience like never before.",
       image: news,
       tags: ["MongoDb", "Node Js", "Express Js", "Bootstrap"],
       category: "web app",
@@ -269,9 +269,9 @@ export const Bio = {
     },
       {
       id: 7,
-      title: "Afan Commodity Marketing App",
+      title: "Afan Commodity App",
       description:
-        "Introducing Afan-Marketing-app, a revolutionary marketing app that brings farmers and buyers together in a seamless e-commerce experience! This innovative platform empowers farmers to effortlessly share their available products, while buyers can easily browse through a diverse range of fresh, locally sourced goods and place orders with just a few clicks.",
+        "A revolutionary marketing app that brings farmers and buyers together in a seamless e-commerce experience!.",
       image: afan,
       tags: ["HTML", "CSS", "JavaScript", "Python", "Django", "Bootstrap"],
       category: "web app",
@@ -280,31 +280,31 @@ export const Bio = {
     },
       {
       id: 8,
-      title: "coolMovies",
+      title: "CoolMovies",
       description:
-        "Explore the cinematic world with our Movie Preview App, a sleek and user-friendly application built using ReactJS and powered by the OMDB API. Immerse yourself in the magic of movies by easily searching for your favorite films, discovering new releases, and getting comprehensive information about each title.",
+        "Explore the cinematic world with our Movie Preview App, a sleek and user-friendly application built using ReactJS and powered by the OMDB API.",
       image: movies,
-      tags: ["React Js", "Node Js", "Express Js"],
+      tags: ["React", "Node Js", "Express Js", "Javascript"],
       category: "web app",
       github: "https://github.com/engraya/coolMovies-app",
       webapp: "https://engraya.github.io/coolMovies-app",
     },
       {
       id: 9,
-      title: "web weatherApp",
+      title: "Webweather",
       description:
-        "Embark on a meteorological journey with web weatherApp!, my latest ReactJS masterpiece! 🚀 Immerse yourself in a visually stunning and user-friendly weather experience, powered by real-time data from OpenWeather API.",
+        "Embark on a meteorological journey with web weatherApp, powered by real-time data from OpenWeather API.",
       image: weather,
-      tags: ["React", "Node Js", "Express Js"],
+      tags: ["React", "Node Js", "Express Js", "Javascript"],
       category: "web app",
       github: "https://github.com/engraya/web-weatherApp",
       webapp: "https://engraya.github.io/web-weatherApp/",
     },
         {
       id: 10,
-      title: "realTime-chatRooms",
+      title: "RealTime-chatRooms",
       description:
-        "A cutting-edge chatroom app built with ReactJS and powered by ChatEngine API! 🌐💬, Imagine a space where instant communication meets seamless file sharing. With this app, I've created a virtual haven for myself and my friends😂—Lawan, Usman, Muhammad, Kalifa, and Abubakar—to connect, chat, and exchange files effortlessly.",
+        "A cutting-edge chatroom app built with ReactJS and powered by ChatEngine API! 🌐💬",
       image: realtime,
       tags: ["React", "Node Js", "Express Js", "chatEngine.io"],
       category: "web app",
@@ -313,11 +313,11 @@ export const Bio = {
     },
     {
       id: 11,
-      title: "cryptoCoin GPT",
+      title: "CryptoCoin GPT",
       description:
-        "Explore detailed information on a wide range of coins, from market capitalization to trading volume. Make informed decisions with ease, Stay ahead of the game with live prices, trends, and market updates for your favorite cryptocurrencies. Watch your investments like never before!",
+        "Explore detailed information on a wide range of coins, from market capitalization to trading volume.",
       image: coin,
-      tags: ["React", "TailwindCSS"],
+      tags: ["React", "TailwindCSS", "Javascript"],
       category: "web app",
       github: "https://github.com/engraya/crypto-Coin-GPT",
       webapp: "https://cryptocoingpt.vercel.app/",
@@ -328,7 +328,7 @@ export const Bio = {
       description:
         "Shopoholics, an open-source Fullstack ecommerce app designed to revolutionize your online shopping experience! 🛒",
       image: shopoholics,
-      tags: ["Nextjs", "Typescript", "Tailwind", "Sanity", "Stripe", "ShadCN"],
+      tags: ["Nextjs", "Typescript", "Tailwind", "Sanity", "Stripe", "ShadCN", "React"],
       category: "web app",
       github: "https://github.com/engraya/shopoHolics",
       webapp: "https://shopoholics.vercel.app/",
@@ -337,9 +337,9 @@ export const Bio = {
       id: 13,
       title: " Delectable",
       description:
-        "Embark on a gastronomic journey with Delectable – the ultimate food lover's paradise! 🌍🍽️ Uncover a world of delicious recipes, culinary wonders, and mouthwatering delights from every corner of the globe. Here's what makes Delectable your go-to app for all things food:",
+        "Embark on a gastronomic journey with Delectable – the ultimate food lover's paradise! 🌍🍽️",
       image: delectable,
-      tags: ["React", "TailwindCSS", "Firebase"],
+      tags: ["React", "TailwindCSS", "Firebase", "Javascript"],
       category: "web app",
       github: "https://github.com/engraya/delectable-food-webapp",
       webapp: "https://delectable.vercel.app/",
@@ -348,9 +348,9 @@ export const Bio = {
       id: 14,
       title: "Midin Web Project",
       description:
-        "MULTI INTERVENTION DEVELOPMENT INITIATIVES, (MIDIN) a dedicated humanitarian organization committed to creating positive change in communities.The goal of this project was to develop a user-friendly and informative website that reflects the organization's values and highlights its various initiatives.",
+        "Web Application for a dedicated humanitarian organization committed to creating positive change in communities.",
       image: midin,
-      tags: ["React"],
+      tags: ["React", "Tailwind", "Javascript"],
       category: "web app",
       github: "https://github.com/engraya/MIDIN-Org-Web-Project",
       webapp: "https://midin.vercel.app/",
@@ -361,7 +361,7 @@ export const Bio = {
       description:
         "MotoHub - the hottest spot on the web to explore sleek, stylish, and cutting-edge cars from around the globe! 🌐🔥",
       image: motohub,
-      tags: ["Nextjs", "Typescript", "TailwindCSS", "HeadlessUI"],
+      tags: ["Nextjs", "Typescript", "TailwindCSS", "HeadlessUI", "React"],
       category: "web app",
       github: "https://github.com/engraya/nEXT-mOTOhUB",
       webapp: "https://next-motohub.vercel.app/",
