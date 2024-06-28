@@ -50,6 +50,7 @@ import {
   import { 
     afan,
     coin , 
+    quickSumAi, 
     delectable,
     drivers ,
     employees, 
@@ -376,6 +377,17 @@ export const Bio = {
       category: "web app",
       github: "https://github.com/engraya/Shelterium",
       webapp: "https://shelterium.vercel.app/",
+    },
+    {
+      id: 17,
+      title: "QuickSum AI",
+      description:
+        "🌐 QuickSum AI is here to transform how you consume content!, a go-to solution for summarizing long articles in seconds. ⏳",
+      image: quickSumAi,
+      tags: ["React", "Typescript", "TailwindCSS", "Redux", "Redux Toolkit"],
+      category: "web app",
+      github: "https://github.com/engraya/QuickSum-AI",
+      webapp: "https://quicksum-ai.vercel.app/",
     }
   
   ];
