@@ -50,13 +50,11 @@ import {
   import { 
     afan,
     coin , 
+    aiPrompts,
     quickSumAi, 
     delectable,
     drivers ,
     employees, 
-    farmers ,
-    global ,
-    grandApi ,
     mandera ,
     midin ,
     motohub ,
@@ -203,14 +201,14 @@ export const Bio = {
     },
       {
       id: 1,
-      title: "Drivers Management",
+      title: "aiPrompts",
       description:
-        "Experience seamless control over your fleet with our Driver Management System App built on Django.",
-      image: drivers,
-      tags: ["HTML", "CSS", "JavaScript", "Python", "Django", "Bootstrap"],
+        "The ultimate platform for generating, sharing, and discovering AI prompts for every need",
+      image: aiPrompts,
+      tags: ["Nextjs", "Typescript", "Tailwind", "Next-Auth"],
       category: "web app",
-      github: "https://github.com/engraya/Drivers-Management-System",
-      webapp: "https://github.com/engraya/Drivers-Management-System",
+      github: "https://github.com/engraya/aiPrompts",
+      webapp: "https://aiprompts-project.vercel.app/",
     },
   
       {

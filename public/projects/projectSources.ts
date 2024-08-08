@@ -19,10 +19,12 @@ import realtimeDashboard from "./real-time-dashboard.png"
 import shopoholics from "./shopoholics.png"
 import shelterium from "./shelterium.png"
 import quickSumAi from "./quick sum ai.png"
+import aiPrompts from "./aiprompts.png"
 
 export {
 afan,
 quickSumAi,
+aiPrompts,
 shelterium,
 shopoholics,
 coin , 
