@@ -246,14 +246,14 @@ export const Bio = {
     },
       {
       id: 5,
-      title: "Audrey Sam Amore Consult",
+      title: "Thankful Art",
       description:
-        " Audrey-Sam-Amore-Consult explore match making, dating and consultancy experience like no other.",
+        "ThankfulArt is a web app designed to help you Create Your Perfect Thank You Card in Seconds",
       image: amore,
-      tags: ["HTML", "CSS", "JavaScript", "Python", "Django", "Bootstrap"],
+      tags: ["Nextjs", "Typescript", "TailwindCSS", "Shadcn UI"],
       category: "web app",
-      github: "https://github.com/engraya/Audrey-Sam-Amore-Consultancy",
-      webapp: "https://audresamamore.vercel.app/",
+      github: "https://github.com/engraya/thankful_art",
+      webapp: "https://thankfulart.vercel.app/",
     },
       {
       id: 6,

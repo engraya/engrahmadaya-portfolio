@@ -20,9 +20,11 @@ import shopoholics from "./shopoholics.png"
 import shelterium from "./shelterium.png"
 import quickSumAi from "./quick sum ai.png"
 import aiPrompts from "./aiprompts.png"
+import thankfulart from "./thankfulart.png"
 
 export {
 afan,
+thankfulart,
 quickSumAi,
 aiPrompts,
 shelterium,
