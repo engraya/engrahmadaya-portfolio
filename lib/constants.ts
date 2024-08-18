@@ -53,7 +53,7 @@ import {
     aiPrompts,
     quickSumAi, 
     delectable,
-    drivers ,
+    thankfulart,
     employees, 
     mandera ,
     midin ,
@@ -249,7 +249,7 @@ export const Bio = {
       title: "Thankful Art",
       description:
         "ThankfulArt is a web app designed to help you Create Your Perfect Thank You Card in Seconds",
-      image: amore,
+      image: thankfulart,
       tags: ["Nextjs", "Typescript", "TailwindCSS", "Shadcn UI"],
       category: "web app",
       github: "https://github.com/engraya/thankful_art",
