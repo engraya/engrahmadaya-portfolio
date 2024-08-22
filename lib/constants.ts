@@ -56,6 +56,7 @@ import {
     thankfulart,
     employees, 
     mandera ,
+    codraft,
     midin ,
     motohub ,
     movies,
@@ -190,14 +191,14 @@ export const Bio = {
    
       {
       id: 0,
-      title: "Mandera Mart",
+      title: "CoDraft",
       description:
-        "Mandera Mart Ecommerce, an e-commerce platform seamlessly blends sophistication with user-friendly functionality.",
+        "Enhance your productivity with seamless editing, secure sharing, and intuitive collaboration tools.",
       image: mandera,
-      tags: ["HTML", "CSS", "JavaScript", "Python", "Django", "Bootstrap"],
+      tags: ["Nextjs", "Typescript", "Tailwind", "Sentry", "Liveblocks"],
       category: "web app",
-      github: "https://github.com/engraya/Mandera-Mart-Ecommerce-Project",
-      webapp: "https://github.com/engraya/Mandera-Mart-Ecommerce-Project",
+      github: "https://github.com/engraya/codraft",
+      webapp: "https://codraft-io.vercel.app/",
     },
       {
       id: 1,
