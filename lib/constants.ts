@@ -51,6 +51,7 @@ import {
     afan,
     coin , 
     aiPrompts,
+    netchat,
     quickSumAi, 
     delectable,
     thankfulart,
@@ -212,14 +213,14 @@ export const Bio = {
   
       {
       id: 2,
-      title: "Web4Games",
+      title: "NetChat",
       description:
-        "A dynamic web application Developed using Django, delivers a gaming adventure like no other.",
-      image: games,
-      tags: ["HTML", "CSS", "JavaScript", "Python", "Django", "Bootstrap"],
+        "NetChat is an innovative AI-powered app that transforms how you interact with websites.",
+      image: netchat,
+      tags: ["Nextjs", "Typescript", "TailwindCSS", "Shadcn UI", "Vercel AI SDK", "UPSTASH"],
       category: "web app",
-      github: "https://github.com/engraya/Web4Games",
-      webapp: "https://github.com/engraya/Web4Games/",
+      github: "https://github.com/engraya/netchat",
+      webapp: "https://netchat-io.vercel.app/",
     },
       {
       id: 3,

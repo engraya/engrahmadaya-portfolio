@@ -22,12 +22,14 @@ import quickSumAi from "./quick sum ai.png"
 import aiPrompts from "./aiprompts.png"
 import thankfulart from "./thankfulart.png"
 import codraft from "./codraft.png"
+import netchat from "./netchat.png" 
 
 
 
 export {
 afan,
 codraft,
+netchat,
 thankfulart,
 quickSumAi,
 aiPrompts,
