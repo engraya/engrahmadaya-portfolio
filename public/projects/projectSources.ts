@@ -24,11 +24,13 @@ import thankfulart from "./thankfulart.png"
 import codraft from "./codraft.png"
 import netchat from "./netchat.png" 
 import medimatrix from "./medimatrix.png"
+import snapsavvy from "./snapsavvy.png"
 
 
 
 export {
 afan,
+snapsavvy,
 medimatrix,
 codraft,
 netchat,

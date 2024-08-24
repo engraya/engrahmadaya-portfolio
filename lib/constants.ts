@@ -48,23 +48,21 @@ import {
   } from "@public/sources";
 
   import { 
-    afan,
     coin , 
     aiPrompts,
     netchat,
     quickSumAi, 
     delectable,
     thankfulart,
-    employees, 
     codraft,
     medimatrix,
+    snapsavvy,
     midin ,
     motohub ,
     movies,
     news , 
     realtime, 
     weather ,
-    games, 
     shopoholics,
     shelterium,
     realtimeDashboard
@@ -269,14 +267,14 @@ export const Bio = {
     },
       {
       id: 7,
-      title: "Afan Commodity App",
+      title: "Snapsavvy",
       description:
-        "A revolutionary marketing app that brings farmers and buyers together in a seamless e-commerce experience!.",
-      image: afan,
-      tags: ["HTML", "CSS", "JavaScript", "Python", "Django", "Bootstrap"],
+        " AI-powered application designed to revolutionize the way you enhance and restore your photos.",
+      image: snapsavvy,
+      tags: ["Nextjs", "Typescript", "TailwindCSS", "Shadcn UI", "Stripe", "Unsplash AI", "MongoDB"],
       category: "web app",
-      github: "https://github.com/engraya/Afan-Marketing-app",
-      webapp: "https://github.com/engraya/Afan-Marketing-app",
+      github: "https://github.com/engraya/SnapSavvy",
+      webapp: "https://snapsavvy.vercel.app/",
     },
       {
       id: 8,
