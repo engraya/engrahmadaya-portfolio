@@ -23,11 +23,13 @@ import aiPrompts from "./aiprompts.png"
 import thankfulart from "./thankfulart.png"
 import codraft from "./codraft.png"
 import netchat from "./netchat.png" 
+import medimatrix from "./medimatrix.png"
 
 
 
 export {
 afan,
+medimatrix,
 codraft,
 netchat,
 thankfulart,

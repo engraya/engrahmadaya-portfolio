@@ -57,6 +57,7 @@ import {
     thankfulart,
     employees, 
     codraft,
+    medimatrix,
     midin ,
     motohub ,
     movies,
@@ -235,14 +236,14 @@ export const Bio = {
     },
       {
       id: 4,
-      title: "Employee Report System",
+      title: "Medimatrix",
       description:
-        "Empowers businesses to efficiently manage employee information, performance evaluations, and reporting in a seamless digital environment.",
-      image: employees,
-      tags: ["MongoDb", "Node Js", "Express Js", "Bootstrap"],
+        "Manage Patient's records, appointments, and more—all in one place",
+      image: medimatrix,
+      tags: ["Nextjs", "Typescript", "TailwindCSS", "Shadcn UI", "Appwrite", "Sentry"],
       category: "web app",
-      github: "https://github.com/engraya/Employee-Report-System",
-      webapp: "https://github.com/engraya/Employee-Report-System",
+      github: "https://github.com/engraya/medimatrix",
+      webapp: "https://medimatrix.vercel.app/",
     },
       {
       id: 5,
