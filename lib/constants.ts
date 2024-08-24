@@ -200,7 +200,7 @@ export const Bio = {
     },
       {
       id: 1,
-      title: "aiPrompts",
+      title: "AiPrompts",
       description:
         "The ultimate platform for generating, sharing, and discovering AI prompts for every need",
       image: aiPrompts,
