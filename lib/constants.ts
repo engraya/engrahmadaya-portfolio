@@ -57,6 +57,7 @@ import {
     codraft,
     medimatrix,
     snapsavvy,
+    festivo,
     midin ,
     motohub ,
     movies,
@@ -193,7 +194,7 @@ export const Bio = {
       description:
         "Enhance your productivity with seamless editing, secure sharing, and intuitive collaboration tools.",
       image: codraft,
-      tags: ["Nextjs", "Typescript", "Tailwind", "Sentry", "Liveblocks"],
+      tags: ["Nextjs", "Typescript", "Tailwind", "Sentry", "Liveblocks", "Clerk"],
       category: "web app",
       github: "https://github.com/engraya/codraft",
       webapp: "https://codraft-io.vercel.app/",
@@ -204,7 +205,7 @@ export const Bio = {
       description:
         "The ultimate platform for generating, sharing, and discovering AI prompts for every need",
       image: aiPrompts,
-      tags: ["Nextjs", "Typescript", "Tailwind", "Next-Auth"],
+      tags: ["Nextjs", "Typescript", "Tailwind", "Next-Auth", "Shadcn UI"],
       category: "web app",
       github: "https://github.com/engraya/aiPrompts",
       webapp: "https://aiprompts-project.vercel.app/",
@@ -216,7 +217,7 @@ export const Bio = {
       description:
         "NetChat is an innovative AI-powered app that transforms how you interact with websites.",
       image: netchat,
-      tags: ["Nextjs", "Typescript", "TailwindCSS", "Shadcn UI", "Vercel AI SDK", "UPSTASH"],
+      tags: ["Nextjs", "Typescript", "TailwindCSS", "Shadcn UI", "Clerk", "Vercel AI SDK", "UPSTASH"],
       category: "web app",
       github: "https://github.com/engraya/netchat",
       webapp: "https://netchat-io.vercel.app/",
@@ -238,7 +239,7 @@ export const Bio = {
       description:
         "Manage Patient's records, appointments, and more—all in one place",
       image: medimatrix,
-      tags: ["Nextjs", "Typescript", "TailwindCSS", "Shadcn UI", "Appwrite", "Sentry"],
+      tags: ["Nextjs", "Typescript", "TailwindCSS", "Shadcn UI", "Appwrite", "Clerk", "Sentry"],
       category: "web app",
       github: "https://github.com/engraya/medimatrix",
       webapp: "https://medimatrix.vercel.app/",
@@ -256,14 +257,14 @@ export const Bio = {
     },
       {
       id: 6,
-      title: "NewsRedirect",
+      title: "Festivo",
       description:
-        "NewsRedirect application brings you a seamless and immersive news experience like never before.",
-      image: news,
-      tags: ["MongoDb", "Node Js", "Express Js", "Bootstrap"],
+        "Festivo makes event planning a breeze. Manage, organize, and track your festivals with ease",
+      image: festivo,
+      tags: ["Nextjs", "Typescript", "TailwindCSS", "Shadcn UI", "Stripe", "Clerk", "MongoDB"],
       category: "web app",
-      github: "https://github.com/engraya/newsRedirect",
-      webapp: "https://github.com/engraya/newsRedirect",
+      github: "https://github.com/engraya/festivo",
+      webapp: "https://festivo-io.vercel.app/",
     },
       {
       id: 7,
@@ -271,7 +272,7 @@ export const Bio = {
       description:
         " AI-powered application designed to revolutionize the way you enhance and restore your photos.",
       image: snapsavvy,
-      tags: ["Nextjs", "Typescript", "TailwindCSS", "Shadcn UI", "Stripe", "Unsplash AI", "MongoDB"],
+      tags: ["Nextjs", "Typescript", "TailwindCSS", "Shadcn UI", "Stripe", "Unsplash AI", "Clerk", "MongoDB"],
       category: "web app",
       github: "https://github.com/engraya/SnapSavvy",
       webapp: "https://snapsavvy.vercel.app/",

@@ -25,12 +25,14 @@ import codraft from "./codraft.png"
 import netchat from "./netchat.png" 
 import medimatrix from "./medimatrix.png"
 import snapsavvy from "./snapsavvy.png"
+import festivo from "./festivo.png"
 
 
 
 export {
 afan,
 snapsavvy,
+festivo,
 medimatrix,
 codraft,
 netchat,
