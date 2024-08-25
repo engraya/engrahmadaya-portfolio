@@ -117,7 +117,7 @@ export const Bio = {
       company: "GAO Tek Inc. USA",
       date: "August 2022 - March 2023",
       desc: "As a Human Resource Intern (Remote), my primary responsibilities included managing applicant communication, screening responses, and coordinating interview schedules with senior HR staff. I was actively involved in the recruitment process by posting job advertisements on various platforms, including general career websites, university and college career portals, as well as internship websites. I played a role in building and maintaining relationships with educational institutions that offered internship programs. Additionally, I conducted interviews as part of the selection process. In addition to these core duties, I handled various other tasks within the HR domain to contribute to the overall functioning of the department.",
-      doc: hr,
+      // doc: hr,
     },
     // {
     //   id: 4,
