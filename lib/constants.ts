@@ -50,6 +50,7 @@ import {
   import { 
     coin , 
     aiPrompts,
+    coinstream,
     netchat,
     quickSumAi, 
     delectable,
@@ -312,14 +313,14 @@ export const Bio = {
     },
     {
       id: 11,
-      title: "CryptoCoin GPT",
+      title: "Coinstream",
       description:
         "Explore detailed information on a wide range of coins, from market capitalization to trading volume.",
-      image: coin,
-      tags: ["React", "TailwindCSS", "Javascript"],
+      image: coinstream,
+      tags: ["Nextjs", "Typescript", "TailwindCSS"],
       category: "web app",
-      github: "https://github.com/engraya/crypto-Coin-GPT",
-      webapp: "https://cryptocoingpt.vercel.app/",
+      github: "https://github.com/engraya/coinStream",
+      webapp: "https://coinstream.vercel.app/",
     },
       {
       id: 12,

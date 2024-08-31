@@ -26,11 +26,13 @@ import netchat from "./netchat.png"
 import medimatrix from "./medimatrix.png"
 import snapsavvy from "./snapsavvy.png"
 import festivo from "./festivo.png"
+import coinstream from "./coinstream.png"
 
 
 
 export {
 afan,
+coinstream,
 snapsavvy,
 festivo,
 medimatrix,
