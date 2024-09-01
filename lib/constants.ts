@@ -225,17 +225,6 @@ export const Bio = {
     },
       {
       id: 3,
-      title: "Real Time Kanban Dashboard",
-      description:
-        "Realtime dahsboard foe managing company task, reports, companies data in realtime built with React and Refine Framework",
-      image: realtimeDashboard,
-      tags: ["React", "Typescript", "Refine", "Ant Design", "GraphQL", "Docker"],
-      category: "web app",
-      github: "https://github.com/engraya/realtime-admin-kanban-dashboard",
-      webapp: "https://realtime-dashboard-neon.vercel.app/",
-    },
-      {
-      id: 4,
       title: "Medimatrix",
       description:
         "Manage Patient's records, appointments, and more—all in one place",
@@ -246,7 +235,7 @@ export const Bio = {
       webapp: "https://medimatrix.vercel.app/",
     },
       {
-      id: 5,
+      id: 4,
       title: "Thankful Art",
       description:
         "ThankfulArt is a web app designed to help you Create Your Perfect Thank You Card in Seconds",
@@ -257,7 +246,7 @@ export const Bio = {
       webapp: "https://thankfulart.vercel.app/",
     },
       {
-      id: 6,
+      id: 5,
       title: "Festivo",
       description:
         "Festivo makes event planning a breeze. Manage, organize, and track your festivals with ease",
@@ -268,7 +257,7 @@ export const Bio = {
       webapp: "https://festivo-io.vercel.app/",
     },
       {
-      id: 7,
+      id: 6,
       title: "Snapsavvy",
       description:
         " AI-powered application designed to revolutionize the way you enhance and restore your photos.",
@@ -279,7 +268,7 @@ export const Bio = {
       webapp: "https://snapsavvy.vercel.app/",
     },
       {
-      id: 8,
+      id: 7,
       title: "CoolMovies",
       description:
         "Explore the cinematic world with our Movie Preview App, a sleek and user-friendly application built using ReactJS and powered by the OMDB API.",
@@ -290,7 +279,7 @@ export const Bio = {
       webapp: "https://engraya.github.io/coolMovies-app",
     },
       {
-      id: 9,
+      id: 8,
       title: "Webweather",
       description:
         "Embark on a meteorological journey with web weatherApp, powered by real-time data from OpenWeather API.",
@@ -301,7 +290,7 @@ export const Bio = {
       webapp: "https://engraya.github.io/web-weatherApp/",
     },
         {
-      id: 10,
+      id: 9,
       title: "RealTime-chatRooms",
       description:
         "A cutting-edge chatroom app built with ReactJS and powered by ChatEngine API! 🌐💬",
@@ -312,7 +301,7 @@ export const Bio = {
       webapp: "https://github.com/engraya/realTime-chatRooms",
     },
     {
-      id: 11,
+      id: 10,
       title: "Coinstream",
       description:
         "Explore detailed information on a wide range of coins, from market capitalization to trading volume.",
@@ -323,7 +312,7 @@ export const Bio = {
       webapp: "https://coinstream.vercel.app/",
     },
       {
-      id: 12,
+      id: 11,
       title: "Shopoholics",
       description:
         "Shopoholics, an open-source Fullstack ecommerce app designed to revolutionize your online shopping experience! 🛒",
@@ -334,7 +323,7 @@ export const Bio = {
       webapp: "https://shopoholics.vercel.app/",
     },
     {
-      id: 13,
+      id: 12,
       title: " Delectable",
       description:
         "Embark on a gastronomic journey with Delectable – the ultimate food lover's paradise! 🌍🍽️",
@@ -345,7 +334,7 @@ export const Bio = {
       webapp: "https://delectable.vercel.app/",
     },
     {
-      id: 14,
+      id: 13,
       title: "Midin Web Project",
       description:
         "Web Application for a dedicated humanitarian organization committed to creating positive change in communities.",
@@ -356,7 +345,7 @@ export const Bio = {
       webapp: "https://midin.vercel.app/",
     },
     {
-      id: 15,
+      id: 14,
       title: "MotoHub",
       description:
         "MotoHub - the hottest spot on the web to explore sleek, stylish, and cutting-edge cars from around the globe! 🌐🔥",
@@ -367,7 +356,7 @@ export const Bio = {
       webapp: "https://next-motohub.vercel.app/",
     },
     {
-      id: 16,
+      id: 15,
       title: "Shelterium",
       description:
         "Shelterium, the ultimate real estate app for buying, renting, and selling properties. 🏠🔑✨🌟",
@@ -378,7 +367,7 @@ export const Bio = {
       webapp: "https://shelterium.vercel.app/",
     },
     {
-      id: 17,
+      id: 16,
       title: "QuickSum AI",
       description:
         "🌐 QuickSum AI is here to transform how you consume content!, a go-to solution for summarizing long articles in seconds. ⏳",
