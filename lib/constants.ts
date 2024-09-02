@@ -346,14 +346,14 @@ export const Bio = {
     },
     {
       id: 14,
-      title: "MotoHub",
+      title: "Motohub",
       description:
         "MotoHub - the hottest spot on the web to explore sleek, stylish, and cutting-edge cars from around the globe! 🌐🔥",
       image: motohub,
       tags: ["Nextjs", "Typescript", "TailwindCSS", "HeadlessUI", "React"],
       category: "web app",
-      github: "https://github.com/engraya/nEXT-mOTOhUB",
-      webapp: "https://next-motohub.vercel.app/",
+      github: "https://github.com/engraya/motohub",
+      webapp: "https://motohub-io.vercel.app/",
     },
     {
       id: 15,
