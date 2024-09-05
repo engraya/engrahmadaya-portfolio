@@ -200,8 +200,142 @@ export const Bio = {
       github: "https://github.com/engraya/codraft",
       webapp: "https://codraft-io.vercel.app/",
     },
-      {
+    {
       id: 1,
+      title: "Medimatrix",
+      description:
+        "Manage Patient's records, appointments, and more—all in one place",
+      image: medimatrix,
+      tags: ["Nextjs", "Typescript", "TailwindCSS", "Shadcn UI", "Appwrite", "Clerk", "Sentry"],
+      category: "web app",
+      github: "https://github.com/engraya/medimatrix",
+      webapp: "https://medimatrix.vercel.app/",
+    },
+    {
+      id: 2,
+      title: "NetChat",
+      description:
+        "NetChat is an innovative AI-powered app that transforms how you interact with websites.",
+      image: netchat,
+      tags: ["Nextjs", "Typescript", "TailwindCSS", "Shadcn UI", "Clerk", "Vercel AI SDK", "UPSTASH"],
+      category: "web app",
+      github: "https://github.com/engraya/netchat",
+      webapp: "https://netchat-io.vercel.app/",
+    },
+    
+    {
+      id: 3,
+      title: "Thankful Art",
+      description:
+        "ThankfulArt is a web app designed to help you Create Your Perfect Thank You Card in Seconds",
+      image: thankfulart,
+      tags: ["Nextjs", "Typescript", "TailwindCSS", "Shadcn UI"],
+      category: "web app",
+      github: "https://github.com/engraya/thankful_art",
+      webapp: "https://thankfulart.vercel.app/",
+    },
+    {
+      id: 4,
+      title: " Delectable",
+      description:
+        "Embark on a gastronomic journey with Delectable – the ultimate food lover's paradise! 🌍🍽️",
+      image: delectable,
+      tags: ["React", "TailwindCSS", "Firebase", "Javascript"],
+      category: "web app",
+      github: "https://github.com/engraya/delectable-food-webapp",
+      webapp: "https://delectable.vercel.app/",
+    },
+    {
+      id: 5,
+      title: "Motohub",
+      description:
+        "MotoHub - the hottest spot on the web to explore sleek, stylish, and cutting-edge cars from around the globe! 🌐🔥",
+      image: motohub,
+      tags: ["Nextjs", "Typescript", "TailwindCSS", "HeadlessUI", "React"],
+      category: "web app",
+      github: "https://github.com/engraya/motohub",
+      webapp: "https://motohub-io.vercel.app/",
+    },
+    {
+      id: 6,
+      title: "Shelterium",
+      description:
+        "Shelterium, the ultimate real estate app for buying, renting, and selling properties. 🏠🔑✨🌟",
+      image: shelterium,
+      tags: ["Nextjs", "Typescript", "TailwindCSS", "React"],
+      category: "web app",
+      github: "https://github.com/engraya/Shelterium",
+      webapp: "https://shelterium.vercel.app/",
+    },
+    {
+      id: 7,
+      title: "QuickSum AI",
+      description:
+        "🌐 QuickSum AI is here to transform how you consume content!, a go-to solution for summarizing long articles in seconds. ⏳",
+      image: quickSumAi,
+      tags: ["React", "Typescript", "TailwindCSS", "Redux", "Redux Toolkit"],
+      category: "web app",
+      github: "https://github.com/engraya/QuickSum-AI",
+      webapp: "https://quicksum-ai.vercel.app/",
+    },
+    {
+      id: 8,
+      title: "Coinstream",
+      description:
+        "Explore detailed information on a wide range of coins, from market capitalization to trading volume.",
+      image: coinstream,
+      tags: ["Nextjs", "Typescript", "TailwindCSS"],
+      category: "web app",
+      github: "https://github.com/engraya/coinStream",
+      webapp: "https://coinstream.vercel.app/",
+    },
+      {
+      id: 9,
+      title: "Shopoholics",
+      description:
+        "Shopoholics, an open-source Fullstack ecommerce app designed to revolutionize your online shopping experience! 🛒",
+      image: shopoholics,
+      tags: ["Nextjs", "Typescript", "Tailwind", "Sanity", "Stripe", "ShadCN", "React"],
+      category: "web app",
+      github: "https://github.com/engraya/shopoHolics",
+      webapp: "https://shopoholics.vercel.app/",
+    },
+
+    {
+      id: 10,
+      title: "Midin Web Project",
+      description:
+        "Web Application for a dedicated humanitarian organization committed to creating positive change in communities.",
+      image: midin,
+      tags: ["React", "Tailwind", "Javascript"],
+      category: "web app",
+      github: "https://github.com/engraya/MIDIN-Org-Web-Project",
+      webapp: "https://midin.vercel.app/",
+    },
+    {
+      id: 11,
+      title: "CoolMovies",
+      description:
+        "Explore the cinematic world with our Movie Preview App, a sleek and user-friendly application built using ReactJS and powered by the OMDB API.",
+      image: movies,
+      tags: ["React", "Node Js", "Express Js", "Javascript"],
+      category: "web app",
+      github: "https://github.com/engraya/coolMovies-app",
+      webapp: "https://engraya.github.io/coolMovies-app",
+    },
+      {
+      id: 12,
+      title: "Webweather",
+      description:
+        "Embark on a meteorological journey with web weatherApp, powered by real-time data from OpenWeather API.",
+      image: weather,
+      tags: ["React", "Node Js", "Express Js", "Javascript"],
+      category: "web app",
+      github: "https://github.com/engraya/web-weatherApp",
+      webapp: "https://engraya.github.io/web-weatherApp/",
+    },
+      {
+      id: 13,
       title: "AiPrompts",
       description:
         "The ultimate platform for generating, sharing, and discovering AI prompts for every need",
@@ -213,40 +347,7 @@ export const Bio = {
     },
   
       {
-      id: 2,
-      title: "NetChat",
-      description:
-        "NetChat is an innovative AI-powered app that transforms how you interact with websites.",
-      image: netchat,
-      tags: ["Nextjs", "Typescript", "TailwindCSS", "Shadcn UI", "Clerk", "Vercel AI SDK", "UPSTASH"],
-      category: "web app",
-      github: "https://github.com/engraya/netchat",
-      webapp: "https://netchat-io.vercel.app/",
-    },
-      {
-      id: 3,
-      title: "Medimatrix",
-      description:
-        "Manage Patient's records, appointments, and more—all in one place",
-      image: medimatrix,
-      tags: ["Nextjs", "Typescript", "TailwindCSS", "Shadcn UI", "Appwrite", "Clerk", "Sentry"],
-      category: "web app",
-      github: "https://github.com/engraya/medimatrix",
-      webapp: "https://medimatrix.vercel.app/",
-    },
-      {
-      id: 4,
-      title: "Thankful Art",
-      description:
-        "ThankfulArt is a web app designed to help you Create Your Perfect Thank You Card in Seconds",
-      image: thankfulart,
-      tags: ["Nextjs", "Typescript", "TailwindCSS", "Shadcn UI"],
-      category: "web app",
-      github: "https://github.com/engraya/thankful_art",
-      webapp: "https://thankfulart.vercel.app/",
-    },
-      {
-      id: 5,
+      id: 14,
       title: "Festivo",
       description:
         "Festivo makes event planning a breeze. Manage, organize, and track your festivals with ease",
@@ -257,7 +358,7 @@ export const Bio = {
       webapp: "https://festivo-io.vercel.app/",
     },
       {
-      id: 6,
+      id: 15,
       title: "Snapsavvy",
       description:
         " AI-powered application designed to revolutionize the way you enhance and restore your photos.",
@@ -267,30 +368,9 @@ export const Bio = {
       github: "https://github.com/engraya/SnapSavvy",
       webapp: "https://snapsavvy.vercel.app/",
     },
-      {
-      id: 7,
-      title: "CoolMovies",
-      description:
-        "Explore the cinematic world with our Movie Preview App, a sleek and user-friendly application built using ReactJS and powered by the OMDB API.",
-      image: movies,
-      tags: ["React", "Node Js", "Express Js", "Javascript"],
-      category: "web app",
-      github: "https://github.com/engraya/coolMovies-app",
-      webapp: "https://engraya.github.io/coolMovies-app",
-    },
-      {
-      id: 8,
-      title: "Webweather",
-      description:
-        "Embark on a meteorological journey with web weatherApp, powered by real-time data from OpenWeather API.",
-      image: weather,
-      tags: ["React", "Node Js", "Express Js", "Javascript"],
-      category: "web app",
-      github: "https://github.com/engraya/web-weatherApp",
-      webapp: "https://engraya.github.io/web-weatherApp/",
-    },
+
         {
-      id: 9,
+      id: 16,
       title: "RealTime-chatRooms",
       description:
         "A cutting-edge chatroom app built with ReactJS and powered by ChatEngine API! 🌐💬",
@@ -300,83 +380,8 @@ export const Bio = {
       github: "https://github.com/engraya/realTime-chatRooms",
       webapp: "https://github.com/engraya/realTime-chatRooms",
     },
-    {
-      id: 10,
-      title: "Coinstream",
-      description:
-        "Explore detailed information on a wide range of coins, from market capitalization to trading volume.",
-      image: coinstream,
-      tags: ["Nextjs", "Typescript", "TailwindCSS"],
-      category: "web app",
-      github: "https://github.com/engraya/coinStream",
-      webapp: "https://coinstream.vercel.app/",
-    },
-      {
-      id: 11,
-      title: "Shopoholics",
-      description:
-        "Shopoholics, an open-source Fullstack ecommerce app designed to revolutionize your online shopping experience! 🛒",
-      image: shopoholics,
-      tags: ["Nextjs", "Typescript", "Tailwind", "Sanity", "Stripe", "ShadCN", "React"],
-      category: "web app",
-      github: "https://github.com/engraya/shopoHolics",
-      webapp: "https://shopoholics.vercel.app/",
-    },
-    {
-      id: 12,
-      title: " Delectable",
-      description:
-        "Embark on a gastronomic journey with Delectable – the ultimate food lover's paradise! 🌍🍽️",
-      image: delectable,
-      tags: ["React", "TailwindCSS", "Firebase", "Javascript"],
-      category: "web app",
-      github: "https://github.com/engraya/delectable-food-webapp",
-      webapp: "https://delectable.vercel.app/",
-    },
-    {
-      id: 13,
-      title: "Midin Web Project",
-      description:
-        "Web Application for a dedicated humanitarian organization committed to creating positive change in communities.",
-      image: midin,
-      tags: ["React", "Tailwind", "Javascript"],
-      category: "web app",
-      github: "https://github.com/engraya/MIDIN-Org-Web-Project",
-      webapp: "https://midin.vercel.app/",
-    },
-    {
-      id: 14,
-      title: "Motohub",
-      description:
-        "MotoHub - the hottest spot on the web to explore sleek, stylish, and cutting-edge cars from around the globe! 🌐🔥",
-      image: motohub,
-      tags: ["Nextjs", "Typescript", "TailwindCSS", "HeadlessUI", "React"],
-      category: "web app",
-      github: "https://github.com/engraya/motohub",
-      webapp: "https://motohub-io.vercel.app/",
-    },
-    {
-      id: 15,
-      title: "Shelterium",
-      description:
-        "Shelterium, the ultimate real estate app for buying, renting, and selling properties. 🏠🔑✨🌟",
-      image: shelterium,
-      tags: ["Nextjs", "Typescript", "TailwindCSS", "React"],
-      category: "web app",
-      github: "https://github.com/engraya/Shelterium",
-      webapp: "https://shelterium.vercel.app/",
-    },
-    {
-      id: 16,
-      title: "QuickSum AI",
-      description:
-        "🌐 QuickSum AI is here to transform how you consume content!, a go-to solution for summarizing long articles in seconds. ⏳",
-      image: quickSumAi,
-      tags: ["React", "Typescript", "TailwindCSS", "Redux", "Redux Toolkit"],
-      category: "web app",
-      github: "https://github.com/engraya/QuickSum-AI",
-      webapp: "https://quicksum-ai.vercel.app/",
-    }
+
+
   
   ];
   
