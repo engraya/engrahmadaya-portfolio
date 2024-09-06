@@ -27,12 +27,14 @@ import medimatrix from "./medimatrix.png"
 import snapsavvy from "./snapsavvy.png"
 import festivo from "./festivo.png"
 import coinstream from "./coinstream.png"
+import pennyplan from "./pennyplanproj.png"
 
 
 
 export {
 afan,
 coinstream,
+pennyplan,
 snapsavvy,
 festivo,
 medimatrix,
