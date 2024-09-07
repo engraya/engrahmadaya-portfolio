@@ -56,7 +56,7 @@ import {
     quickSumAi, 
     delectable,
     thankfulart,
-    polyglotter
+    polyglotter,
     codraft,
     medimatrix,
     snapsavvy,
