@@ -28,11 +28,12 @@ import snapsavvy from "./snapsavvy.png"
 import festivo from "./festivo.png"
 import coinstream from "./coinstream.png"
 import pennyplan from "./pennyplanproj.png"
-
+import polyglotter from "./polyglotterproj.png" 
 
 
 export {
 afan,
+polyglotter,
 coinstream,
 pennyplan,
 snapsavvy,
