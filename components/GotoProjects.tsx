@@ -10,13 +10,13 @@ function GotoProjects() {
     <>
         <motion.section
     ref={ref}
-    className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28"
+    className="mb-10 max-w-[45rem] text-center leading-8 sm:mb-16 scroll-mt-16"
     initial={{ opacity: 0, y: 100 }}
     animate={{ opacity: 1, y: 0 }}
     transition={{ delay: 0.175 }}
     id="projects"
   >
-    <div className='mb-10'>
+    <div className='mb-4'>
         <SectionHeading>My projects</SectionHeading>
         <Link
             href="/projects"

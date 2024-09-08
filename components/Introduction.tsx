@@ -10,6 +10,7 @@ import { SiWechat } from "react-icons/si";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@context/ActiceSectionContext";
 import ayaPassport from "@public/ayaPassport.png"
+import { LampContainer } from "./ui/lamp";
 function Introduction() {
   const { ref } = useSectionInView("Home", 0.5);
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
@@ -17,8 +18,9 @@ function Introduction() {
     <section
       ref={ref}
       id="home"
-      className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
+      className="mb-16 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
     >
+      
       <div className="flex items-center justify-center">
         <div className="relative">
           <motion.div
