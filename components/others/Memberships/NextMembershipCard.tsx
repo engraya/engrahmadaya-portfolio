@@ -18,7 +18,7 @@ import Link from 'next/link'
 function NextMembershipCard({membership} : any) {
   return (
 <div className="flex justify-center items-center">
-  <div className="flex flex-col items-center justify-between bg-white dark:bg-gray-800 shadow-md shadow-gray-300 text-gray-800 dark:text-gray-200 border border-gray-200 dark:border-gray-600 w-full mx-auto h-auto rounded-xl transition-all ease-in-out duration-500 mb-4 py-2 px-2">
+  <div className="flex flex-col items-center justify-between bg-[#f3f4f6] dark:bg-gray-800 shadow-md shadow-gray-300 text-gray-800 dark:text-gray-200 border border-gray-200 dark:border-gray-600 w-full mx-auto h-auto rounded-xl transition-all ease-in-out duration-500 mb-4 py-2 px-2">
     <div className="w-full flex items-center justify-between">
       <div className="flex items-center justify-center px-1.5 md:px-3">
         <Image className="w-10 hidden rounded-full ring-2 ring-green-600 shadow-lg shadow-green-600 m-2 md:block"  src={membership.img} height={50} width={50} alt="" />
