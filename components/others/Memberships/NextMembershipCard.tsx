@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Image from 'next/image'
-
+import { FaLinkSlash } from "react-icons/fa6";
 
 const Document = styled.img`
     display: none;
@@ -27,13 +27,20 @@ function NextMembershipCard({membership} : any) {
           <h4 className="text-sm md:text-base font-medium dark:text-gray-200">{membership.membershipBody}</h4>
           <h6 className="text-sm md:text-base font-medium dark:text-gray-200"><span>Membership ID : </span>{membership.membershipID}</h6>
           <h6 className="text-sm md:text-base font-medium dark:text-gray-200"><span>Date : </span>{membership.date}</h6>
+          <div className='mt-4 text-blue-700 cursor-pointer'>
+          {membership.doc &&
+          <Link href={membership.doc} target='_blank'>
+            <span className="flex whitespace-nowrap justify-center gap-2">Explore <span><FaLinkSlash className='mt-1'/></span> </span>
+          </Link>
+          }
+          </div>
+
+        </div>
+        <div>
+
         </div>
       </div>
-      {membership.doc &&
-        <Link href={membership.doc} target='_blank'>
-            <Image src={membership.doc} height={50} width={50} alt="document" className="rounded-full"/>
-        </Link>
-      }
+
     </div>
   </div>
 </div>
