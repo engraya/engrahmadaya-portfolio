@@ -30,8 +30,8 @@ function About() {
           React, Next.js, Node.js, MongoDB, Django, Express, Python, Javascript Typescript and TailwindCSS
         </span>
         .I am always looking forward to explore, 
-        learn and get hands-on new technologies and aspects of solutions. Contributing and collaboration have been my hurrah, I am currently working{" "}
-        <span className="font-bold italic">with T40 Technologies</span> as a <span className="font-bold italic">Frontend Engineer</span> .
+        learn and get hands-on new technologies and aspects of solutions. Contributing and collaboration have been my hurrah, I am currently working with{" "}
+        <span className="font-bold italic">T40 Technologies</span> as a <span className="font-bold italic">Frontend Engineer</span> .
       </p>
     </motion.section>
   )
