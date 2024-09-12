@@ -31,7 +31,7 @@ function NextMembershipCard({membership} : any) {
       </div>
       {membership.doc &&
         <Link href={membership.doc} target='_blank'>
-            <Document src={membership.doc} />
+            <Image src={membership.doc} height={50} width={50} alt="document" className="rounded-full"/>
         </Link>
       }
     </div>
