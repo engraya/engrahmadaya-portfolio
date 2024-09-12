@@ -91,24 +91,13 @@ const Education = () => {
                 transition={{ delay: 0.175 }}
                 id="education">
                 <SectionHeading>Education</SectionHeading>
-                  <TimelineSection>
-                    
-                    <Timeline>
-                        {education.map((education,index) => (
-                            <TimelineItem key={index}>
-                                <TimelineContent sx={{ py: '12px', px: 2 }}>
-                                    <EducationCard education={education}/>
-                                </TimelineContent>
-                                <TimelineSeparator>
-                                    <TimelineDot variant="outlined" color="secondary" />
-                                    {index !== experiences.length  && <TimelineConnector style={{ background: '#61d6e6' }} />}
-                                </TimelineSeparator>
-                            </TimelineItem>
-                        ))}
-                    </Timeline>
-                </TimelineSection>
-    </motion.section>
 
+                {education.map((education, index) => (
+                    <div className="gap-y-8" key={education.id}>
+                        <EducationCard education={education}/>
+                    </div>
+                ))}
+                </motion.section>
             </Wrapper>
         </Container>
     )

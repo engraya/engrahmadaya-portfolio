@@ -249,7 +249,7 @@ export const Bio = {
     },
     {
       id: 5,
-      title: " Delectable",
+      title: "Delectable",
       description:
         "Embark on a gastronomic journey with Delectable – the ultimate food lover's paradise! 🌍🍽️",
       image: delectable,
@@ -326,7 +326,7 @@ export const Bio = {
     },
     {
       id: 12,
-      title: "Midin Web Project",
+      title: "Midin Project",
       description:
         "Web Application for a dedicated humanitarian organization committed to creating positive change in communities.",
       image: midin,
