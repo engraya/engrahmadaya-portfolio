@@ -30,7 +30,7 @@ import {
   firebase,
   mysql
  } from "@public/skillsAssets/image";
-
+ import { t40, upwork, gaotek } from "@public/experience";
  import { ntic, atbu, iaeng, nse } from "@public/sources";
 
  import { infomanagement,
@@ -98,12 +98,14 @@ export const Bio = {
       role: "Frontend Engineer",
       company: "T40 Technologies",
       date: "January 2024 - Present",
+      icon : t40,
       desc: "As a frontend developer, I Collaborate with the design team to translate UI/UX wireframes into functional components. I also Collaborate with the backend team to integrate APIs and data services, Conducting thorough testing and debugging to ensure optimal performance, Ensuring cross-browser and cross-device compatibility and Optimizing web applications for maximum speed and scalability.",
     },
       {
       id: 1,
       role: "Freelancer",
       company: "",
+      icon : upwork,
       date: "August 2022 - Present",
       desc: "As a seasoned full-stack web developer, I operate as a dedicated freelancer, providing comprehensive solutions to clients seeking innovative and functional web applications. With a strong foundation in both frontend and backend technologies, I excel in designing and implementing dynamic, user-centric websites and applications tailored to meet the unique needs of diverse industries. My expertise encompasses the entire development life cycle, from conceptualization and architecture to deployment and maintenance. I am committed to delivering high-quality code, responsive designs, and seamless user experiences. Adaptable and client-focused, I collaborate closely with stakeholders to translate their vision into a digital reality. ",
     },
@@ -118,6 +120,7 @@ export const Bio = {
       id: 2,
       role: "Human Resource Intern",
       company: "GAO Tek Inc. USA",
+      icon : gaotek,
       date: "August 2022 - March 2023",
       desc: "As a Human Resource Intern (Remote), my primary responsibilities included managing applicant communication, screening responses, and coordinating interview schedules with senior HR staff. I was actively involved in the recruitment process by posting job advertisements on various platforms, including general career websites, university and college career portals, as well as internship websites. I played a role in building and maintaining relationships with educational institutions that offered internship programs. Additionally, I conducted interviews as part of the selection process. In addition to these core duties, I handled various other tasks within the HR domain to contribute to the overall functioning of the department.",
       // doc: hr,
@@ -166,8 +169,8 @@ export const Bio = {
       school: "Abubakar Tafawa Balewa University",
       date: "February 2016 - November 2021",
       grade: "4.16 CGPA",
-      desc: "I completed my Barchelor of Engineering Degree at Abubakar Tafawa Balewa University, Bauchi where I Obtained my B.Eng in Civil Engineering with an upper second class grade",
-      degree: "Bachelor of Engineering - B.Eng Civil Engineering",
+      desc: "I completed my Barchelor of Engineering Degree at Abubakar Tafawa Balewa University.",
+      degree: "B.Eng Civil Engineering",
     },
     {
       id: 1,
@@ -175,7 +178,7 @@ export const Bio = {
       school: "Nigerian Turkish International Colleges",
       date: "September 2013 - July 2015",
       grade: "80.7%",
-      desc: "I Obtained my College Diploma from Nigerian Turkish International Colleges, Yobe, with a major in science .",
+      desc: "I Obtained my College Diploma from Nigerian Turkish International Colleges",
       degree: "College Diploma",
     },
     {
@@ -184,7 +187,7 @@ export const Bio = {
       school: "Nigerian Turkish International Colleges",
       date: "September 2009 - July 2015",
       grade: "80.7%",
-      desc: "I completed my secondary school education at Nigerian Turkish International Colleges, Yobe, where I Obtained my SSSCE in Science major.",
+      desc: "I completed my secondary school education at Nigerian Turkish International Colleges.",
       degree: "Secondary School Education",
     },
   ] as const;

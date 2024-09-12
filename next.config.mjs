@@ -18,6 +18,10 @@ const nextConfig = {
             protocol: 'https',
             hostname: 'ui.aceternity.com',
           },
+          {
+            protocol: 'https',
+            hostname: 'img.freepik.com',
+          },
         ],
       },
 };

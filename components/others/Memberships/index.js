@@ -10,6 +10,7 @@ import TimelineDot from '@mui/lab/TimelineDot';
 import MemebershipCard from "../Cards/MembershipCard"
 import { memberships } from '../../../lib/constants';
 import SectionHeading from '@components/SectionHeading';
+import NextMembershipCard from './NextMembershipCard';
 
 const Container = styled.div`
     display: flex;
@@ -56,25 +57,12 @@ const TimelineSection = styled.div`
 const Memberships = () => {
     return (
         <Container id="memberships">
-            <Wrapper>
-            <SectionHeading>Memberships</SectionHeading>
-                <TimelineSection>
-                    <Timeline>
-                        {memberships.map((membership,index) => (
-                            <TimelineItem key={membership}>
-                                <TimelineSeparator>
-                                    <TimelineDot variant="outlined" color="secondary" />
-                                    {index !== memberships.length - 1 && <TimelineConnector style={{ background: '#61d6e6' }} />}
-                                </TimelineSeparator>
-                                <TimelineContent sx={{ py: '12px', px: 2 }}>
-                                    <MemebershipCard membership={membership}/>
-                                </TimelineContent>
-                            </TimelineItem>
-                        ))}
-                    </Timeline>
-
-                </TimelineSection>
-            </Wrapper>
+               <SectionHeading>Memberships</SectionHeading>
+                {memberships.map((membership, index) => (
+                    <div className="gap-y-8" key={membership.id}>
+                        <NextMembershipCard membership={membership}/>
+                    </div>
+                ))}
         </Container>
     )
 }

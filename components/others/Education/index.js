@@ -12,6 +12,7 @@ import EducationCard from '../Cards/EducationCard';
 import SectionHeading from '@components/SectionHeading';
 import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
+import NextEducation from './NextEducationCard';
 
 
 const Container = styled.div`
@@ -82,23 +83,12 @@ const Education = () => {
       const { ref } = useSectionInView("Education");
     return (
         <Container id="education">
-            <Wrapper>
-                <motion.section
-                ref={ref}
-                className="mb-16 max-w-[45rem] text-center leading-8 sm:mb-20 scroll-mt-28"
-                initial={{ opacity: 0, y: 100 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.175 }}
-                id="education">
-                <SectionHeading>Education</SectionHeading>
-
+             <SectionHeading>Education</SectionHeading>
                 {education.map((education, index) => (
                     <div className="gap-y-8" key={education.id}>
-                        <EducationCard education={education}/>
+                        <NextEducation education={education}/>
                     </div>
                 ))}
-                </motion.section>
-            </Wrapper>
         </Container>
     )
 }
