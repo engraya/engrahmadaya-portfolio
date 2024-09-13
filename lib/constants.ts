@@ -82,7 +82,7 @@ export const Bio = {
       "Results-driven Fullstack Developer with a proven track record of delivering high-quality software solutions. Experienced in full software development life cycle, from concept to delivery. Adept at collaborating with cross-functional teams and building strong client relationships. Skilled in problem-solving and adapting to dynamic work environments. Passionate about staying updated on emerging technologies to drive innovation. Excellent communication skills and a commitment to continuous learning. Eager to contribute to dynamic projects and make a positive impact.",
     github: "https://github.com/engraya",
     resume:
-      "https://drive.google.com/file/d/17GzrKeFNeIQfw11FgRnFmMXmhQicr-sB/view?usp=drive_link",
+      "https://drive.google.com/file/d/1Vm9c4e2eVUUp1rQUedc1zOXrQEk1yghv/view?usp=drive_link",
     linkedin: "https://www.linkedin.com/in/ahmad-yakubu-ahmad-miaeng-gmnse-41520b121/",
     twitter: "https://twitter.com/ahmadyakubuaya",
     instagram: "https://www.instagram.com/aya2685/",
