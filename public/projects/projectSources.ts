@@ -1,21 +1,9 @@
-import afan from "./afan.png"
-import coin from "./coin-gpt.png"
 import delectable from "./delectable.png"
-import drivers from "./drivers.png"
-import employees from "./employeereport.png"
-import farmers from "./farmers-management-system.png"
 import global from "./globalescapades.png"
-import grandApi from "./grand-api.png"
-import mandera from "./mandera.png"
 import midin from "./midin.png"
 import motohub from "./motohub.png"
 import movies from "./movies.png"
-import news from "./news.png"
-import realtime from "./realtimecharrooms.png"
 import weather from "./weatherapp.png"
-import games from "./web4games.png"
-import amore from "./amore.png"
-import realtimeDashboard from "./real-time-dashboard.png"
 import shopoholics from "./shopoholics.png"
 import shelterium from "./shelterium.png"
 import quickSumAi from "./quick sum ai.png"
@@ -28,11 +16,12 @@ import snapsavvy from "./snapsavvy.png"
 import festivo from "./festivo.png"
 import coinstream from "./coinstream.png"
 import pennyplan from "./pennyplanproj.png"
-import polyglotter from "./polyglotterproj.png" 
+import polyglotter from "./polyglotterproj.png"
+import echogram from "./echogram.png"
 
 
 export {
-afan,
+echogram,
 polyglotter,
 coinstream,
 pennyplan,
@@ -46,21 +35,10 @@ quickSumAi,
 aiPrompts,
 shelterium,
 shopoholics,
-coin , 
 delectable,
-drivers ,
-employees, 
-farmers ,
-global ,
-grandApi ,
-mandera ,
+global,
 midin ,
 motohub ,
 movies,
-news , 
-realtime, 
 weather ,
-games ,
-realtimeDashboard,
-amore
 }

@@ -48,8 +48,8 @@ import {
   } from "@public/sources";
 
   import { 
-    coin , 
     aiPrompts,
+    echogram,
     pennyplan,
     coinstream,
     netchat,
@@ -64,12 +64,9 @@ import {
     midin ,
     motohub ,
     movies,
-    news , 
-    realtime, 
     weather ,
     shopoholics,
     shelterium,
-    realtimeDashboard
    } from "@public/projects/projectSources";
 export const Bio = {
     name: "Ahmad Yakubu Ahmad",
@@ -79,7 +76,7 @@ export const Bio = {
       "Freelancer",
     ],
     description:
-      "Results-driven Fullstack Developer with a proven track record of delivering high-quality software solutions. Experienced in full software development life cycle, from concept to delivery. Adept at collaborating with cross-functional teams and building strong client relationships. Skilled in problem-solving and adapting to dynamic work environments. Passionate about staying updated on emerging technologies to drive innovation. Excellent communication skills and a commitment to continuous learning. Eager to contribute to dynamic projects and make a positive impact.",
+      "Results-driven Fullstack Engineer with a proven track record of delivering high-quality software solutions. Experienced in full software development life cycle, from concept to delivery. Adept at collaborating with cross-functional teams and building strong client relationships. Skilled in problem-solving and adapting to dynamic work environments. Passionate about staying updated on emerging technologies to drive innovation. Excellent communication skills and a commitment to continuous learning. Eager to contribute to dynamic projects and make a positive impact.",
     github: "https://github.com/engraya",
     resume:
       "https://drive.google.com/file/d/1Vm9c4e2eVUUp1rQUedc1zOXrQEk1yghv/view?usp=drive_link",
@@ -99,7 +96,7 @@ export const Bio = {
       company: "T40 Technologies",
       date: "January 2024 - Present",
       icon : t40,
-      desc: "As a frontend developer, I Collaborate with the design team to translate UI/UX wireframes into functional components. I also Collaborate with the backend team to integrate APIs and data services, Conducting thorough testing and debugging to ensure optimal performance, Ensuring cross-browser and cross-device compatibility and Optimizing web applications for maximum speed and scalability.",
+      desc: "As a frontend engineer, I Collaborate with the design team to translate UI/UX wireframes into functional components. I also Collaborate with the backend team to integrate APIs and data services, Conducting thorough testing and debugging to ensure optimal performance, Ensuring cross-browser and cross-device compatibility and Optimizing web applications for maximum speed and scalability.",
     },
       {
       id: 1,
@@ -118,7 +115,7 @@ export const Bio = {
     //  },
     {
       id: 2,
-      role: "Human Resource Intern",
+      role: "HR Intern",
       company: "GAO Tek Inc. USA",
       icon : gaotek,
       date: "August 2022 - March 2023",
@@ -207,6 +204,17 @@ export const Bio = {
     },
     {
       id: 1,
+      title: "Echogram",
+      description:
+        "Share your moments with friends and the world through stunning images and posts 🌐💬",
+      image: echogram,
+      tags: ["React", "Appwrite", "TailwindCSS", "Typescript", "TanstackQuery"],
+      category: "web app",
+      github: "https://github.com/engraya/echogram",
+      webapp: "https://echogram-io.vercel.app/",
+    },
+    {
+      id: 2,
       title: "Medimatrix",
       description:
         "Manage Patient's records, appointments, and more—all in one place",
@@ -217,7 +225,7 @@ export const Bio = {
       webapp: "https://medimatrix.vercel.app/",
     },
     {
-      id: 2,
+      id: 3,
       title: "NetChat",
       description:
         "NetChat is an innovative AI-powered app that transforms how you interact with websites.",
@@ -228,7 +236,7 @@ export const Bio = {
       webapp: "https://netchat-io.vercel.app/",
     },
     {
-      id: 3,
+      id: 4,
       title: "PennyPlan",
       description:
         "Manage your finances effortlessly with AI-powered insights and personalized financial advice",
@@ -240,7 +248,7 @@ export const Bio = {
     },
     
     {
-      id: 4,
+      id: 5,
       title: "Thankful Art",
       description:
         "ThankfulArt is a web app designed to help you Create Your Perfect Thank You Card in Seconds",
@@ -251,7 +259,7 @@ export const Bio = {
       webapp: "https://thankfulart.vercel.app/",
     },
     {
-      id: 5,
+      id: 6,
       title: "Delectable",
       description:
         "Embark on a gastronomic journey with Delectable – the ultimate food lover's paradise! 🌍🍽️",
@@ -262,7 +270,7 @@ export const Bio = {
       webapp: "https://delectable.vercel.app/",
     },
     {
-      id: 6,
+      id: 7,
       title: "Motohub",
       description:
         "MotoHub - the hottest spot on the web to explore sleek, stylish, and cutting-edge cars from around the globe! 🌐🔥",
@@ -273,7 +281,7 @@ export const Bio = {
       webapp: "https://motohub-io.vercel.app/",
     },
     {
-      id: 7,
+      id: 8,
       title: "Shelterium",
       description:
         "Shelterium, the ultimate real estate app for buying, renting, and selling properties. 🏠🔑✨🌟",
@@ -284,7 +292,7 @@ export const Bio = {
       webapp: "https://shelterium.vercel.app/",
     },
     {
-      id: 8,
+      id: 9,
       title: "QuickSum AI",
       description:
         "🌐 QuickSum AI is here to transform how you consume content!, a go-to solution for summarizing long articles in seconds. ⏳",
@@ -295,7 +303,7 @@ export const Bio = {
       webapp: "https://quicksum-ai.vercel.app/",
     },
     {
-      id: 9,
+      id: 10,
       title: "Coinstream",
       description:
         "Explore detailed information on a wide range of coins, from market capitalization to trading volume.",
@@ -306,7 +314,7 @@ export const Bio = {
       webapp: "https://coinstream.vercel.app/",
     },
       {
-      id: 10,
+      id: 11,
       title: "Shopoholics",
       description:
         "Shopoholics, an open-source Fullstack ecommerce app designed to revolutionize your online shopping experience! 🛒",
@@ -317,7 +325,7 @@ export const Bio = {
       webapp: "https://shopoholics.vercel.app/",
     },
     {
-      id: 11,
+      id: 12,
       title: "Polyglotter",
       description:
         "Instantly translate your conversations with cutting-edge voice recognition technology.",
@@ -328,8 +336,8 @@ export const Bio = {
       webapp: "https://polyglotter-lemon.vercel.app/",
     },
     {
-      id: 12,
-      title: "Midin Project",
+      id: 13,
+      title: "Midin Org",
       description:
         "Web Application for a dedicated humanitarian organization committed to creating positive change in communities.",
       image: midin,
@@ -339,7 +347,7 @@ export const Bio = {
       webapp: "https://midin.vercel.app/",
     },
     {
-      id: 13,
+      id: 14,
       title: "CoolMovies",
       description:
         "Explore the cinematic world with our Movie Preview App, a sleek and user-friendly application built using ReactJS and powered by the OMDB API.",
@@ -350,7 +358,7 @@ export const Bio = {
       webapp: "https://engraya.github.io/coolMovies-app",
     },
       {
-      id: 14,
+      id: 15,
       title: "Webweather",
       description:
         "Embark on a meteorological journey with web weatherApp, powered by real-time data from OpenWeather API.",
@@ -361,7 +369,7 @@ export const Bio = {
       webapp: "https://engraya.github.io/web-weatherApp/",
     },
       {
-      id: 15,
+      id: 16,
       title: "AiPrompts",
       description:
         "The ultimate platform for generating, sharing, and discovering AI prompts for every need",
@@ -373,7 +381,7 @@ export const Bio = {
     },
   
       {
-      id: 16,
+      id: 17,
       title: "Festivo",
       description:
         "Festivo makes event planning a breeze. Manage, organize, and track your festivals with ease",
@@ -384,7 +392,7 @@ export const Bio = {
       webapp: "https://festivo-io.vercel.app/",
     },
       {
-      id: 17,
+      id: 18,
       title: "Snapsavvy",
       description:
         " AI-powered application designed to revolutionize the way you enhance and restore your photos.",
@@ -394,21 +402,7 @@ export const Bio = {
       github: "https://github.com/engraya/SnapSavvy",
       webapp: "https://snapsavvy.vercel.app/",
     },
-
-        {
-      id: 18,
-      title: "RealTime-chatRooms",
-      description:
-        "A cutting-edge chatroom app built with ReactJS and powered by ChatEngine API! 🌐💬",
-      image: realtime,
-      tags: ["React", "Node Js", "Express Js", "chatEngine.io"],
-      category: "web app",
-      github: "https://github.com/engraya/realTime-chatRooms",
-      webapp: "https://github.com/engraya/realTime-chatRooms",
-    },
-
-
-  
+ 
   ];
   
   export const memberships = [
@@ -573,7 +567,7 @@ export const Bio = {
 
   export const skillsets = [
     {
-      name: "React Js",
+      name: "React",
       image: react
     },
     {
@@ -605,7 +599,7 @@ export const Bio = {
       image: bootstrap
     },
     {
-      name: "Tailwind CSS",
+      name: "TailwindCSS",
       image: tailwind
     },
     {
@@ -613,11 +607,11 @@ export const Bio = {
       image: nodejs
     },
     {
-      name: "Express Js",
+      name: "Express",
       image: express
     },
     {
-      name: "Graph Ql",
+      name: "GraphQL",
       image: graphql
     },
     {
@@ -681,7 +675,7 @@ export const Bio = {
       image: mysql
     },
     {
-      name: "Postgresql",
+      name: "PostgreSQL",
       image: postgres
     },
     {
