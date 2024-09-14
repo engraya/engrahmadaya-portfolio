@@ -24,7 +24,7 @@ function ProjectDetailsPage({params} : {
 <div className="dark:bg-gray-800 py-8">
   <div className="max-w-6xl mx-auto px-2 sm:px-4 lg:px-4">
     <Link href="/projects">
-    <div className="bg-gradient-to-r from-emerald-300 to-blue-300 px-4 py-2 text-xs outline-none ring-blue-300 focus:ring bg-gray-800 text-gray-900 rounded-full w-10 h-10 flex items-center justify-center">
+    <div className="bg-gradient-to-r from-emerald-300 to-blue-300  px-4 py-4  text-xs outline-none ring-blue-300 focus:ring bg-gray-800 text-gray-900 rounded-full flex items-center justify-center">
     <TiArrowBackOutline size="2rem" />
     </div>
     </Link>

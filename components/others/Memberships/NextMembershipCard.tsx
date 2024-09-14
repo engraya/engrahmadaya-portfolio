@@ -29,8 +29,8 @@ function NextMembershipCard({membership} : any) {
           <h6 className="text-sm md:text-base font-medium dark:text-gray-200"><span>Date : </span>{membership.date}</h6>
           <div className='mt-4 text-blue-700 cursor-pointer'>
           {membership.doc &&
-          <Link href={membership.doc} target='_blank'>
-            <TiArrowForwardOutline size="2rem"/>
+          <Link href={membership.doc} target='_blank' className='flex justify-center items-center text-slate-400'>
+            <TiArrowForwardOutline size="2rem" className='flex justify-center items-center'/>
           </Link>
           }
           </div>
