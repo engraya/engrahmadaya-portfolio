@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import Image from 'next/image'
 import { FaLinkSlash } from "react-icons/fa6";
-
+import { TiArrowForwardOutline } from "react-icons/ti";
 const Document = styled.img`
     display: none;
     height: 70px;
@@ -30,7 +30,7 @@ function NextMembershipCard({membership} : any) {
           <div className='mt-4 text-blue-700 cursor-pointer'>
           {membership.doc &&
           <Link href={membership.doc} target='_blank'>
-            <span className="flex whitespace-nowrap justify-center gap-2">Explore <span><FaLinkSlash className='mt-1'/></span> </span>
+            <TiArrowForwardOutline size="2rem"/>
           </Link>
           }
           </div>
