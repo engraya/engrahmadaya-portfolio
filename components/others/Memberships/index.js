@@ -12,6 +12,7 @@ import { memberships } from '../../../lib/constants';
 import SectionHeading from '@components/SectionHeading';
 import NextMembershipCard from './NextMembershipCard';
 import { motion } from "framer-motion";
+import { useSectionInView } from "@/lib/hooks";
 
 const Container = styled.div`
     display: flex;
@@ -56,6 +57,7 @@ const TimelineSection = styled.div`
 
 
 const Memberships = () => {
+    const { ref } = useSectionInView("Memberships");
     return (
         <>
         <motion.section
