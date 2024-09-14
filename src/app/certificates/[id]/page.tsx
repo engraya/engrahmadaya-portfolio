@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image';
 import { certificates } from "@lib/constants";
+import { TiArrowBackOutline } from "react-icons/ti";
 function CertificateDetails({params} : {
     params : { id : any } 
 }) {
@@ -12,12 +13,14 @@ function CertificateDetails({params} : {
   <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
     <Link href="/certificates">
     <div className='mb-4'>
-    <button className="bg-gradient-to-r from-emerald-300 to-blue-500 px-4 py-2 text-xs rounded-xl text-white outline-none ring-blue-300 focus:ring">Back to Certificates</button>
+    <div className="bg-gradient-to-r from-emerald-300 to-blue-300 px-4 py-2 text-xs outline-none ring-blue-300 focus:ring bg-gray-800 text-white rounded-full w-10 h-10 flex items-center justify-center">
+    <TiArrowBackOutline />
+    </div>
     </div>
     </Link>
     <div className="flex flex-col md:flex-row -mx-4">
       <div className="md:flex-1 px-4">
-        <div className="h-[460px] rounded-lg bg-gray-300 dark:bg-gray-700 mb-4">
+        <div className="h-[460px] rounded-lgmb-4">
           <Image className="w-full h-full object-cover" src={image} width={500} height={500} alt="Product Image" />
         </div>
         <div className="flex -mx-2 mb-4">

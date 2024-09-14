@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image';
 import { projects } from "@lib/constants";
-
+import { TiArrowBackOutline } from "react-icons/ti";
 type ProjectProps = {
     id? : any
     title?  : string
@@ -25,7 +25,9 @@ function ProjectDetailsPage({params} : {
   <div className="max-w-6xl mx-auto px-2 sm:px-4 lg:px-4">
     <Link href="/projects">
     <div className='mb-4'>
-    <button className="bg-gradient-to-r from-emerald-300 to-blue-500 px-4 py-2 text-xs rounded-xl text-white outline-none ring-blue-300 focus:ring">Back to Projects</button>
+    <div className="bg-gradient-to-r from-emerald-300 to-blue-300 px-4 py-2 text-xs outline-none ring-blue-300 focus:ring bg-gray-800 text-white rounded-full w-10 h-10 flex items-center justify-center">
+    <TiArrowBackOutline />
+    </div>
     </div>
     </Link>
     <div className="flex flex-col md:flex-row -mx-4">
@@ -52,20 +54,6 @@ function ProjectDetailsPage({params} : {
         <p className="text-gray-100 dark:text-gray-300 text-sm mb-4">
         {description}
         </p>
-        <div className="flex mb-4">
-          <div className="mr-4">
-            <span className="font-bold text-emerald-400 dark:text-gray-300">Category: </span>
-            <span className="text-gray-600 dark:text-gray-300">{category}</span>
-          </div>
-          {/* <div className="mr-4">
-            <span className="font-bold text-gray-700 dark:text-gray-300">Hosting Platform: </span>
-            <span className="text-gray-600 dark:text-gray-300">In Stock</span>
-          </div>
-          <div className="mr-4">
-            <span className="font-bold text-gray-700 dark:text-gray-300">Hosted: </span>
-            <span className="text-gray-600 dark:text-gray-300">In Stock</span>
-          </div> */}
-        </div>
         <div className="mb-4">
           <span className="font-bold text-emerald-400 dark:text-gray-300">Url</span>
           <div className="flex items-center mt-2">
