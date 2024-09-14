@@ -11,6 +11,7 @@ import MemebershipCard from "../Cards/MembershipCard"
 import { memberships } from '../../../lib/constants';
 import SectionHeading from '@components/SectionHeading';
 import NextMembershipCard from './NextMembershipCard';
+import { motion } from "framer-motion";
 
 const Container = styled.div`
     display: flex;
@@ -56,14 +57,31 @@ const TimelineSection = styled.div`
 
 const Memberships = () => {
     return (
+        <>
+        <motion.section
+        ref={ref}
+        className="mb-10 max-w-[45rem] text-center leading-8 sm:mb-20 scroll-mt-28"
+        initial={{ opacity: 0, y: 100 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.175 }}
+        id="certifications"
+        >
+        <div className='mb-6'>
         <Container id="memberships">
-               <SectionHeading>Memberships</SectionHeading>
-                {memberships.map((membership, index) => (
-                    <div className="gap-y-8" key={membership.id}>
-                        <NextMembershipCard membership={membership}/>
-                    </div>
-                ))}
-        </Container>
+                    <SectionHeading>Memberships</SectionHeading>
+                        {memberships.map((membership, index) => (
+                            <div className="gap-y-8" key={membership.id}>
+                                <NextMembershipCard membership={membership}/>
+                            </div>
+                        ))}
+                </Container>
+        </div>
+    </motion.section>
+
+</>
+
+
+
     )
 }
 
