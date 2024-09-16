@@ -370,14 +370,14 @@ export const Bio = {
     },
       {
       id: 16,
-      title: "AiPrompts",
+      title: "PromtHub",
       description:
-        "The ultimate platform for generating, sharing, and discovering AI prompts for every need",
+        "The ultimate platform for generating, sharing, and discovering prompts for every need",
       image: aiPrompts,
       tags: ["Nextjs", "Typescript", "Tailwind", "Next-Auth", "Shadcn UI"],
       category: "web app",
-      github: "https://github.com/engraya/aiPrompts",
-      webapp: "https://aiprompts-project.vercel.app/",
+      github: "https://github.com/engraya/PromptHub",
+      webapp: "https://prompthub-io.vercel.app/",
     },
   
       {
