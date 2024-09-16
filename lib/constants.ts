@@ -55,6 +55,7 @@ import {
     netchat,
     quickSumAi, 
     delectable,
+    promptHub,
     thankfulart,
     polyglotter,
     codraft,
@@ -326,6 +327,17 @@ export const Bio = {
     },
     {
       id: 12,
+      title: "PromtHub",
+      description:
+        "The ultimate platform for generating, sharing, and discovering prompts for every need",
+      image: promptHub,
+      tags: ["Nextjs", "Typescript", "Tailwind", "Next-Auth", "Shadcn UI"],
+      category: "web app",
+      github: "https://github.com/engraya/PromptHub",
+      webapp: "https://prompthub-io.vercel.app/",
+    },
+    {
+      id: 13,
       title: "Polyglotter",
       description:
         "Instantly translate your conversations with cutting-edge voice recognition technology.",
@@ -336,7 +348,7 @@ export const Bio = {
       webapp: "https://polyglotter-lemon.vercel.app/",
     },
     {
-      id: 13,
+      id: 14,
       title: "Midin Org",
       description:
         "Web Application for a dedicated humanitarian organization committed to creating positive change in communities.",
@@ -347,7 +359,7 @@ export const Bio = {
       webapp: "https://midin.vercel.app/",
     },
     {
-      id: 14,
+      id: 15,
       title: "CoolMovies",
       description:
         "Explore the cinematic world with our Movie Preview App, a sleek and user-friendly application built using ReactJS and powered by the OMDB API.",
@@ -358,7 +370,7 @@ export const Bio = {
       webapp: "https://engraya.github.io/coolMovies-app",
     },
       {
-      id: 15,
+      id: 16,
       title: "Webweather",
       description:
         "Embark on a meteorological journey with web weatherApp, powered by real-time data from OpenWeather API.",
@@ -368,17 +380,7 @@ export const Bio = {
       github: "https://github.com/engraya/web-weatherApp",
       webapp: "https://engraya.github.io/web-weatherApp/",
     },
-      {
-      id: 16,
-      title: "PromtHub",
-      description:
-        "The ultimate platform for generating, sharing, and discovering prompts for every need",
-      image: aiPrompts,
-      tags: ["Nextjs", "Typescript", "Tailwind", "Next-Auth", "Shadcn UI"],
-      category: "web app",
-      github: "https://github.com/engraya/PromptHub",
-      webapp: "https://prompthub-io.vercel.app/",
-    },
+
   
       {
       id: 17,

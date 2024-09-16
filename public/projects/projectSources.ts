@@ -18,10 +18,12 @@ import coinstream from "./coinstream.png"
 import pennyplan from "./pennyplanproj.png"
 import polyglotter from "./polyglotterproj.png"
 import echogram from "./echogram.png"
+import promptHub from "./promptHub.png"
 
 
 export {
 echogram,
+promptHub,
 polyglotter,
 coinstream,
 pennyplan,
