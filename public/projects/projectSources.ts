@@ -19,10 +19,12 @@ import pennyplan from "./pennyplanproj.png"
 import polyglotter from "./polyglotterproj.png"
 import echogram from "./echogram.png"
 import promptHub from "./promptHub.png"
+import planvault from "./planvault.png"
 
 
 export {
 echogram,
+planvault,
 promptHub,
 polyglotter,
 coinstream,
