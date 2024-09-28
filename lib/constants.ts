@@ -97,6 +97,7 @@ export const Bio = {
       role: "Frontend Engineer",
       company: "T40 Technologies",
       date: "January 2024 - Present",
+      type : "Fulltime",
       icon : t40,
       desc: "As a frontend engineer, I Collaborate with the design team to translate UI/UX wireframes into functional components. I also Collaborate with the backend team to integrate APIs and data services, Conducting thorough testing and debugging to ensure optimal performance, Ensuring cross-browser and cross-device compatibility and Optimizing web applications for maximum speed and scalability.",
     },
@@ -106,6 +107,7 @@ export const Bio = {
       company: "Dijix Global Solutions",
       icon : "",
       date: "September 2024 - Present",
+      type : "Contract",
       desc: "As a frontend developer, my responsibilities involve building and maintaining complex web applications using React.js/Redux, collaborating with UI/UX designers and backend developers to create high-quality solutions. I focus on optimizing components for performance, writing clean, modular code that adheres to modern best practices, and troubleshooting issues throughout the stack. I actively participate in code reviews, stay updated on the latest front-end technologies, and work closely with product managers to ensure timely delivery of project requirements.",
     },
       {
@@ -114,6 +116,7 @@ export const Bio = {
       company: "",
       icon : upwork,
       date: "August 2022 - Present",
+      type : "Freelance",
       desc: "As a seasoned full-stack web developer, I operate as a dedicated freelancer, providing comprehensive solutions to clients seeking innovative and functional web applications. With a strong foundation in both frontend and backend technologies, I excel in designing and implementing dynamic, user-centric websites and applications tailored to meet the unique needs of diverse industries. My expertise encompasses the entire development life cycle, from conceptualization and architecture to deployment and maintenance. I am committed to delivering high-quality code, responsive designs, and seamless user experiences. Adaptable and client-focused, I collaborate closely with stakeholders to translate their vision into a digital reality. ",
     },
     // {
@@ -129,6 +132,7 @@ export const Bio = {
       company: "GAO Tek Inc. USA",
       icon : gaotek,
       date: "August 2022 - March 2023",
+      type : "Internship",
       desc: "As a Human Resource Intern (Remote), my primary responsibilities included managing applicant communication, screening responses, and coordinating interview schedules with senior HR staff. I was actively involved in the recruitment process by posting job advertisements on various platforms, including general career websites, university and college career portals, as well as internship websites. I played a role in building and maintaining relationships with educational institutions that offered internship programs. Additionally, I conducted interviews as part of the selection process. In addition to these core duties, I handled various other tasks within the HR domain to contribute to the overall functioning of the department.",
       // doc: hr,
     },

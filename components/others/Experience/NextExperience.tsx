@@ -46,8 +46,14 @@ export default function NextExperience() {
                 fontSize: "1.5rem",
               }}
             >
-              <h3 className="font-semibold capitalize">{item.role}</h3>
-              <p className="font-normal !mt-0">{item.company}</p>
+              <div className="flex justify-between">
+                <div className="flex flex-col">
+                <h3 className="font-semibold capitalize">{item.role}</h3>
+                <p className="font-normal !mt-0">{item.company}</p>
+                </div>
+                <p className="font-normal text-xs text-gray-500 italic">{item.type}</p>
+              </div>
+
               <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
                 {item.desc}
               </p>
