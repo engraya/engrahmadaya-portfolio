@@ -54,7 +54,8 @@ import {
     coinstream,
     netchat,
     quickSumAi,
-    planvault, 
+    planvault,
+    pagemark, 
     delectable,
     promptHub,
     thankfulart,
@@ -427,6 +428,17 @@ export const Bio = {
       category: "web app",
       github: "https://github.com/engraya/SnapSavvy",
       webapp: "https://snapsavvy.vercel.app/",
+    },
+    {
+      id: 20,
+      title: "Pagemark",
+      description:
+        " A Robust application designed to make seamless reading and commenting on your favourites books",
+      image: pagemark,
+      tags: ["Nextjs", "Typescript", "TailwindCSS"],
+      category: "web app",
+      github: "https://github.com/engraya/pagemark",
+      webapp: "https://pagemark-sigma.vercel.app/",
     },
  
   ];

@@ -20,10 +20,12 @@ import polyglotter from "./polyglotterproj.png"
 import echogram from "./echogram.png"
 import promptHub from "./promptHub.png"
 import planvault from "./planvault.png"
+import pagemark from "./pagemark.png"
 
 
 export {
 echogram,
+pagemark,
 planvault,
 promptHub,
 polyglotter,
