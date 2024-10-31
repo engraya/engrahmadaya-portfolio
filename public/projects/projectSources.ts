@@ -22,10 +22,12 @@ import promptHub from "./promptHub.png"
 import planvault from "./planvault.png"
 import pagemark from "./pagemark.png"
 import postcraftai from "./postcraftai.png" 
+import detectify from "./detectify.png"
 
 
 export {
 echogram,
+detectify,
 postcraftai,
 pagemark,
 planvault,
