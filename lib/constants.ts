@@ -109,7 +109,7 @@ export const Bio = {
       role: "Frontend Developer",
       company: "Dijix Global Solutions",
       icon : "",
-      date: "September 2024 - Present",
+      date: "September 2024 - October 2024",
       type : "Contract",
       desc: "As a frontend developer, my responsibilities involve building and maintaining complex web applications using React.js/Redux, collaborating with UI/UX designers and backend developers to create high-quality solutions. I focus on optimizing components for performance, writing clean, modular code that adheres to modern best practices, and troubleshooting issues throughout the stack. I actively participate in code reviews, stay updated on the latest front-end technologies, and work closely with product managers to ensure timely delivery of project requirements.",
     },
@@ -268,7 +268,7 @@ export const Bio = {
       title: "Detectify-AI",
       description:
         "Discover the future of object detection with Detectify AI.",
-      image: pennyplan,
+      image: detectify,
       tags: ["Nextjs", "Typescript", "TailwindCSS", "Threejs", "Tensorflowjs"],
       category: "web app",
       github: "https://github.com/engraya/detectify-ai",

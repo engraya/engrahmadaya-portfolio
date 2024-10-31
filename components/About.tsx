@@ -24,13 +24,13 @@ function About() {
         passion for software engineering & programming.{" "}
         <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. I am familiar with the latest trends of Frontend, Backend, DevOps and AI. My core stack
+        feeling of finally figuring out a solution to a problem. I am familiar with the latest trends of Frontend, Backend, DevOps and AI. My core tech stack
         is{" "}
         <span className="font-medium">
-          React, Next.js, Node.js, MongoDB, Django, Express, Python, Javascript Typescript and TailwindCSS
+          React, Next.js, Typescript and TailwindCSS
         </span>
         .I am always looking forward to explore, 
-        learn and get hands-on new technologies and integrating the latest trends of AI in bringing about changes and aspects of solutions. Contributing and collaboration have been my hurrah, I am currently working with{" "}
+        learn and get hands-on new technologies and integrating the latest trends of AI in bringing about changes, technological advancements and aspects of solutions. Contributing and collaboration have been my hurrah, I am currently working with{" "}
         <span className="font-bold italic">T40 Technologies</span> as a <span className="font-bold italic">Frontend Engineer</span> .
       </p>
     </motion.section>
