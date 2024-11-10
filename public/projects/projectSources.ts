@@ -23,11 +23,12 @@ import planvault from "./planvault.png"
 import pagemark from "./pagemark.png"
 import postcraftai from "./postcraftai.png" 
 import detectify from "./detectify.png"
-
+import remindly from "./remindly.png"
 
 export {
 echogram,
 detectify,
+remindly,
 postcraftai,
 pagemark,
 planvault,

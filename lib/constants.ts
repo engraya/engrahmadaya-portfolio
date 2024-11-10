@@ -50,6 +50,7 @@ import {
   import { 
     aiPrompts,
     echogram,
+    remindly,
     pennyplan,
     coinstream,
     netchat,
@@ -84,7 +85,7 @@ export const Bio = {
       "Results-driven Fullstack Engineer with a proven track record of delivering high-quality software solutions. Experienced in full software development life cycle, from concept to delivery. Adept at collaborating with cross-functional teams and building strong client relationships. Skilled in problem-solving and adapting to dynamic work environments. Passionate about staying updated on emerging technologies to drive innovation. Excellent communication skills and a commitment to continuous learning. Eager to contribute to dynamic projects and make a positive impact.",
     github: "https://github.com/engraya",
     resume:
-      "",
+      "https://drive.google.com/file/d/1Cog6CKdcP7RKATR-lfLXkoyHASHzpLWA/view?usp=drive_link",
     linkedin: "https://www.linkedin.com/in/ahmad-yakubu-ahmad-miaeng-gmnse-41520b121/",
     twitter: "https://twitter.com/ahmadyakubuaya",
     instagram: "https://www.instagram.com/aya2685/",
@@ -419,14 +420,14 @@ export const Bio = {
     },
       {
       id: 19,
-      title: "Webweather",
+      title: "Remindly",
       description:
-        "Embark on a meteorological journey with web weatherApp, powered by real-time data from OpenWeather API.",
-      image: weather,
-      tags: ["React", "Node Js", "Express Js", "Javascript"],
+        "Organize, prioritize, and conquer your to-dos with ease, whether it’s work, personal tasks, or long-term goals.",
+      image: remindly,
+      tags: ["React", "Nexjs", "Typescript", "TailwindCSS", "PostgreSQL", "ShadCnUI", "Clerk", "NeonDB"],
       category: "web app",
-      github: "https://github.com/engraya/web-weatherApp",
-      webapp: "https://engraya.github.io/web-weatherApp/",
+      github: "https://github.com/engraya/remindly",
+      webapp: "https://remindly-io.vercel.app/",  
     },
         {
       id: 20,
