@@ -24,9 +24,11 @@ import pagemark from "./pagemark.png"
 import postcraftai from "./postcraftai.png" 
 import detectify from "./detectify.png"
 import remindly from "./remindly.png"
+import slideTubeAi from "./slideTubeAi.png"
 
 export {
 echogram,
+slideTubeAi,
 detectify,
 remindly,
 postcraftai,

@@ -222,6 +222,17 @@ export const Bio = {
     },
     {
       id: 1,
+      title: "SlideTube-AI",
+      description:
+        "SlideTube-AI transforms any YouTube video into a professional, editable presentation🌐💬",
+      image: echogram,
+      tags: ["React", "Nextjs", "Typescript", "TailwindCSS", "Shadcn UI", "PostgreSQL"],
+      category: "web app",
+      github: "https://github.com/engraya/slideTube-ai",
+      webapp: "https://slidetube-ai.vercel.app/",
+    },
+    {
+      id: 2,
       title: "Echogram",
       description:
         "Share your moments with friends and the world through stunning images and posts 🌐💬",
@@ -232,7 +243,7 @@ export const Bio = {
       webapp: "https://echogram-io.vercel.app/",
     },
     {
-      id: 2,
+      id: 3,
       title: "Medimatrix",
       description:
         "Manage Patient's records, appointments, and more—all in one place",
@@ -243,7 +254,7 @@ export const Bio = {
       webapp: "https://medimatrix.vercel.app/",
     },
     {
-      id: 3,
+      id: 4,
       title: "NetChat-AI",
       description:
         "NetChat is an innovative AI-powered app that transforms how you interact with websites.",
@@ -254,7 +265,7 @@ export const Bio = {
       webapp: "https://netchat-io.vercel.app/",
     },
     {
-      id: 4,
+      id: 5,
       title: "Postcraft-AI",
       description:
         "PostCraft AI is an advanced AI-powered platform that helps you generate engaging social media content in just a few clicks.",
@@ -265,7 +276,7 @@ export const Bio = {
       webapp: "https://postcraft-ai.vercel.app/",
     },
     {
-      id: 5,
+      id: 6,
       title: "Detectify-AI",
       description:
         "Discover the future of object detection with Detectify AI.",
@@ -276,7 +287,7 @@ export const Bio = {
       webapp: "https://detectify-ai.vercel.app/",
     },
     {
-      id: 6,
+      id: 7,
       title: "PennyPlan",
       description:
         "Manage your finances effortlessly with AI-powered insights and personalized financial advice",
@@ -287,7 +298,7 @@ export const Bio = {
       webapp: "https://pennyplan.vercel.app/",
     },
     {
-      id: 7,
+      id: 8,
       title: "Planvault",
       description:
         "Fantastic UI/UX Payment platform that automates billing, invoicing, and subscription management for businesses.",
@@ -298,7 +309,7 @@ export const Bio = {
       webapp: "https://planvault.vercel.app/",
     },
     {
-      id: 8,
+      id: 9,
       title: "Thankful Art",
       description:
         "ThankfulArt is a web app designed to help you Create Your Perfect Thank You Card in Seconds",
@@ -309,7 +320,7 @@ export const Bio = {
       webapp: "https://thankfulart.vercel.app/",
     },
     {
-      id: 9,
+      id: 10,
       title: "Delectable",
       description:
         "Embark on a gastronomic journey with Delectable – the ultimate food lover's paradise! 🌍🍽️",
@@ -320,7 +331,7 @@ export const Bio = {
       webapp: "https://delectable.vercel.app/",
     },
     {
-      id: 10,
+      id: 11,
       title: "Motohub",
       description:
         "MotoHub - the hottest spot on the web to explore sleek, stylish, and cutting-edge cars from around the globe! 🌐🔥",
@@ -331,7 +342,7 @@ export const Bio = {
       webapp: "https://motohub-io.vercel.app/",
     },
     {
-      id: 11,
+      id: 12,
       title: "Shelterium",
       description:
         "Shelterium, the ultimate real estate app for buying, renting, and selling properties. 🏠🔑✨🌟",
@@ -342,7 +353,7 @@ export const Bio = {
       webapp: "https://shelterium.vercel.app/",
     },
     {
-      id: 12,
+      id: 13,
       title: "QuickSum AI",
       description:
         "🌐 QuickSum AI is here to transform how you consume content!, a go-to solution for summarizing long articles in seconds. ⏳",
@@ -353,7 +364,7 @@ export const Bio = {
       webapp: "https://quicksum-ai.vercel.app/",
     },
     {
-      id: 13,
+      id: 14,
       title: "Coinstream",
       description:
         "Explore detailed information on a wide range of coins, from market capitalization to trading volume.",
@@ -364,7 +375,7 @@ export const Bio = {
       webapp: "https://coinstream.vercel.app/",
     },
       {
-      id: 14,
+      id: 15,
       title: "Shopoholics",
       description:
         "Shopoholics, an open-source Fullstack ecommerce app designed to revolutionize your online shopping experience! 🛒",
@@ -375,7 +386,7 @@ export const Bio = {
       webapp: "https://shopoholics.vercel.app/",
     },
     {
-      id: 15,
+      id: 16,
       title: "PromtHub",
       description:
         "The ultimate platform for generating, sharing, and discovering prompts for every need",
@@ -386,7 +397,7 @@ export const Bio = {
       webapp: "https://prompthub-io.vercel.app/",
     },
     {
-      id: 16,
+      id: 17,
       title: "Polyglotter",
       description:
         "Instantly translate your conversations with cutting-edge voice recognition technology.",
@@ -397,7 +408,7 @@ export const Bio = {
       webapp: "https://polyglotter-lemon.vercel.app/",
     },
     {
-      id: 17,
+      id: 18,
       title: "Midin Org",
       description:
         "Web Application for a dedicated humanitarian organization committed to creating positive change in communities.",
@@ -408,7 +419,7 @@ export const Bio = {
       webapp: "https://midin.vercel.app/",
     },
     {
-      id: 18,
+      id: 19,
       title: "CoolMovies",
       description:
         "Explore the cinematic world with our Movie Preview App, a sleek and user-friendly application built using ReactJS and powered by the OMDB API.",
@@ -419,7 +430,7 @@ export const Bio = {
       webapp: "https://engraya.github.io/coolMovies-app",
     },
       {
-      id: 19,
+      id: 20,
       title: "Remindly",
       description:
         "Organize, prioritize, and conquer your to-dos with ease, whether it’s work, personal tasks, or long-term goals.",
@@ -430,7 +441,7 @@ export const Bio = {
       webapp: "https://remindly-io.vercel.app/",  
     },
         {
-      id: 20,
+      id: 21,
       title: "Festivo",
       description:
         "Festivo makes event planning a breeze. Manage, organize, and track your festivals with ease",
@@ -441,7 +452,7 @@ export const Bio = {
       webapp: "https://festivo-io.vercel.app/",
     },
       {
-      id: 21,
+      id: 22,
       title: "Snapsavvy",
       description:
         " AI-powered application designed to revolutionize the way you enhance and restore your photos.",
@@ -452,7 +463,7 @@ export const Bio = {
       webapp: "https://snapsavvy.vercel.app/",
     },
     {
-      id: 22,
+      id: 23,
       title: "Pagemark",
       description:
         " A Robust application designed to make seamless reading and commenting on your favourites books",
