@@ -58,6 +58,7 @@ import {
     planvault,
     pagemark, 
     delectable,
+    slideTubeAi,
     promptHub,
     thankfulart,
     polyglotter,
@@ -225,7 +226,7 @@ export const Bio = {
       title: "SlideTube-AI",
       description:
         "SlideTube-AI transforms any YouTube video into a professional, editable presentation🌐💬",
-      image: echogram,
+      image: slideTubeAi,
       tags: ["React", "Nextjs", "Typescript", "TailwindCSS", "Shadcn UI", "PostgreSQL"],
       category: "web app",
       github: "https://github.com/engraya/slideTube-ai",
