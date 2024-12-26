@@ -54,6 +54,7 @@ import {
     pennyplan,
     coinstream,
     netchat,
+    orbitstaff,
     quickSumAi,
     planvault,
     pagemark, 
@@ -421,14 +422,14 @@ export const Bio = {
     },
     {
       id: 19,
-      title: "CoolMovies",
+      title: "OrbitStaff",
       description:
-        "Explore the cinematic world with our Movie Preview App, a sleek and user-friendly application built using ReactJS and powered by the OMDB API.",
-      image: movies,
-      tags: ["React", "Node Js", "Express Js", "Javascript"],
+        "OrbitStaff is a modern staff management solution designed to simplify how businesses manage workforce data.",
+      image: orbitstaff,
+      tags: ["React", "TailwindCSS", "Typescript", "Redux"],
       category: "web app",
-      github: "https://github.com/engraya/coolMovies-app",
-      webapp: "https://engraya.github.io/coolMovies-app",
+      github: "https://github.com/engraya/orbitStaff",
+      webapp: "https://orbitstaff.vercel.app/",
     },
       {
       id: 20,

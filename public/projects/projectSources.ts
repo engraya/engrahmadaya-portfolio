@@ -25,9 +25,11 @@ import postcraftai from "./postcraftai.png"
 import detectify from "./detectify.png"
 import remindly from "./remindly.png"
 import slideTubeAi from "./slideTubeAi.png"
+import orbitstaff from "./orbitstaff.png"
 
 export {
 echogram,
+orbitstaff,
 slideTubeAi,
 detectify,
 remindly,
