@@ -87,7 +87,7 @@ export const Bio = {
       "Results-driven Fullstack Engineer with a proven track record of delivering high-quality software solutions. Experienced in full software development life cycle, from concept to delivery. Adept at collaborating with cross-functional teams and building strong client relationships. Skilled in problem-solving and adapting to dynamic work environments. Passionate about staying updated on emerging technologies to drive innovation. Excellent communication skills and a commitment to continuous learning. Eager to contribute to dynamic projects and make a positive impact.",
     github: "https://github.com/engraya",
     resume:
-      "https://drive.google.com/file/d/1Cog6CKdcP7RKATR-lfLXkoyHASHzpLWA/view?usp=drive_link",
+      "https://drive.google.com/file/d/1qVrbji-pBUCGdDQ97Ifb7WqDT8UFGu0s/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/ahmad-yakubu-ahmad-miaeng-gmnse-41520b121/",
     twitter: "https://twitter.com/ahmadyakubuaya",
     instagram: "https://www.instagram.com/aya2685/",
@@ -96,6 +96,8 @@ export const Bio = {
     whatsapp: +2348149087802,
     mail: "engrahmadaya@gmail.com"
   };
+
+ 
   
   export const experiences = [
     {
@@ -105,10 +107,19 @@ export const Bio = {
       date: "January 2024 - Present",
       type : "Fulltime",
       icon : t40,
-      desc: "As a frontend engineer, I Collaborate with the design team to translate UI/UX wireframes into functional components. I also Collaborate with the backend team to integrate APIs and data services, Conducting thorough testing and debugging to ensure optimal performance, Ensuring cross-browser and cross-device compatibility and Optimizing web applications for maximum speed and scalability.",
+      desc: "As a Frontend engineer, I Collaborate with the design team to translate UI/UX wireframes into functional components. I also Collaborate with the backend team to integrate APIs and data services, Conducting thorough testing and debugging to ensure optimal performance, Ensuring cross-browser and cross-device compatibility and Optimizing web applications for maximum speed and scalability.",
     },
     {
       id: 1,
+      role: "Fullstack Developer",
+      company: "IAB CODES LTD",
+      icon : "",
+      date: "January 2025 - Present",
+      type : "Contract",
+      desc: "As a Fullstack Developer at IAB CODES LTD., I am responsible for developing and maintaining responsive user interfaces using Next.js, Typescript, and Tailwind CSS. I collaborate closely with UI/UX designers and backend developers to create high-quality web applications. My work includes building and maintaining RESTful APIs with Next.js, Node.js, and MongoDB, implementing authentication and authorization features, and ensuring best practices in database design. Additionally, I manage CI/CD pipelines, optimize components for performance across devices and browsers, and oversee deployments to cloud platforms. I also handle debugging, code reviews, and ensure seamless team collaboration through Git.",
+    },
+    {
+      id: 2,
       role: "Frontend Developer",
       company: "Dijix Global Solutions",
       icon : "",
@@ -117,7 +128,7 @@ export const Bio = {
       desc: "As a frontend developer, my responsibilities involve building and maintaining complex web applications using React.js/Redux, collaborating with UI/UX designers and backend developers to create high-quality solutions. I focus on optimizing components for performance, writing clean, modular code that adheres to modern best practices, and troubleshooting issues throughout the stack. I actively participate in code reviews, stay updated on the latest front-end technologies, and work closely with product managers to ensure timely delivery of project requirements.",
     },
       {
-      id: 2,
+      id: 3,
       role: "Freelancer",
       company: "",
       icon : upwork,
@@ -133,7 +144,7 @@ export const Bio = {
     //   desc: "As a Physics Teacher, my role encompassed instructing and supervising students in the utilization of educational materials and equipment. I cultivated an educational environment tailored to the holistic development of students—physically, socially, intellectually, and emotionally. To enhance the learning experience, I crafted engaging and stimulating lesson plans, fostering student comprehension through active questioning. Additionally, I provided additional support to students needing assistance and offered more challenging tasks to those excelling in the subject. Staying current with advancements and research in the field, I ensured that lessons remained pertinent and aligned with the latest developments.",
     //  },
     {
-      id: 3,
+      id: 4,
       role: "HR Intern",
       company: "GAO Tek Inc. USA",
       icon : gaotek,
