@@ -272,7 +272,7 @@ export const Bio = {
       id: 4,
       title: "CodexAI",
       description:
-        "Turn your ideas into clean, production-ready code components with just a prompt.",
+        "With the power of AI, Turn your ideas into clean, production-ready code components with just a prompt.",
       image: codexai,
       tags: ["Nextjs", "Typescript", "TailwindCSS","Clerk", "Gemini-AI"],
       category: "web app",
