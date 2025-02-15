@@ -27,9 +27,11 @@ import remindly from "./remindly.png"
 import slideTubeAi from "./slideTubeAi.png"
 import orbitstaff from "./orbitstaff.png"
 import creatifyAI from "./creatifyAI.png"
+import codexai from "./codexai.png"
 
 export {
 echogram,
+codexai,
 creatifyAI,
 orbitstaff,
 slideTubeAi,
