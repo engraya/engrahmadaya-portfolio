@@ -28,9 +28,11 @@ import slideTubeAi from "./slideTubeAi.png"
 import orbitstaff from "./orbitstaff.png"
 import creatifyAI from "./creatifyAI.png"
 import codexai from "./codexai.png"
+import intellislide from "./intellislide.png"
 
 export {
 echogram,
+intellislide,
 codexai,
 creatifyAI,
 orbitstaff,
