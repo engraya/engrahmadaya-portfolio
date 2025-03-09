@@ -29,9 +29,11 @@ import orbitstaff from "./orbitstaff.png"
 import creatifyAI from "./creatifyAI.png"
 import codexai from "./codexai.png"
 import intellislide from "./intellislide.png"
+import talentmatch from "./talentmatchai.png"
 
 export {
 echogram,
+talentmatch,
 intellislide,
 codexai,
 creatifyAI,

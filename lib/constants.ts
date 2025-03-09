@@ -49,6 +49,7 @@ import {
 
   import { 
     aiPrompts,
+    talentmatch,
     codexai,
     intellislide,
     echogram,
@@ -491,14 +492,14 @@ export const Bio = {
     },
         {
       id: 24,
-      title: "Festivo",
+      title: "TalentMatch-AI",
       description:
-        "Festivo makes event planning a breeze. Manage, organize, and track your festivals with ease",
-      image: festivo,
-      tags: ["Nextjs", "Typescript", "TailwindCSS", "Shadcn UI", "Stripe", "Clerk", "MongoDB"],
+        " TalentMatchAI analyzes your skills, matches them with the best job opportunities, and even helps you apply – all in one seamless experience! 🔍✨",
+      image: talentmatch,
+      tags: ["Nextjs", "Typescript", "TailwindCSS", "Shadcn UI", "AI", "Zustand"],
       category: "web app",
-      github: "https://github.com/engraya/festivo",
-      webapp: "https://festivo-io.vercel.app/",
+      github: "https://github.com/engraya/TalentMatch-AI",
+      webapp: "https://talent-match-ai-jade.vercel.app/",
     },
       {
       id: 25,
