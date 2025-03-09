@@ -115,6 +115,15 @@ export const Bio = {
     },
     {
       id: 1,
+      role: "Fullstack Engineer",
+      company: "Alpharithm Investments",
+      icon : "",
+      date: "Match 2025 - Present",
+      type : "Fulltime - Consulting Services",
+      desc: "As a Fullstack Engineer, I take full ownership of developing, maintaining, and optimizing both web and mobile applications that integrate AI-powered services. I build responsive and interactive user interfaces using React, React Native, or Nextjs, ensuring a seamless user experience. On the backend, I design and implement scalable APIs with Node.js, or Python, leveraging databases like PostgreSQL, MySQL, or MongoDB for efficient data management. I also design and optimize cloud-based infrastructures to ensure high availability, security, and performance. My role involves implementing authentication, authorization, and data protection measures while optimizing applications for speed and scalability. Additionally, I manage CI/CD pipelines, automate testing, and oversee deployments using Docker, Kubernetes, and GitHub Actions, ensuring smooth and reliable updates for AI-driven applications.",
+    },
+    {
+      id: 2,
       role: "Fullstack Developer",
       company: "IAB CODES LTD",
       icon : "",
@@ -123,7 +132,7 @@ export const Bio = {
       desc: "As a Fullstack Developer at IAB CODES LTD., I am responsible for developing and maintaining responsive user interfaces using Next.js, Typescript, and Tailwind CSS. I collaborate closely with UI/UX designers and backend developers to create high-quality web applications. My work includes building and maintaining RESTful APIs with Next.js, Node.js, and MongoDB, implementing authentication and authorization features, and ensuring best practices in database design. Additionally, I manage CI/CD pipelines, optimize components for performance across devices and browsers, and oversee deployments to cloud platforms. I also handle debugging, code reviews, and ensure seamless team collaboration through Git.",
     },
     {
-      id: 2,
+      id: 3,
       role: "Frontend Developer",
       company: "Dijix Global Solutions",
       icon : "",
@@ -132,7 +141,7 @@ export const Bio = {
       desc: "As a frontend developer, my responsibilities involve building and maintaining complex web applications using React.js/Redux, collaborating with UI/UX designers and backend developers to create high-quality solutions. I focus on optimizing components for performance, writing clean, modular code that adheres to modern best practices, and troubleshooting issues throughout the stack. I actively participate in code reviews, stay updated on the latest front-end technologies, and work closely with product managers to ensure timely delivery of project requirements.",
     },
       {
-      id: 3,
+      id: 4,
       role: "Freelancer",
       company: "",
       icon : upwork,
@@ -148,7 +157,7 @@ export const Bio = {
     //   desc: "As a Physics Teacher, my role encompassed instructing and supervising students in the utilization of educational materials and equipment. I cultivated an educational environment tailored to the holistic development of students—physically, socially, intellectually, and emotionally. To enhance the learning experience, I crafted engaging and stimulating lesson plans, fostering student comprehension through active questioning. Additionally, I provided additional support to students needing assistance and offered more challenging tasks to those excelling in the subject. Staying current with advancements and research in the field, I ensured that lessons remained pertinent and aligned with the latest developments.",
     //  },
     {
-      id: 4,
+      id: 5,
       role: "HR Intern",
       company: "GAO Tek Inc. USA",
       icon : gaotek,
