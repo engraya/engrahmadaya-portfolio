@@ -125,7 +125,7 @@ export const Bio = {
       role: "Fullstack Developer",
       company: "IAB CODES LTD",
       icon : "",
-      date: "January 2025 - Present",
+      date: "January 2025 - February 2025",
       type : "Contract",
       desc: "As a Fullstack Developer at IAB CODES LTD., I am responsible for developing and maintaining responsive user interfaces using Next.js, Typescript, and Tailwind CSS. I collaborate closely with UI/UX designers and backend developers to create high-quality web applications. My work includes building and maintaining RESTful APIs with Next.js, Node.js, and MongoDB, implementing authentication and authorization features, and ensuring best practices in database design. Additionally, I manage CI/CD pipelines, optimize components for performance across devices and browsers, and oversee deployments to cloud platforms. I also handle debugging, code reviews, and ensure seamless team collaboration through Git.",
     },
