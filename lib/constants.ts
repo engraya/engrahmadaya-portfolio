@@ -91,7 +91,7 @@ export const Bio = {
       "Results-driven Fullstack Engineer with a proven track record of delivering high-quality software solutions. Experienced in full software development life cycle, from concept to delivery. Adept at collaborating with cross-functional teams and building strong client relationships. Skilled in problem-solving and adapting to dynamic work environments. Passionate about staying updated on emerging technologies to drive innovation. Excellent communication skills and a commitment to continuous learning. Eager to contribute to dynamic projects and make a positive impact.",
     github: "https://github.com/engraya",
     resume:
-      "https://drive.google.com/file/d/1Utacnw0q_lh6a8Zk_vG39GPApiAlk4Q7/view?usp=sharing",
+      "https://drive.google.com/file/d/1NZCq0xPLNDam2sjKUZynS7tZoLl-kuPO/view?usp=drive_link",
     linkedin: "https://www.linkedin.com/in/engrahmadaya",
     twitter: "https://twitter.com/ahmadyakubuaya",
     instagram: "https://www.instagram.com/aya2685/",
@@ -101,8 +101,6 @@ export const Bio = {
     mail: "engrahmadaya@gmail.com"
   };
 
- 
-  
   export const experiences = [
     {
       id: 0,
@@ -118,7 +116,7 @@ export const Bio = {
       role: "Fullstack Engineer",
       company: "Alpharithm Investments",
       icon : "",
-      date: "Match 2025 - Present",
+      date: "Match 2025 - April 2025",
       type : "Fulltime - Consulting Services",
       desc: "As a Fullstack Engineer, I take full ownership of developing, maintaining, and optimizing both web and mobile applications that integrate AI-powered services. I build responsive and interactive user interfaces using React, React Native, or Nextjs, ensuring a seamless user experience. On the backend, I design and implement scalable APIs with Node.js, or Python, leveraging databases like PostgreSQL, MySQL, or MongoDB for efficient data management. I also design and optimize cloud-based infrastructures to ensure high availability, security, and performance. My role involves implementing authentication, authorization, and data protection measures while optimizing applications for speed and scalability. Additionally, I manage CI/CD pipelines, automate testing, and oversee deployments using Docker, Kubernetes, and GitHub Actions, ensuring smooth and reliable updates for AI-driven applications.",
     },
