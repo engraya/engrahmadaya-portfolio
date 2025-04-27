@@ -235,7 +235,7 @@ export const Bio = {
    
       {
       id: 0,
-      title: "CoDraft",
+      title: "Codraft – Real-Time Collaboration & Seamless Document Editing App 📝🤝",
       description:
         "Enhance your productivity with seamless editing, secure sharing, and intuitive collaboration tools.",
       image: codraft,
@@ -246,7 +246,7 @@ export const Bio = {
     },
     {
       id: 1,
-      title: "Creatify-AI",
+      title: "Creatify_AI – Instantly Generate SEO-Friendly Content for Web 🧠✍️🚀",
       description:
         "Creatify_AI empowers businesses, marketers, and creators with high-quality, SEO-friendly contents in seconds",
       image: creatifyAI,
@@ -257,7 +257,7 @@ export const Bio = {
     },
     {
       id: 2,
-      title: "SlideTube-AI",
+      title: "SlideTube-AI – Instantly Turn YouTube Videos into Presentations 🎥➡️",
       description:
         "SlideTube-AI transforms any YouTube video into a professional, editable presentation🌐💬",
       image: slideTubeAi,
@@ -268,7 +268,7 @@ export const Bio = {
     },
     {
       id: 3,
-      title: "IntelliSlide-AI",
+      title: "IntelliSlide-AI –Instantly Generate Stunning Presentations with AI 🧠",
       description:
         "Turn your ideas into professional PowerPoint slides in seconds!  🌐💬",
       image: intellislide,
@@ -279,7 +279,7 @@ export const Bio = {
     },
     {
       id: 4,
-      title: "Echogram",
+      title: "Echogram – Explore Life Through an Interactive Social Feed 📸🎥🌍",
       description:
         "Share your moments with friends and the world through stunning images and posts 🌐💬",
       image: echogram,
@@ -290,7 +290,7 @@ export const Bio = {
     },
     {
       id: 5,
-      title: "CodexAI",
+      title: "CodexAI – Instantly Generate Production-Ready Components with AI ⚛️💡",
       description:
         "With the power of AI, Turn your ideas into clean, production-ready code components with just a prompt.",
       image: codexai,
@@ -301,7 +301,7 @@ export const Bio = {
     },
     {
       id: 6,
-      title: "Medimatrix",
+      title: "Medimatrix – Patient Record & Appointment Management System 🏥📋🩺",
       description:
         "Manage Patient's records, appointments, and more—all in one place",
       image: medimatrix,
@@ -312,7 +312,7 @@ export const Bio = {
     },
     {
       id: 7,
-      title: "NetChat-AI",
+      title: "NetChat – AI-Powered Web Interaction Assistant 🤖💬🌐",
       description:
         "NetChat is an innovative AI-powered app that transforms how you interact with websites.",
       image: netchat,
@@ -323,18 +323,7 @@ export const Bio = {
     },
     {
       id: 8,
-      title: "Postcraft-AI",
-      description:
-        "PostCraft AI is an advanced AI-powered platform that helps you generate engaging social media content in just a few clicks.",
-      image: postcraftai,
-      tags: ["Nextjs", "Typescript", "TailwindCSS", "Shadcn UI", "Drizzle", "PostgreSQL", "Stripe", "Google-AI"],
-      category: "web app",
-      github: "https://github.com/engraya/postcraft-ai",
-      webapp: "https://postcraft-ai.vercel.app/",
-    },
-    {
-      id: 9,
-      title: "Detectify-AI",
+      title: "Detectify-AI – Real-Time Object Detection Powered by AI 🎯🧠📷",
       description:
         "Discover the future of object detection with Detectify AI.",
       image: detectify,
@@ -344,8 +333,8 @@ export const Bio = {
       webapp: "https://detectify-ai.vercel.app/",
     },
     {
-      id: 10,
-      title: "PennyPlan",
+      id: 9,
+      title: "PennyPlan – Smart Finance Management with AI-Powered Insights 💰📊🤖",
       description:
         "Manage your finances effortlessly with AI-powered insights and personalized financial advice",
       image: pennyplan,
@@ -355,8 +344,8 @@ export const Bio = {
       webapp: "https://pennyplan.vercel.app/",
     },
     {
-      id: 11,
-      title: "Planvault",
+      id: 10,
+      title: "PlanVault – Simplify Subscription Management & Payments 💼⚙️",
       description:
         "Fantastic UI/UX Payment platform that automates billing, invoicing, and subscription management for businesses.",
       image: planvault,
@@ -366,8 +355,8 @@ export const Bio = {
       webapp: "https://planvault.vercel.app/",
     },
     {
-      id: 12,
-      title: "Thankful Art",
+      id: 11,
+      title: "Thankful Art – Create Personalized Thank You Cards in Seconds ✨💌🎨",
       description:
         "ThankfulArt is a web app designed to help you Create Your Perfect Thank You Card in Seconds",
       image: thankfulart,
@@ -377,8 +366,8 @@ export const Bio = {
       webapp: "https://thankfulart.vercel.app/",
     },
     {
-      id: 13,
-      title: "Delectable",
+      id: 12,
+      title: "Delectable – Discover Global Cuisines & Food Guides 🌍🍽️📸",
       description:
         "Embark on a gastronomic journey with Delectable – the ultimate food lover's paradise! 🌍🍽️",
       image: delectable,
@@ -388,8 +377,8 @@ export const Bio = {
       webapp: "https://delectable.vercel.app/",
     },
     {
-      id: 14,
-      title: "Motohub",
+      id: 13,
+      title: "Motohub – Explore the World’s Sleekest, Most Stylish Cars 🌍🚗🔥b",
       description:
         "MotoHub - the hottest spot on the web to explore sleek, stylish, and cutting-edge cars from around the globe! 🌐🔥",
       image: motohub,
@@ -399,8 +388,8 @@ export const Bio = {
       webapp: "https://motohub-io.vercel.app/",
     },
     {
-      id: 15,
-      title: "Shelterium",
+      id: 14,
+      title: "Shelterium – Buy, Rent & Sell Properties with Real Estate App 🏠🔑📱",
       description:
         "Shelterium, the ultimate real estate app for buying, renting, and selling properties. 🏠🔑✨🌟",
       image: shelterium,
@@ -410,8 +399,8 @@ export const Bio = {
       webapp: "https://shelterium.vercel.app/",
     },
     {
-      id: 16,
-      title: "QuickSum AI",
+      id: 15,
+      title: "QuickSumAI – Instantly Summarize Long Articles with AI 🧠📄⚡",
       description:
         "🌐 QuickSum AI is here to transform how you consume content!, a go-to solution for summarizing long articles in seconds. ⏳",
       image: quickSumAi,
@@ -421,8 +410,8 @@ export const Bio = {
       webapp: "https://quicksum-ai.vercel.app/",
     },
     {
-      id: 17,
-      title: "Coinstream",
+      id: 16,
+      title: "CoinStream – Real-Time Crypto Stats, Market Trends & Coin Insight 💹🪙",
       description:
         "Explore detailed information on a wide range of coins, from market capitalization to trading volume.",
       image: coinstream,
@@ -432,8 +421,8 @@ export const Bio = {
       webapp: "https://coinstream.vercel.app/",
     },
       {
-      id: 18,
-      title: "Shopoholics",
+      id: 17,
+      title: "Shopoholics – Ecommerce App for Seamless Online Shopping 🛍️🛒⚙️",
       description:
         "Shopoholics, an open-source Fullstack ecommerce app designed to revolutionize your online shopping experience! 🛒",
       image: shopoholics,
@@ -443,8 +432,8 @@ export const Bio = {
       webapp: "https://shopoholics.vercel.app/",
     },
     {
-      id: 19,
-      title: "PromtHub",
+      id: 18,
+      title: "PromptHub – Discover, Organize & Share AI Prompts Effortlessly 💡📚🤖",
       description:
         "The ultimate platform for generating, sharing, and discovering prompts for every need",
       image: promptHub,
@@ -454,19 +443,8 @@ export const Bio = {
       webapp: "https://prompthub-io.vercel.app/",
     },
     {
-      id: 20,
-      title: "Polyglotter",
-      description:
-        "Instantly translate your conversations with cutting-edge voice recognition technology.",
-      image: polyglotter,
-      tags: ["Nextjs", "Typescript", "TailwindCSS", "OpenAI"],
-      category: "web app",
-      github: "https://github.com/engraya/polyglotter",
-      webapp: "https://polyglotter-lemon.vercel.app/",
-    },
-    {
-      id: 21,
-      title: "Midin Org",
+      id: 19,
+      title: "Midin Project – Saving Communities Through Humanitarian Action 🌍❤️🤝",
       description:
         "Web Application for a dedicated humanitarian organization committed to creating positive change in communities.",
       image: midin,
@@ -476,8 +454,8 @@ export const Bio = {
       webapp: "https://midin.vercel.app/",
     },
     {
-      id: 22,
-      title: "OrbitStaff",
+      id: 20,
+      title: "OrbitStaff – Smart Workforce & Staff Management Made Simple 🧑‍💼📊🚀",
       description:
         "OrbitStaff is a modern staff management solution designed to simplify how businesses manage workforce data.",
       image: orbitstaff,
@@ -487,8 +465,8 @@ export const Bio = {
       webapp: "https://orbitstaff.vercel.app/",
     },
       {
-      id: 23,
-      title: "Remindly",
+      id: 21,
+      title: "Remidly – Smart Task & Reminder App to Organize Your Life ⏰📝✅",
       description:
         "Organize, prioritize, and conquer your to-dos with ease, whether it’s work, personal tasks, or long-term goals.",
       image: remindly,
@@ -498,8 +476,8 @@ export const Bio = {
       webapp: "https://remindly-io.vercel.app/",  
     },
         {
-      id: 24,
-      title: "TalentMatch-AI",
+      id: 22,
+      title: "TalentMatchAI – AI-Powered Intelligent Job Matching App",
       description:
         " TalentMatchAI analyzes your skills, matches them with the best job opportunities, and even helps you apply – all in one seamless experience! 🔍✨",
       image: talentmatch,
@@ -509,8 +487,8 @@ export const Bio = {
       webapp: "https://talent-match-ai-jade.vercel.app/",
     },
       {
-      id: 25,
-      title: "Snapsavvy",
+      id: 23,
+      title: "Snapsavvy - Optimize your Photos Powered by AI 📷",
       description:
         " AI-powered application designed to revolutionize the way you enhance and restore your photos.",
       image: snapsavvy,
@@ -519,17 +497,7 @@ export const Bio = {
       github: "https://github.com/engraya/SnapSavvy",
       webapp: "https://snapsavvy.vercel.app/",
     },
-    {
-      id: 26,
-      title: "Pagemark",
-      description:
-        " A Robust application designed to make seamless reading and commenting on your favourites books",
-      image: pagemark,
-      tags: ["Nextjs", "Typescript", "TailwindCSS"],
-      category: "web app",
-      github: "https://github.com/engraya/pagemark",
-      webapp: "https://pagemark-sigma.vercel.app/",
-    },
+
  
   ];
   
