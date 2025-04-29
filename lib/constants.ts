@@ -63,6 +63,7 @@ import {
     planvault,
     pagemark, 
     delectable,
+    hirescape,
     slideTubeAi,
     promptHub,
     thankfulart,
@@ -246,6 +247,17 @@ export const Bio = {
     },
     {
       id: 1,
+      title: "Hirescape – Your AI-Enhanced Gateway to Hiring & Job Discovery & Management 💼",
+      description:
+        "Hirescape is a powerful, AI-enhanced job platform designed to streamline the hiring process and empower job seekers.",
+      image: hirescape,
+      tags: ["Nextjs", "Javascript", "Tailwind","React", "React Query", "Nodejs", "Express", "MongoDB"],
+      category: "web app",
+      github: "https://github.com/engraya/hirescape",
+      webapp: "https://hirescape.vercel.app/",
+    },
+    {
+      id: 2,
       title: "Creatify_AI – Instantly Generate SEO-Friendly Content for Web 🧠✍️🚀",
       description:
         "Creatify_AI empowers businesses, marketers, and creators with high-quality, SEO-friendly contents in seconds",
@@ -256,7 +268,7 @@ export const Bio = {
       webapp: "https://creatify-ai-pro.vercel.app/",
     },
     {
-      id: 2,
+      id: 3,
       title: "SlideTube-AI – Instantly Turn YouTube Videos into Presentations 🎥➡️",
       description:
         "SlideTube-AI transforms any YouTube video into a professional, editable presentation🌐💬",
@@ -267,7 +279,7 @@ export const Bio = {
       webapp: "https://slidetube-ai.vercel.app/",
     },
     {
-      id: 3,
+      id: 4,
       title: "IntelliSlide-AI –Instantly Generate Stunning Presentations with AI 🧠",
       description:
         "Turn your ideas into professional PowerPoint slides in seconds!  🌐💬",
@@ -278,7 +290,7 @@ export const Bio = {
       webapp: "https://intelli-slide-ai.vercel.app/",
     },
     {
-      id: 4,
+      id: 5,
       title: "Echogram – Explore Life Through an Interactive Social Feed 📸🎥🌍",
       description:
         "Share your moments with friends and the world through stunning images and posts 🌐💬",
@@ -289,7 +301,7 @@ export const Bio = {
       webapp: "https://echogram-io.vercel.app/",
     },
     {
-      id: 5,
+      id: 6,
       title: "CodexAI – Instantly Generate Production-Ready Components with AI ⚛️💡",
       description:
         "With the power of AI, Turn your ideas into clean, production-ready code components with just a prompt.",
@@ -300,7 +312,7 @@ export const Bio = {
       webapp: "https://codex-ai-phi-two.vercel.app/",
     },
     {
-      id: 6,
+      id: 7,
       title: "Medimatrix – Patient Record & Appointment Management System 🏥📋🩺",
       description:
         "Manage Patient's records, appointments, and more—all in one place",
@@ -311,7 +323,7 @@ export const Bio = {
       webapp: "https://medimatrix.vercel.app/",
     },
     {
-      id: 7,
+      id: 8,
       title: "NetChat – AI-Powered Web Interaction Assistant 🤖💬🌐",
       description:
         "NetChat is an innovative AI-powered app that transforms how you interact with websites.",
@@ -322,7 +334,7 @@ export const Bio = {
       webapp: "https://netchat-io.vercel.app/",
     },
     {
-      id: 8,
+      id: 9,
       title: "Detectify-AI – Real-Time Object Detection Powered by AI 🎯🧠📷",
       description:
         "Discover the future of object detection with Detectify AI.",
@@ -333,7 +345,7 @@ export const Bio = {
       webapp: "https://detectify-ai.vercel.app/",
     },
     {
-      id: 9,
+      id: 10,
       title: "PennyPlan – Smart Finance Management with AI-Powered Insights 💰📊🤖",
       description:
         "Manage your finances effortlessly with AI-powered insights and personalized financial advice",
@@ -344,7 +356,7 @@ export const Bio = {
       webapp: "https://pennyplan.vercel.app/",
     },
     {
-      id: 10,
+      id: 11,
       title: "PlanVault – Simplify Subscription Management & Payments 💼⚙️",
       description:
         "Fantastic UI/UX Payment platform that automates billing, invoicing, and subscription management for businesses.",
@@ -355,7 +367,7 @@ export const Bio = {
       webapp: "https://planvault.vercel.app/",
     },
     {
-      id: 11,
+      id: 12,
       title: "Thankful Art – Create Personalized Thank You Cards in Seconds ✨💌🎨",
       description:
         "ThankfulArt is a web app designed to help you Create Your Perfect Thank You Card in Seconds",
@@ -366,7 +378,7 @@ export const Bio = {
       webapp: "https://thankfulart.vercel.app/",
     },
     {
-      id: 12,
+      id: 13,
       title: "Delectable – Discover Global Cuisines & Food Guides 🌍🍽️📸",
       description:
         "Embark on a gastronomic journey with Delectable – the ultimate food lover's paradise! 🌍🍽️",
@@ -377,7 +389,7 @@ export const Bio = {
       webapp: "https://delectable.vercel.app/",
     },
     {
-      id: 13,
+      id: 14,
       title: "Motohub – Explore the World’s Sleekest, Most Stylish Cars 🌍🚗🔥b",
       description:
         "MotoHub - the hottest spot on the web to explore sleek, stylish, and cutting-edge cars from around the globe! 🌐🔥",
@@ -388,7 +400,7 @@ export const Bio = {
       webapp: "https://motohub-io.vercel.app/",
     },
     {
-      id: 14,
+      id: 15,
       title: "Shelterium – Buy, Rent & Sell Properties with Real Estate App 🏠🔑📱",
       description:
         "Shelterium, the ultimate real estate app for buying, renting, and selling properties. 🏠🔑✨🌟",
@@ -399,7 +411,7 @@ export const Bio = {
       webapp: "https://shelterium.vercel.app/",
     },
     {
-      id: 15,
+      id: 16,
       title: "QuickSumAI – Instantly Summarize Long Articles with AI 🧠📄⚡",
       description:
         "🌐 QuickSum AI is here to transform how you consume content!, a go-to solution for summarizing long articles in seconds. ⏳",
@@ -410,7 +422,7 @@ export const Bio = {
       webapp: "https://quicksum-ai.vercel.app/",
     },
     {
-      id: 16,
+      id: 17,
       title: "CoinStream – Real-Time Crypto Stats, Market Trends & Coin Insight 💹🪙",
       description:
         "Explore detailed information on a wide range of coins, from market capitalization to trading volume.",
@@ -421,7 +433,7 @@ export const Bio = {
       webapp: "https://coinstream.vercel.app/",
     },
       {
-      id: 17,
+      id: 18,
       title: "Shopoholics – Ecommerce App for Seamless Online Shopping 🛍️🛒⚙️",
       description:
         "Shopoholics, an open-source Fullstack ecommerce app designed to revolutionize your online shopping experience! 🛒",
@@ -432,7 +444,7 @@ export const Bio = {
       webapp: "https://shopoholics.vercel.app/",
     },
     {
-      id: 18,
+      id: 19,
       title: "PromptHub – Discover, Organize & Share AI Prompts Effortlessly 💡📚🤖",
       description:
         "The ultimate platform for generating, sharing, and discovering prompts for every need",
@@ -443,7 +455,7 @@ export const Bio = {
       webapp: "https://prompthub-io.vercel.app/",
     },
     {
-      id: 19,
+      id: 20,
       title: "Midin Project – Saving Communities Through Humanitarian Action 🌍❤️🤝",
       description:
         "Web Application for a dedicated humanitarian organization committed to creating positive change in communities.",
@@ -454,7 +466,7 @@ export const Bio = {
       webapp: "https://midin.vercel.app/",
     },
     {
-      id: 20,
+      id: 21,
       title: "OrbitStaff – Smart Workforce & Staff Management Made Simple 🧑‍💼📊🚀",
       description:
         "OrbitStaff is a modern staff management solution designed to simplify how businesses manage workforce data.",
@@ -465,7 +477,7 @@ export const Bio = {
       webapp: "https://orbitstaff.vercel.app/",
     },
       {
-      id: 21,
+      id: 22,
       title: "Remidly – Smart Task & Reminder App to Organize Your Life ⏰📝✅",
       description:
         "Organize, prioritize, and conquer your to-dos with ease, whether it’s work, personal tasks, or long-term goals.",
@@ -476,7 +488,7 @@ export const Bio = {
       webapp: "https://remindly-io.vercel.app/",  
     },
         {
-      id: 22,
+      id: 23,
       title: "TalentMatchAI – AI-Powered Intelligent Job Matching App",
       description:
         " TalentMatchAI analyzes your skills, matches them with the best job opportunities, and even helps you apply – all in one seamless experience! 🔍✨",
@@ -487,7 +499,7 @@ export const Bio = {
       webapp: "https://talent-match-ai-jade.vercel.app/",
     },
       {
-      id: 23,
+      id: 24,
       title: "Snapsavvy - Optimize your Photos Powered by AI 📷",
       description:
         " AI-powered application designed to revolutionize the way you enhance and restore your photos.",
