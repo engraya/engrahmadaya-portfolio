@@ -31,11 +31,12 @@ import codexai from "./codexai.png"
 import intellislide from "./intellislide.png"
 import talentmatch from "./talentmatchai.png"
 import hirescape from "./hirescape.png"
-
+import genLetterai from "./genletter-ai.png"
 export {
 echogram,
 talentmatch,
 hirescape,
+genLetterai,
 intellislide,
 codexai,
 creatifyAI,
