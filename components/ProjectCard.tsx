@@ -41,10 +41,10 @@ function ProjectCard({
       <CardItem translateZ="100" className="w-full mt-4">
         <Image
           src={imageUrl}
-          height="1000"
-          width="1000"
-          className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
+          width={500}
+          height={300}
           alt="thumbnail"
+          className="w-full rounded-xl group-hover/card:shadow-xl"
         />
       </CardItem>
       <div className="flex justify-between items-center mt-20">

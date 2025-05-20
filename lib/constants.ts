@@ -247,7 +247,7 @@ export const Bio = {
       webapp: "https://codraft-io.vercel.app/",
     },
     {
-      id: 2,
+      id: 1,
       title: "GenLetter AI – Instant, Personalized AI-Powered Cover Letters 🚀✍️",
       description:
         "Generate job-specific cover letters in seconds with AI. Just enter your details, preview live, and download — no templates, no fluff.",

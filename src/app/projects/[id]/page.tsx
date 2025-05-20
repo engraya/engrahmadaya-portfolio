@@ -21,7 +21,7 @@ function ProjectDetailsPage({params} : {
     const { id } = params;
     const {title, description, image, tags, category, github, webapp } = projects[id];
   return (
-<div className="dark:bg-gray-800 py-8">
+<div className="py-8">
   <div className="max-w-6xl mx-auto px-2 sm:px-4 lg:px-4">
     <Link href="/projects">
     <div className="bg-gradient-to-r from-emerald-300 to-blue-300 px-4 py-2 text-xs outline-none ring-blue-300 focus:ring bg-gray-800 text-gray-900 rounded-full w-10 h-10 flex items-center justify-center">
@@ -55,13 +55,13 @@ function ProjectDetailsPage({params} : {
         <div className="mb-4">
           <span className="font-bold text-emerald-400 dark:text-gray-300">Url</span>
           <div className="flex items-center mt-2">
-          <span className="text-slate-100 dark:text-gray-300">{webapp}</span>
+          <a href={webapp} target='_blank' className="text-blue-500 dark:text-gray-300">Live Link</a>
           </div>
         </div>
         <div className="mb-4">
           <span className="font-bold text-emerald-400 dark:text-gray-300">Repository</span>
           <div className="flex items-center mt-2">
-          <span className="text-gray-300 dark:text-gray-300">{github}</span>
+          <a href={github} target='_blank' className="text-blue-500 dark:text-gray-300">GitHub Repo</a>
           </div>
         </div>
         <div className="mb-4">
