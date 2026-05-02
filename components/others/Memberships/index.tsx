@@ -15,9 +15,10 @@ const Container = styled.div`
   position: relative;
   z-index: 1;
   align-items: center;
-  padding: 40px 0px 80px 0px;
+  width: 100%;
+  padding: 0 0 2.5rem 0;
   @media (max-width: 960px) {
-    padding: 0px;
+    padding: 0;
   }
 `;
 
@@ -35,11 +36,11 @@ export default function Memberships() {
       <div className="mb-6">
         <Container>
           <SectionHeading>Memberships</SectionHeading>
-          {memberships.map((membership) => (
-            <div className="gap-y-8" key={membership.id}>
-              <NextMembershipCard membership={membership} />
-            </div>
-          ))}
+          <div className="flex w-full max-w-[45rem] flex-col gap-5">
+            {memberships.map((membership) => (
+              <NextMembershipCard key={membership.id} membership={membership} />
+            ))}
+          </div>
         </Container>
       </div>
     </motion.section>

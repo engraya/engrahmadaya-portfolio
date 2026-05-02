@@ -15,9 +15,10 @@ const Container = styled.div`
   position: relative;
   z-index: 1;
   align-items: center;
-  padding: 0px 0px 60px 0px;
+  width: 100%;
+  padding: 0 0 2.5rem 0;
   @media (max-width: 960px) {
-    padding: 0px;
+    padding: 0;
   }
 `;
 
@@ -35,11 +36,11 @@ export default function Education() {
       <div className="mb-6">
         <Container>
           <SectionHeading>Education</SectionHeading>
-          {education.map((edu) => (
-            <div className="gap-y-8" key={edu.id}>
-              <NextEducation education={edu} />
-            </div>
-          ))}
+          <div className="flex w-full max-w-[45rem] flex-col gap-5">
+            {education.map((edu) => (
+              <NextEducation key={edu.id} education={edu} />
+            ))}
+          </div>
         </Container>
       </div>
     </motion.section>

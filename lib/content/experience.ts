@@ -76,23 +76,5 @@ export const education = [
     grade: "4.16 CGPA",
     desc: "Bachelor of Engineering in Civil Engineering with a strong quantitative foundation; transitioned into software engineering for full-stack product work.",
     degree: "B.Eng. Civil Engineering",
-  },
-  {
-    id: 1,
-    img: ntic,
-    school: "Nigerian Turkish International Colleges",
-    date: "September 2013 – July 2015",
-    grade: "80.7%",
-    desc: "College diploma pathway with rigorous STEM preparation.",
-    degree: "College Diploma",
-  },
-  {
-    id: 2,
-    img: ntic,
-    school: "Nigerian Turkish International Colleges",
-    date: "September 2009 – July 2015",
-    grade: "80.7%",
-    desc: "Secondary education completed with continued focus on science and mathematics.",
-    degree: "Secondary School Education",
-  },
+  }
 ] as const;

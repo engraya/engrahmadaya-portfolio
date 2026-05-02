@@ -16,7 +16,7 @@ export const links = [
       hash: "#skills",
     },
     {
-      name: "AI tools",
+      name: "AI",
       hash: "#ai-tools",
     },
     {

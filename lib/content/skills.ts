@@ -105,10 +105,6 @@ export const softSkills = [
       image: typescript
     },
     {
-      name: "Bootstrap",
-      image: bootstrap
-    },
-    {
       name: "TailwindCSS",
       image: tailwind
     },
@@ -137,10 +133,6 @@ export const softSkills = [
       image: firebase
     },
     {
-      name: "Django",
-      image: django
-    },
-    {
       name: "Git",
       image: git
     },
@@ -155,10 +147,6 @@ export const softSkills = [
     {
       name: "Docker",
       image: docker
-    },
-    {
-      name: "Kubernetes",
-      image: kubernetes
     },
     {
       name: "Netlify",
