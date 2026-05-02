@@ -9,6 +9,7 @@ import GotoProjects from "@components/GotoProjects";
 import Membership from "@components/others/Memberships";
 import GotoCertificates from "@components/GotoCertificates";
 import NextExperience from "@components/others/Experience/NextExperience";
+import HowIWork from "@components/HowIWork";
 import Education from "@components/others/Education";
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
     <GotoProjects />
     <Skills />
     <NextExperience />
+    <HowIWork />
     <GotoCertificates />
     <Education />
     <Membership/>

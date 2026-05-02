@@ -48,3 +48,57 @@ export const aiToolkitItems = [
     icon: "sparkles" as const,
   },
 ] as const;
+
+export const monitoringItems = [
+  {
+    id: "sentry",
+    name: "Sentry",
+    subtitle: "Error & performance monitoring",
+    detail:
+      "Triage frontend and backend errors, track releases with source maps, and route alerts so regressions get caught early.",
+    icon: "bug" as const,
+  },
+  {
+    id: "sonarqube",
+    name: "SonarQube",
+    subtitle: "Code quality & static analysis",
+    detail:
+      "Gate pull requests on smells, vulnerabilities, and coverage to keep maintainability high across the codebase.",
+    icon: "shieldCheck" as const,
+  },
+  {
+    id: "newrelic",
+    name: "New Relic",
+    subtitle: "APM & observability",
+    detail:
+      "Latency, throughput, traces, and dashboards to keep production health visible and on-call useful.",
+    icon: "activity" as const,
+  },
+] as const;
+
+export const pmItems = [
+  {
+    id: "jira",
+    name: "Jira",
+    subtitle: "Tickets · sprints · releases",
+    detail:
+      "Scrum and kanban boards, story breakdown, and release planning aligned with engineering workflows.",
+    icon: "kanbanSquare" as const,
+  },
+  {
+    id: "clickup",
+    name: "ClickUp",
+    subtitle: "Tasks & docs",
+    detail:
+      "Roadmaps, task grooming, and async docs/SOPs that keep distributed teams moving without meetings.",
+    icon: "listChecks" as const,
+  },
+  {
+    id: "trello",
+    name: "Trello",
+    subtitle: "Lightweight boards",
+    detail:
+      "Quick kanban for small teams and side projects when overhead needs to stay out of the way.",
+    icon: "layoutDashboard" as const,
+  },
+] as const;
