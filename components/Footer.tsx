@@ -5,7 +5,7 @@ import { BsLinkedin, BsGithub, BsFacebook, BsTwitter, BsInstagram } from "react-
 const Footer = () => {
   const wa = String(Bio.whatsapp).replace(/\D/g, "");
   return (
-    <footer className="mb-10 px-4 text-center text-emerald-100">
+    <footer className="mb-10 px-4 text-center text-gray-600 dark:text-gray-300">
       <p className="mb-2 block text-xs">
         <a
           href={`https://wa.me/${wa}`}
@@ -27,7 +27,7 @@ const Footer = () => {
       <small className="mb-3 block text-xs">
         &copy; {new Date().getFullYear()} Ahmad Yakubu Ahmad. All rights reserved.
       </small>
-      <p className="mb-4 text-xs text-emerald-100/80 max-w-md mx-auto">
+      <p className="mx-auto mb-4 max-w-md text-xs text-gray-500 dark:text-gray-400">
         Built with Next.js, TypeScript, Tailwind CSS, Framer Motion, and React Email (Resend).
       </p>
       <div className="flex gap-2 items-center justify-center text-center flex-wrap">

@@ -18,7 +18,7 @@ function ThemeSwitch() {
     <button
       type="button"
       aria-label={mounted && resolvedTheme === "dark" ? "Switch to light mode" : "Switch to dark mode"}
-      className="fixed bottom-5 right-5 bg-white w-[3rem] h-[3rem] bg-opacity-80 backdrop-blur-[0.5rem] border border-white border-opacity-40 shadow-2xl rounded-full flex items-center justify-center outline-none transition-all hover:scale-[1.05] active:scale-100 focus-visible:ring-2 focus-visible:ring-emerald-400 focus-visible:ring-offset-2 motion-safe:hover:scale-[1.15] dark:bg-gray-950 dark:ring-offset-gray-900"
+      className="fixed bottom-5 right-5 flex h-[3rem] w-[3rem] items-center justify-center rounded-full border border-gray-200/80 bg-white/90 text-gray-800 shadow-2xl backdrop-blur-[0.5rem] outline-none transition-all hover:scale-[1.05] hover:text-gray-950 active:scale-100 focus-visible:ring-2 focus-visible:ring-emerald-400 focus-visible:ring-offset-2 motion-safe:hover:scale-[1.15] dark:border-white/10 dark:bg-gray-950 dark:text-gray-100 dark:ring-offset-gray-950"
       onClick={toggleTheme}
     >
       {!mounted ? (

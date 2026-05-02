@@ -18,7 +18,7 @@ function About() {
       id="about"
     >
       <SectionHeading>About me</SectionHeading>
-      <p className="mb-3 text-emerald-100">
+      <p className="mb-3 text-gray-700 dark:text-gray-200">
         After a degree in{" "}
         <span className="font-medium">Civil Engineering</span>, I moved into software
         engineering—the same discipline applied differently: clear requirements, solid

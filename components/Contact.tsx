@@ -33,16 +33,19 @@ function Contact() {
     >
       <SectionHeading>Contact me</SectionHeading>
 
-      <p className="text-gray-100 -mt-6 dark:text-white/80">
+      <p className="-mt-6 text-gray-600 dark:text-gray-300">
         Prefer email? Reach me at{" "}
-        <a className="underline underline-offset-2 outline-none focus-visible:ring-2 focus-visible:ring-emerald-400 rounded" href={`mailto:${Bio.mail}`}>
+        <a
+          className="font-medium text-emerald-700 underline underline-offset-2 outline-none transition hover:text-emerald-800 focus-visible:ring-2 focus-visible:ring-emerald-400 rounded dark:text-emerald-400 dark:hover:text-emerald-300"
+          href={`mailto:${Bio.mail}`}
+        >
           {Bio.mail}
         </a>
         . Submissions use Resend when configured; otherwise you will see an error and can use the mail link above.
       </p>
 
       <form
-        className="mt-10 flex flex-col dark:text-black"
+        className="mt-10 flex flex-col text-gray-800 dark:text-gray-200"
         action={async (formData) => {
           const result = await sendEmail(formData);
 

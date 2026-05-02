@@ -22,7 +22,7 @@ const Header = () => {
       ></motion.div>
 
       <nav className="flex fixed top-[0.15rem] left-1/2 h-10 -translate-x-1/2 py-1.5 sm:top-[1.7rem] sm:h-[initial] sm:py-0">
-        <ul className="flex w-[22rem] flex-wrap items-center justify-center gap-y-1 text-[0.9rem] font-medium text-gray-500 dark:text-emerald-50 sm:w-[initial] sm:flex-nowrap sm:gap-5">
+        <ul className="flex w-[22rem] flex-wrap items-center justify-center gap-y-1 text-[0.9rem] font-medium text-gray-600 dark:text-gray-200 sm:w-[initial] sm:flex-nowrap sm:gap-5">
           {links.map((link) => (
             <motion.li
               className="h-3/4 flex items-center justify-center relative"
@@ -32,9 +32,9 @@ const Header = () => {
             >
               <Link
                 className={clsx(
-                  "flex w-full items-center justify-center rounded-full px-3 py-3 outline-none hover:text-gray-950 transition focus-visible:ring-2 focus-visible:ring-emerald-400 focus-visible:ring-offset-2 dark:text-emerald-50 dark:ring-offset-gray-900 dark:hover:text-gray-300",
+                  "flex w-full items-center justify-center rounded-full px-3 py-3 outline-none transition focus-visible:ring-2 focus-visible:ring-emerald-400 focus-visible:ring-offset-2 dark:ring-offset-gray-950 hover:text-gray-900 dark:text-gray-200 dark:hover:text-white",
                   {
-                    "text-gray-950 dark:text-emerald-50":
+                    "text-gray-900 font-semibold dark:text-white":
                       activeSection === link.name,
                   }
                 )}
@@ -48,7 +48,7 @@ const Header = () => {
 
                 {link.name === activeSection && (
                   <motion.span
-                    className="bg-gray-100 rounded-full absolute inset-0 -z-10 dark:bg-gray-600"
+                    className="absolute inset-0 -z-10 rounded-full bg-gray-200/90 dark:bg-gray-700"
                     layoutId="activeSection"
                     transition={{
                       type: "spring",

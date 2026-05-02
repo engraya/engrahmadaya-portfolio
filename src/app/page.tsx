@@ -3,7 +3,6 @@
 import About from "@components/About";
 import Introduction from "@components/Introduction";
 import Skills from "@components/Skills";
-import AiToolkit from "@components/AiToolkit";
 import Contact from "@components/Contact";
 import SectionDivider from "@components/SectionDivider";
 import GotoProjects from "@components/GotoProjects";
@@ -20,7 +19,6 @@ export default function Home() {
     <About />
     <GotoProjects />
     <Skills />
-    <AiToolkit />
     <NextExperience />
     <GotoCertificates />
     <Education />

@@ -55,7 +55,7 @@ export default function NextExperience() {
                 </p>
               </div>
 
-              <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
+              <p className="!mt-1 !font-normal text-gray-700 dark:text-gray-200">
                 {item.desc}
               </p>
             </VerticalTimelineElement>

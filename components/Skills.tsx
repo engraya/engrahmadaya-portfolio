@@ -2,6 +2,7 @@
 
 import React from "react";
 import SectionHeading from "./SectionHeading";
+import AiToolkit from "./AiToolkit";
 import { useSectionInView } from "@/lib/hooks";
 import { motion } from "framer-motion";
 import { skillsets } from "@lib/constants";
@@ -27,13 +28,13 @@ function Skills() {
     <section
       id="skills"
       ref={ref}
-      className="mb-16 max-w-[53rem] scroll-mt-28 text-center sm:mb-16"
+      className="mb-16 max-w-[56rem] scroll-mt-28 text-center sm:mb-20"
     >
       <SectionHeading>My skills</SectionHeading>
-      <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
+      <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800 dark:text-gray-100">
         {skillsets.map((skill, index) => (
           <motion.li
-            className="bg-white borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80"
+            className="rounded-xl borderBlack bg-white px-5 py-3 text-gray-800 shadow-sm dark:bg-white/10 dark:text-gray-100"
             key={index}
             variants={fadeInAnimationVariants}
             initial="initial"
@@ -50,6 +51,7 @@ function Skills() {
           </motion.li>
         ))}
       </ul>
+      <AiToolkit />
     </section>
   )
 }
