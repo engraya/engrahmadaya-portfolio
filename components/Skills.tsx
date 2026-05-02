@@ -44,7 +44,7 @@ function Skills() {
             custom={index}
           >
             <div className="flex gap-2 justify-center items-center">
-            <Image src={skill.image} width={35} height={35} alt="skill-image"/>
+            <Image src={skill.image} width={35} height={35} alt="" aria-hidden />
             {skill.name}
             </div>
           </motion.li>

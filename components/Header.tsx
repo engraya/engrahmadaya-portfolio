@@ -4,10 +4,14 @@ import { motion } from "framer-motion";
 import { links } from "@lib/constants";
 import Link from "next/link";
 import clsx from "clsx";
-import { useActiveSectionContext } from "../context/ActiceSectionContext";
+import { usePathname } from "next/navigation";
+import { resolveNavHref } from "@lib/navigation";
+import { useActiveSectionContext } from "../context/ActiveSectionContext";
+
 const Header = () => {
     const { activeSection, setActiveSection, setTimeOfLastClick } =
     useActiveSectionContext();
+  const pathname = usePathname();
 
   return (
     <header className="z-[999] relative">
@@ -28,13 +32,13 @@ const Header = () => {
             >
               <Link
                 className={clsx(
-                  "flex w-full items-center justify-center px-3 py-3 hover:text-gray-950 transition dark:text-emerald-50 dark:hover:text-gray-300",
+                  "flex w-full items-center justify-center rounded-full px-3 py-3 outline-none hover:text-gray-950 transition focus-visible:ring-2 focus-visible:ring-emerald-400 focus-visible:ring-offset-2 dark:text-emerald-50 dark:ring-offset-gray-900 dark:hover:text-gray-300",
                   {
                     "text-gray-950 dark:text-emerald-50":
                       activeSection === link.name,
                   }
                 )}
-                href={link.hash}
+                href={resolveNavHref(link.hash, pathname)}
                 onClick={() => {
                   setActiveSection(link.name);
                   setTimeOfLastClick(Date.now());

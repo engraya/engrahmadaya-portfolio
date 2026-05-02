@@ -6,8 +6,8 @@ function SubmitButton() {
     const { pending } = useFormStatus();
   return (
     <button
-      // type="submit"
-      className="group flex items-center justify-center gap-2 h-[3rem] w-[8rem]  bg-gradient-to-r from-emerald-300 to-blue-500  text-white rounded-full outline-none transition-all focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 dark:bg-white dark:bg-opacity-10 disabled:scale-100 disabled:bg-opacity-65"
+      type="submit"
+      className="group flex items-center justify-center gap-2 h-[3rem] w-[8rem]  bg-gradient-to-r from-emerald-300 to-blue-500  text-white rounded-full outline-none transition-all focus-visible:ring-2 focus-visible:ring-emerald-400 focus-visible:ring-offset-2 hover:scale-105 active:scale-105 dark:bg-white dark:bg-opacity-10 dark:ring-offset-gray-900 disabled:scale-100 disabled:bg-opacity-65 motion-safe:hover:scale-110"
       disabled={pending}
     >
       {pending ? (

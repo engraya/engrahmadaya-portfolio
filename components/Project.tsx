@@ -1,17 +1,17 @@
 "use client";
 
 import { useRef } from "react";
-import Image from "next/image";
+import Image, { type StaticImageData } from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 
 // type ProjectProps = (typeof projectsData)[number];
 
 type ProjectProps = {
-  title : string
-  description  :string
-  tags : string[]
-  imageUrl :  any
-}
+  title: string;
+  description: string;
+  tags: readonly string[];
+  imageUrl: string | StaticImageData;
+};
 
 function Project({
     title,
@@ -38,7 +38,7 @@ function Project({
       className="group mb-3 sm:mb-4 last:mb-0"
     >
       <section className="bg-sky-100 max-w-[42rem] border border-black/5 shadow-2xl shadow-cyan-500/50  rounded-lg overflow-hidden sm:pr-8 relative sm:h-[20rem] hover:bg-gray-200 transition sm:group-even:pl-8 dark:text-white dark:bg-white/10 dark:hover:bg-white/20">
-      <h3 className="text-xl font-semibold whitespace-nowrap m-4">{title}</h3>
+      <h3 className="text-xl font-semibold m-4 break-words hyphens-auto sm:max-w-[55%]">{title}</h3>
         <div className="pt-4 pb-7 px-1 sm:pl-6 sm:pr-2 sm:pt-10 sm:max-w-[60%] flex flex-col h-full sm:group-even:ml-[18rem]">
           <div className="text-xs leading-relaxed   text-gray-700 dark:text-white/70">
             {description}
@@ -58,7 +58,7 @@ function Project({
         </div>
         <Image
           src={imageUrl}
-          alt="Project I worked on"
+          alt={`Project preview: ${title}`}
           quality={95}
           width={500}
           height={500}

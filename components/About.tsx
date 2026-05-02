@@ -19,19 +19,22 @@ function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3 text-emerald-100">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Civil Engineering</span>, I decided to pursue my
-        passion for software engineering & programming.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. I am familiar with the latest trends of Frontend, Backend, DevOps and AI. My core tech stack
-        is{" "}
+        After a degree in{" "}
+        <span className="font-medium">Civil Engineering</span>, I moved into software
+        engineering—the same discipline applied differently: clear requirements, solid
+        structure, and reliable delivery.{" "}
+        <span className="italic">What I enjoy most</span> is narrowing down ambiguous
+        problems and shipping maintainable solutions. My core stack is{" "}
         <span className="font-medium">
-          React, Next.js, Typescript and TailwindCSS
+          React, Next.js, TypeScript, and Tailwind CSS
         </span>
-        .I am always looking forward to explore, 
-        learn and get hands-on new technologies and integrating the latest trends of AI in bringing about changes, technological advancements and aspects of solutions. Contributing and collaboration have been my hurrah, I am currently working with{" "}
-        <span className="font-bold italic">T40 Technologies</span> as a <span className="font-bold italic">Frontend Engineer</span> .
+        , with experience across frontend, backend, DevOps, and AI-assisted workflows.
+        Recent work includes{" "}
+        <span className="font-bold italic">Frontend Developer</span> at{" "}
+        <span className="font-bold italic">DAXAP AS</span>; I am also an{" "}
+        <span className="font-bold italic">Associate Software Engineer</span> at{" "}
+        <span className="font-bold italic">T40 Technologies</span>. I care about
+        collaboration, code quality, and user-visible outcomes.
       </p>
     </motion.section>
   )

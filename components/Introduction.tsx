@@ -5,12 +5,10 @@ import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { ImDownload } from "react-icons/im";
-import { HiDownload } from "react-icons/hi";
 import { SiWechat } from "react-icons/si";
 import { useSectionInView } from "@/lib/hooks";
-import { useActiveSectionContext } from "@context/ActiceSectionContext";
-import ayaPassport from "@public/ayaPassport.png"
-import { LampContainer } from "./ui/lamp";
+import { useActiveSectionContext } from "@context/ActiveSectionContext";
+import ayaPassport from "@public/ayaPassport.png";
 function Introduction() {
   const { ref } = useSectionInView("Home", 0.5);
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
@@ -33,7 +31,7 @@ function Introduction() {
           >
             <Image
               src={ayaPassport}
-              alt="engr_aya"
+              alt="Portrait of Ahmad Yakubu Ahmad"
               width="192"
               height="192"
               quality="95"
@@ -66,7 +64,7 @@ function Introduction() {
         <span className="font-bold">Hello, I&rsquo;m Ahmad, </span>a{" "}
         <span className="font-bold">Fullstack Engineer</span> with{" "}
         <span className="font-bold">4 years</span> of experience. I enjoy
-        building <span className="italic">robust & sclalable solutions</span>. My stack is{" "}
+        building <span className="italic">robust, scalable products</span>. My stack is{" "}
         <span className="underline">React, Nextjs, Typescript, Node.js & TailwindCSS</span>.
       </motion.h1>
 
@@ -80,7 +78,7 @@ function Introduction() {
       >
         <Link
           href="#contact"
-          className="group  bg-gradient-to-r from-emerald-300 to-blue-500  text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
+          className="group bg-gradient-to-r from-emerald-300 to-blue-500 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none transition focus-visible:ring-2 focus-visible:ring-emerald-400 focus-visible:ring-offset-2 motion-safe:hover:scale-105 motion-safe:active:scale-100 dark:ring-offset-gray-900"
           onClick={() => {
             setActiveSection("Contact");
             setTimeOfLastClick(Date.now());
@@ -91,16 +89,13 @@ function Introduction() {
         </Link>
 
         <a
-          className="group  bg-gradient-to-r from-emerald-300 to-blue-500 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
+          className="group bg-gradient-to-r from-emerald-300 to-blue-500 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none transition cursor-pointer borderBlack dark:bg-white/10 focus-visible:ring-2 focus-visible:ring-emerald-400 focus-visible:ring-offset-2 motion-safe:hover:scale-105 dark:ring-offset-gray-900"
           href="/AHMAD_YAKUBU_AHMAD_CV.pdf"
           download
         >
           Download CV{" "}
           <ImDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
-        <div>
-          
-        </div>
       </motion.div>
     </section>
   )

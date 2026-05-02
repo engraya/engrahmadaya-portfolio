@@ -1,0 +1,47 @@
+"use client";
+
+import React from "react";
+import styled from "styled-components";
+import { memberships } from "@lib/constants";
+import SectionHeading from "@components/SectionHeading";
+import NextMembershipCard from "./NextMembershipCard";
+import { motion } from "framer-motion";
+import { useSectionInView } from "@/lib/hooks";
+
+const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+  align-items: center;
+  padding: 40px 0px 80px 0px;
+  @media (max-width: 960px) {
+    padding: 0px;
+  }
+`;
+
+export default function Memberships() {
+  const { ref } = useSectionInView("Memberships");
+  return (
+    <motion.section
+      ref={ref}
+      className="mb-10 max-w-[45rem] text-center leading-8 sm:mb-20 scroll-mt-28"
+      initial={{ opacity: 0, y: 100 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ delay: 0.175 }}
+      id="memberships"
+    >
+      <div className="mb-6">
+        <Container>
+          <SectionHeading>Memberships</SectionHeading>
+          {memberships.map((membership) => (
+            <div className="gap-y-8" key={membership.id}>
+              <NextMembershipCard membership={membership} />
+            </div>
+          ))}
+        </Container>
+      </div>
+    </motion.section>
+  );
+}
