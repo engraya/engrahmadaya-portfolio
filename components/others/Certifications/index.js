@@ -12,8 +12,8 @@ const Certificates = () => {
         <ToggleButtonGroup >
         </ToggleButtonGroup>
         <CardContainer>
-          {certificates.map((certificate) => (
-              <CertificateCard key={certificate} certificate={certificate}/>
+          {certificates.map((certificate, index) => (
+              <CertificateCard key={certificate.id} certificate={certificate} index={index}/>
             ))}
         </CardContainer>
       </Wrapper>

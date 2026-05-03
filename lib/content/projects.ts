@@ -1,4 +1,6 @@
 import { 
+    aiPrompts,
+    pagemark,
     talentmatch,
     codexai,
     intellislide,
@@ -353,6 +355,7 @@ export const projects = [
       id: 26,
       title: "Core Post Backend — blog & engagement API",
       description: "Versioned Express REST API (`/api/v1`) for posts, nested comments, likes, and bookmarks on MongoDB. Users register and verify email via OTP email (Nodemailer); JWT protects mutations, with an extra database-backed verified-email check for write operations. List endpoints support query pagination (`page`), and auth-sensitive routes use express-rate-limit. Vitest and Supertest cover HTTP behavior against MongoDB when available.",
+      image: pagemark,
       tags: [
         "Node.js",
         "TypeScript",
@@ -402,6 +405,7 @@ export const projects = [
       title: "Jobnest API — job board backend",
       description:
         "REST API for job postings and applications built with Express and TypeScript. Mongoose models link users to jobs they create and jobs they apply to, with JWT-based sessions and role checks for admin-only user deletion. Request bodies for registration and login are validated with Joi; passwords are hashed with bcrypt. Routes are grouped under /api and /api/auth. No OpenAPI spec or health-check route is present in the repository.",
+      image: aiPrompts,
       tags: [
         "Node.js",
         "TypeScript",

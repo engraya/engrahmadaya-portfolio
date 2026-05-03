@@ -51,7 +51,9 @@ export default function ProjectDetailsPage({ params }: Readonly<Props>) {
       webapp={webapp}
       category={category}
       kind={kind}
-      apiDocs={"apiDocs" in project ? project.apiDocs : undefined}
+      apiDocs={
+        "apiDocs" in project ? (project.apiDocs ?? undefined) : undefined
+      }
       baseUrl={"baseUrl" in project ? project.baseUrl : undefined}
       auth={"auth" in project ? project.auth : undefined}
       deployment={"deployment" in project ? project.deployment : undefined}

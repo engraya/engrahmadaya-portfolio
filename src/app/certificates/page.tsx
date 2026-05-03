@@ -1,31 +1,48 @@
-"use client"
-
-
 import Link from "next/link";
-import React from "react";
 import CertificateCard from "@components/others/Cards/CertificateCards";
 import { certificates } from "@lib/constants";
-import { TiArrowBackOutline } from "react-icons/ti";
-function CertificatesPage() {
-  return (
-<section className="relative mx-auto max-w-screen-lg p-4 text-gray-800">
-  <h1 className="mb-4 text-center text-2xl font-bold bg-gradient-to-r from-pink-500 to-indigo-500 bg-clip-text text-transparent sm:text-4xl">Certifications</h1>
-  <Link href="/">
-  <div className="bg-gradient-to-r from-emerald-300 to-blue-300 px-4 py-2 text-xs outline-none ring-blue-300 focus:ring bg-gray-800 text-gray-900 rounded-full w-10 h-10 flex items-center justify-center">
-    <TiArrowBackOutline size="2rem" />
-    </div>
-    </Link>
-  <div className="mx-auto grid max-w-screen-xl grid-cols-1 gap-6 p-6 md:grid-cols-2 lg:grid-cols-3">
-        {certificates.map((certificate, index) => (
-          <div className="" key={index}>
-            <Link href={`/certificates/${certificate.id}`}>
-            <CertificateCard certificate={certificate}/>
-            </Link>
-          </div>
-        ))}
-      </div>
-</section>
-  )
-}
+import { BsArrowLeft } from "react-icons/bs";
 
-export default CertificatesPage
+export default function CertificatesPage() {
+  return (
+    <div className="min-h-screen bg-gray-50 pb-20 pt-10 dark:bg-gray-950 sm:pb-28 sm:pt-14">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
+          <Link
+            href="/"
+            className="group inline-flex w-fit items-center gap-2 rounded-full border border-gray-200/90 bg-white/90 px-4 py-2.5 text-sm font-medium text-gray-700 shadow-sm transition hover:border-gray-300 hover:text-gray-900 dark:border-white/10 dark:bg-white/[0.06] dark:text-gray-200 dark:hover:border-white/20 dark:hover:text-white outline-none focus-visible:ring-2 focus-visible:ring-emerald-500 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-50 dark:focus-visible:ring-offset-gray-950"
+          >
+            <BsArrowLeft
+              className="text-base transition-transform group-hover:-translate-x-0.5"
+              aria-hidden
+            />
+            Back to home
+          </Link>
+        </div>
+
+        <header className="mx-auto mt-10 max-w-2xl text-center">
+          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-emerald-700 dark:text-emerald-400">
+            Credentials
+          </p>
+          <h1 className="mt-3 bg-gradient-to-r from-emerald-600 via-teal-600 to-sky-600 bg-clip-text text-3xl font-bold tracking-tight text-transparent sm:text-4xl md:text-5xl dark:from-emerald-400 dark:via-teal-400 dark:to-sky-400">
+            Certifications
+          </h1>
+          <p className="mt-4 text-sm leading-relaxed text-gray-600 dark:text-gray-300 sm:text-base">
+            Professional training and certifications—issuing organizations,
+            dates, and verified copies.
+          </p>
+        </header>
+
+        <div className="mx-auto mt-12 grid max-w-7xl grid-cols-1 gap-6 sm:gap-8 md:grid-cols-2 xl:grid-cols-3">
+          {certificates.map((certificate, index) => (
+            <CertificateCard
+              key={certificate.id}
+              certificate={certificate}
+              index={index}
+            />
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+}
