@@ -15,7 +15,7 @@ export const experiences = [
     id: 1,
     role: "Associate Software Engineer",
     company: "T40 Technologies",
-    date: "January 2024 – Present",
+    date: "January 2024 – June 2025",
     type: "Full-time",
     icon: t40,
     desc: "Developing and maintaining scalable web apps with React and Next.js—translating UI/UX into high-quality components, optimizing load and runtime performance, integrating frontends with backend APIs, and hardening quality through debugging, testing, and cross-device checks.",
@@ -26,7 +26,7 @@ export const experiences = [
     company: "Alpharithm Investments",
     icon: "",
     date: "March 2025 – April 2025",
-    type: "Full-time consultancy",
+    type: "Contract consultancy",
     desc: "Full-stack delivery with AI-powered services (Node.js, Python): responsive web/mobile interfaces with React and Next.js, scalable backends and REST APIs, PostgreSQL/MySQL/MongoDB schema design, cloud deployments, security-minded auth, and CI/CD with Docker and modern DevOps tooling.",
   },
   {

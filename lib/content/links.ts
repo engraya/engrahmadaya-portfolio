@@ -35,8 +35,8 @@ export const links = [
       name: "Memberships",
       hash: "#memberships",
     },
-    {
-      name: "Contact",
-      hash: "#contact",
-    },
+    // {
+    //   name: "Contact",
+    //   hash: "#contact",
+    // },
   ] as const;

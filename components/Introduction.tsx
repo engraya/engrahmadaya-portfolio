@@ -4,11 +4,15 @@ import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import { BsEye } from "react-icons/bs";
 import { ImDownload } from "react-icons/im";
 import { SiWechat } from "react-icons/si";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@context/ActiveSectionContext";
 import ayaPassport from "@public/ayaPassport.png";
+
+const CV_PDF_HREF = "/AHMAD_YAKUBU_AHMAD.pdf";
+
 function Introduction() {
   const { ref } = useSectionInView("Home", 0.5);
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
@@ -79,7 +83,7 @@ function Introduction() {
           delay: 0.1,
         }}
       >
-        <Link
+        {/* <Link
           href="#contact"
           className="group bg-gradient-to-r from-emerald-300 to-blue-500 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none transition focus-visible:ring-2 focus-visible:ring-emerald-400 focus-visible:ring-offset-2 motion-safe:hover:scale-105 motion-safe:active:scale-100 dark:ring-offset-gray-900"
           onClick={() => {
@@ -89,15 +93,26 @@ function Introduction() {
         >
           Contact me{" "}
           <SiWechat className="opacity-70 group-hover:translate-x-1 transition" />
-        </Link>
+        </Link> */}
 
         <a
           className="group bg-gradient-to-r from-emerald-300 to-blue-500 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none transition cursor-pointer borderBlack dark:bg-white/10 focus-visible:ring-2 focus-visible:ring-emerald-400 focus-visible:ring-offset-2 motion-safe:hover:scale-105 dark:ring-offset-gray-900"
-          href="/AHMAD_YAKUBU_AHMAD_CV.pdf"
+          href={CV_PDF_HREF}
           download
         >
           Download CV{" "}
           <ImDownload className="opacity-60 group-hover:translate-y-1 transition" />
+        </a>
+
+        <a
+          className="group border border-black/10 bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none transition cursor-pointer text-gray-800 shadow-sm hover:bg-gray-50 focus-visible:ring-2 focus-visible:ring-emerald-400 focus-visible:ring-offset-2 motion-safe:hover:scale-105 dark:border-white/15 dark:bg-white/[0.07] dark:text-gray-100 dark:hover:bg-white/10 dark:ring-offset-gray-900"
+          href={CV_PDF_HREF}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Preview CV (opens PDF in a new tab)"
+        >
+          Preview CV{" "}
+          <BsEye className="opacity-70 group-hover:scale-110 transition" aria-hidden />
         </a>
       </motion.div>
     </section>
