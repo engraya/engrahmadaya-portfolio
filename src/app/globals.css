@@ -70,3 +70,51 @@
     scroll-behavior: auto;
   }
 }
+
+/* Experience timeline — use html.dark so cards match theme before useTheme() resolves (fixes white cards + invisible text on first paint) */
+.vertical-timeline-element-content {
+  box-shadow: none !important;
+}
+
+html:not(.dark) .vertical-timeline-element-content {
+  background: rgb(243 244 246) !important;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+html.dark .vertical-timeline-element-content {
+  background: rgba(255, 255, 255, 0.06) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+html:not(.dark) .vertical-timeline-element-content-arrow {
+  border-right-color: rgb(243 244 246) !important;
+}
+
+html.dark .vertical-timeline-element-content-arrow {
+  border-right-color: rgba(255, 255, 255, 0.06) !important;
+}
+
+/* Two-column layout alternates arrow direction */
+html:not(.dark) .vertical-timeline--two-columns .vertical-timeline-element-content-arrow {
+  border-left-color: rgb(243 244 246) !important;
+}
+
+html.dark .vertical-timeline--two-columns .vertical-timeline-element-content-arrow {
+  border-left-color: rgba(255, 255, 255, 0.06) !important;
+}
+
+html.dark .vertical-timeline-element-icon {
+  background: rgba(255, 255, 255, 0.12) !important;
+  box-shadow:
+    0 0 0 4px rgb(3 7 18),
+    inset 0 2px 0 rgba(0, 0, 0, 0.08),
+    0 3px 0 4px rgba(0, 0, 0, 0.05) !important;
+}
+
+html:not(.dark) .vertical-timeline-element-icon {
+  background: rgb(255 255 255) !important;
+  box-shadow:
+    0 0 0 4px rgb(249 250 251),
+    inset 0 2px 0 rgba(0, 0, 0, 0.08),
+    0 3px 0 4px rgba(0, 0, 0, 0.05) !important;
+}
