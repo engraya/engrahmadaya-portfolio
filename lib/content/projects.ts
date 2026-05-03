@@ -209,14 +209,14 @@ export const projects = [
     },
     {
       id: 14,
-      title: "Delectable – Discover Global Cuisines & Food Guides 🌍🍽️📸",
+      title: "Delectable AI — Global recipes, smart search & recipe copilot 🌍🍽️",
       description:
-        "Embark on a gastronomic journey with Delectable – the ultimate food lover's paradise! 🌍🍽️",
+        "Discover dishes from a large recipe catalog with trending picks and cuisine-style browsing. Describe what you want in plain English and AI turns it into search filters (cuisine, diet, intolerances, time, and more). On every recipe, Recipe Copilot is page-aware—ask about substitutions, scaling, simpler steps, or allergy-minded swaps—with requests handled on a backend so API keys stay off the client.",
       image: delectable,
-      tags: ["React", "TailwindCSS", "Firebase", "Javascript"],
+      tags: ["React", "TypeScript", "Tailwind CSS", "Hono", "Gemini"],
       category: "web app",
-      kind: "frontend" as const,
-      github: "https://github.com/engraya/delectable-food-webapp",
+      kind: "fullstack" as const,
+      github: "https://github.com/engraya/Delectable",
       webapp: "https://delectable.vercel.app/",
     },
     {
