@@ -25,8 +25,7 @@ export default function Home() {
     <GotoCertificates />
     <Education />
     <Membership/>
-    <Contact />
-
+    {/* <Contact /> */}
     </main>
   );
 }

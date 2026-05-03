@@ -1,7 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import { projects } from "@lib/constants";
-import ProjectCard from "@components/ProjectCard";
+import ProjectsFilter from "@components/projects/ProjectsFilter";
 import { BsArrowLeft } from "react-icons/bs";
 
 export default function ProjectsPage() {
@@ -29,24 +28,13 @@ export default function ProjectsPage() {
             Projects
           </h1>
           <p className="mt-4 text-sm leading-relaxed text-gray-600 dark:text-gray-300 sm:text-base">
-            Selected work across full-stack and frontend products—shipping with
-            TypeScript, modern React, and production-ready tooling.
+            Selected work across full-stack web apps, frontend products, and
+            standalone HTTP APIs—shipped with TypeScript and production-ready
+            tooling.
           </p>
         </header>
 
-        <div className="mx-auto mt-14 grid max-w-7xl grid-cols-1 items-stretch gap-8 md:grid-cols-2 xl:grid-cols-3">
-          {projects.map((project, index) => (
-            <ProjectCard
-              key={project.id}
-              title={project.title}
-              description={project.description}
-              id={project.id}
-              tags={project.tags}
-              imageUrl={project.image}
-              index={index}
-            />
-          ))}
-        </div>
+        <ProjectsFilter />
       </div>
     </div>
   );

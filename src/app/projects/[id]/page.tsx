@@ -38,7 +38,8 @@ export default function ProjectDetailsPage({ params }: Readonly<Props>) {
     notFound();
   }
 
-  const { title, description, image, tags, github, webapp, category } = project;
+  const { title, description, image, tags, github, category, kind } = project;
+  const webapp = "webapp" in project ? project.webapp : undefined;
 
   return (
     <ProjectDetailContent
@@ -49,6 +50,17 @@ export default function ProjectDetailsPage({ params }: Readonly<Props>) {
       github={github}
       webapp={webapp}
       category={category}
+      kind={kind}
+      apiDocs={"apiDocs" in project ? project.apiDocs : undefined}
+      baseUrl={"baseUrl" in project ? project.baseUrl : undefined}
+      auth={"auth" in project ? project.auth : undefined}
+      deployment={"deployment" in project ? project.deployment : undefined}
+      endpoints={"endpoints" in project ? project.endpoints : undefined}
+      architectureSummary={
+        "architectureSummary" in project
+          ? project.architectureSummary
+          : undefined
+      }
     />
   );
 }

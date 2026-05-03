@@ -27,9 +27,6 @@ const Footer = () => {
       <small className="mb-3 block text-xs">
         &copy; {new Date().getFullYear()} Ahmad Yakubu Ahmad. All rights reserved.
       </small>
-      <p className="mx-auto mb-4 max-w-md text-xs text-gray-500 dark:text-gray-400">
-        Built with Next.js, TypeScript, Tailwind CSS, Framer Motion, and React Email (Resend).
-      </p>
       <div className="flex gap-2 items-center justify-center text-center flex-wrap">
         <Link href={Bio.linkedin} target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="inline-flex mt-3 px-3 bg-cyan-200 py-3 rounded-full text-gray-800 outline-none transition hover:bg-cyan-300 focus-visible:ring-2 focus-visible:ring-emerald-400">
           <span className="flex items-center justify-center"><BsLinkedin /></span>

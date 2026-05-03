@@ -28,7 +28,8 @@ function About() {
         <span className="font-medium">
           React, Next.js, TypeScript, and Tailwind CSS
         </span>
-        , with experience across frontend, backend, DevOps, and AI-assisted workflows.
+        , shipping React/Next.js frontends and Node/Express/Postgres APIs end-to-end,
+        with DevOps and AI-assisted workflows.
         Recent work includes{" "}
         <span className="font-bold italic">Frontend Developer</span> at{" "}
         <span className="font-bold italic">DAXAP AS</span>; I am also an{" "}

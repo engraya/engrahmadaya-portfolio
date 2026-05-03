@@ -65,7 +65,10 @@ function Introduction() {
         <span className="font-bold">Fullstack Engineer</span> with{" "}
         <span className="font-bold">4 years</span> of experience. I enjoy
         building <span className="italic">robust, scalable products</span>. My stack is{" "}
-        <span className="underline">React, Nextjs, Typescript, Node.js & TailwindCSS</span>.
+        <span className="underline">
+          React, Next.js, TypeScript, Node.js, Express, Postgres & TailwindCSS
+        </span>
+        .
       </motion.h1>
 
       <motion.div
