@@ -7,7 +7,6 @@ import {
     echogram,
     remindly,
     creatifyAI,
-    genLetterai,
     pennyplan,
     coinstream,
     netchat,
@@ -15,7 +14,6 @@ import {
     quickSumAi,
     planvault, 
     delectable,
-    hirescape,
     slideTubeAi,
     promptHub,
     thankfulart,
@@ -27,6 +25,8 @@ import {
     motohub ,
     shopoholics,
     shelterium,
+    hireIQ,
+    coverflow
    } from "@public/projects/projectSources";
 
 export type ProjectKind = "frontend" | "backend" | "fullstack";
@@ -65,27 +65,27 @@ export const projects = [
     },
     {
       id: 2,
-      title: "Hirescape — Hiring and job discovery platform",
+      title: "HireIQ — Hiring and job discovery platform",
       description:
         "Full-stack Next.js + Express + MongoDB: listings, applications, and discovery flows with React Query on the client. Emphasis on responsive UX and reliable API integration.",
-      image: hirescape,
-      tags: ["Nextjs", "Javascript", "Tailwind","React", "React Query", "Nodejs", "Express", "MongoDB"],
+      image: hireIQ,
+      tags: ["Nextjs", "Javascript", "Tailwind","React", "Nodejs", "Express", "MongoDB"],
       category: "web app",
       kind: "fullstack" as const,
-      github: "https://github.com/engraya/hirescape",
-      webapp: "https://hirescape.vercel.app/",
+      github: "https://github.com/engraya/hireIQ",
+      webapp: "https://hire-iq-123.vercel.app/",
     },
     {
       id: 3,
-      title: "Creatify_AI – Instantly Generate SEO-Friendly Content for Web 🧠✍️🚀",
+      title: "CoverFlow — AI cover letters tailored to job posts",
       description:
-        "Creatify_AI empowers businesses, marketers, and creators with high-quality, SEO-friendly contents in seconds",
-      image: creatifyAI,
-      tags: ["React", "Nextjs", "Typescript", "TailwindCSS", "Shadcn UI", "PostgreSQL", "Clerk", "Stripe", "Docker", "Gemini-AI"],
+        "CoverFlow AI is an AI-powered cover letter generation platform built to simplify one of the most frustrating parts of the job application process — writing personalized cover letters for every role.",
+      image: coverflow,
+      tags: ["Next.js", "React", "Tailwind CSS", "GeminiAI", "TypeScript", "ShadCn UI"],
       category: "web app",
       kind: "frontend" as const,
-      github: "https://github.com/engraya/creatify_AI",
-      webapp: "https://creatify-ai-pro.vercel.app/",
+      github: "https://github.com/engraya/CoverFlow",
+      webapp: "https://cover-flow.vercel.app/",
     },
     {
       id: 4,
@@ -209,15 +209,15 @@ export const projects = [
     },
     {
       id: 14,
-      title: "GenLetter AI — AI cover letters tailored to job posts",
+      title: "Creatify_AI – Instantly Generate SEO-Friendly Content for Web 🧠✍️🚀",
       description:
-        "Gemini-backed flow: job context in → tailored letter out with live preview and export. Built for speed (seconds per draft) while keeping tone consistent with the posting.",
-      image: genLetterai,
-      tags: ["Next.js", "React", "Tailwind CSS", "GeminiAI", "TypeScript", "ShadCn UI", "Vercel"],
+        "Creatify_AI empowers businesses, marketers, and creators with high-quality, SEO-friendly contents in seconds",
+      image: creatifyAI,
+      tags: ["React", "Nextjs", "Typescript", "TailwindCSS", "Shadcn UI", "PostgreSQL", "Clerk", "Stripe", "Docker", "Gemini-AI"],
       category: "web app",
       kind: "frontend" as const,
-      github: "https://github.com/engraya/genLetter-ai",
-      webapp: "https://gen-letter-ai.vercel.app/",
+      github: "https://github.com/engraya/creatify_AI",
+      webapp: "https://creatify-ai-pro.vercel.app/",
     },
     {
       id: 15,

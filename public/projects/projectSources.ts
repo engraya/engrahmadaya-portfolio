@@ -32,8 +32,13 @@ import intellislide from "./intellislide.png"
 import talentmatch from "./talentmatchai.png"
 import hirescape from "./hirescape.png"
 import genLetterai from "./genletter-ai.png"
+import hireIQ from "./hireIQ.png"
+import coverflow from "./coverflow.png"
+
 export {
 echogram,
+hireIQ,
+coverflow,
 talentmatch,
 hirescape,
 genLetterai,
