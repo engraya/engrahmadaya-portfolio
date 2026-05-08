@@ -89,6 +89,18 @@ export const projects = [
     },
     {
       id: 4,
+      title: "SlideForge — AI-Powered Presentation Generator 🧠",
+      description:
+        "SlideForge transforms any topic into a polished, editable PowerPoint deck in under 30 seconds. Powered by Google Gemini AI and a Python FastAPI backend, it handles multi-language slide generation, async job polling, and one-click .pptx download — all without requiring an account. 🌐💬",
+      image: intellislide,
+      tags: ["React", "Nextjs", "TailwindCSS", "Typescript", "ShadCn", "Python", "FastAPI", "AI"],
+      category: "web app",
+      kind: "fullstack" as const,
+      github: "https://github.com/engraya/SlideForge",
+      webapp: "https://slide-forge123.vercel.app/",
+    },
+    {
+      id: 5,
       title: "SlideTube-AI – Instantly Turn YouTube Videos into Presentations 🎥➡️",
       description:
         "SlideTube-AI transforms any YouTube video into a professional, editable presentation🌐💬",
@@ -98,18 +110,6 @@ export const projects = [
       kind: "frontend" as const,
       github: "https://github.com/engraya/slideTube-ai",
       webapp: "https://slidetube-ai.vercel.app/",
-    },
-    {
-      id: 5,
-      title: "IntelliSlide-AI –Instantly Generate Stunning Presentations with AI 🧠",
-      description:
-        "Turn your ideas into professional PowerPoint slides in seconds!  🌐💬",
-      image: intellislide,
-      tags: ["React", "Nextjs", "TailwindCSS", "Typescript", "ShadCn", "Python", "FastAPI"],
-      category: "web app",
-      kind: "frontend" as const,
-      github: "https://github.com/engraya/intelliSlide-ai",
-      webapp: "https://intelli-slide-ai.vercel.app/",
     },
     {
       id: 6,
