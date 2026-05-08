@@ -454,4 +454,75 @@ export const projects = [
         "No dedicated API versioning segment (e.g. /v1); public surface uses /api and /api/auth."
       ]
     },
+    {
+      id: 28,
+      title: "SlideForge API",
+      description: "SlideForge is a production-grade RESTful API built with FastAPI and Python 3.12 that automates AI-powered PowerPoint generation. It exposes an async job-queue pattern — clients POST a topic and receive a job ID immediately (202 Accepted), then poll for completion before downloading the generated .pptx file. Slide content is synthesized by the Google Gemini API (JSON-mode, gemini-2.0-flash-preview) with configurable language, theme, and slide count. The generated files are assembled using python-pptx with three built-in themes (Professional, Minimal, Vibrant) and served as binary file responses with server-side path-traversal protection. The service layer follows dependency injection via LRU-cached FastAPI dependencies, structured JSON logging, custom exception hierarchy with typed error codes, per-IP rate limiting via slowapi, and a multi-stage Docker build running as a non-root user. No OpenAPI/Swagger UI is exposed in production (docs are disabled). A GitHub Actions CI/CD pipeline covers linting (ruff), static type checking (mypy), test coverage (pytest + httpx), and Docker image build.",
+      image: "placeholderImageVariable",
+      tags: [
+        "Python",
+        "FastAPI",
+        "Google Gemini AI",
+        "python-pptx",
+        "Pydantic",
+        "Docker",
+        "Async",
+        "REST API",
+        "slowapi",
+        "GitHub Actions"
+      ],
+      category: "API",
+      kind: "backend",
+    
+      github: "https://github.com/engraya/SlideForge-api",
+    
+      _baseUrlNote: "No deployment URL found in the repository. CORS origins include 'slide-forge123.vercel.app' (frontend) and localhost:3000. The API runs on port 8000 via Docker/docker-compose. Likely hosted on a container platform (Render, Railway, or similar) but no render.yaml / railway.json / fly.toml was found.",
+    
+      auth: "No authentication or authorization layer is implemented. The API is publicly accessible and protected solely by per-IP rate limiting via slowapi (default 10 requests/minute) applied to the POST /presentations generation endpoint. CORS is enforced with an explicit origins allowlist configured via environment variable.",
+    
+      deployment: "Multi-stage Docker build (python:3.12-slim) with a builder stage for compiled dependencies and a hardened runtime stage running as a non-root user (appuser, UID 1001). A docker-compose.yml is provided for local development with a named volume for PPTX file persistence and a built-in HTTP health check against /api/v1/health. GitHub Actions CI/CD pipeline triggers on push to main/develop and PRs to main, sequencing: ruff lint → mypy type-check → pytest coverage → Docker image build. The app is intentionally constrained to a single Uvicorn worker to preserve in-memory job state (documented as requiring Redis for horizontal scaling).",
+    
+      endpoints: [
+        {
+          "method": "GET",
+          "path": "/api/v1/health",
+          "purpose": "Liveness probe. Returns API status, environment name, and version string. Used by Docker health check and load balancers."
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/ready",
+          "purpose": "Readiness probe. Confirms the service is initialized and ready to accept traffic."
+        },
+        {
+          "method": "POST",
+          "path": "/api/v1/presentations",
+          "purpose": "Submit an AI presentation generation job. Accepts topic (3–300 chars), num_slides (1–20), language (9 locales), and theme (professional/minimal/vibrant). Returns a UUID job_id with status 'pending' immediately (202 Accepted). Generation runs as a FastAPI BackgroundTask. Rate-limited to 10 requests/minute per IP."
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/presentations/{job_id}/status",
+          "purpose": "Poll job lifecycle state for a given UUID. Returns PPTResponse with status: pending → processing → ready | failed. Returns 404 if the job ID is not found in the in-memory store."
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/presentations/{job_id}/download",
+          "purpose": "Download the completed .pptx file as a binary response (application/vnd.openxmlformats-officedocument.presentationml.presentation). Validates job status is 'ready', resolves the server-side filename with path-traversal protection, and schedules async cleanup of expired files after serving."
+        }
+      ],
+    
+      omittedEndpointsForCap15: [],
+    
+      architectureSummary: [
+        "Feature-based vertical slice structure under src/: api/ (routers), services/, schemas/, utils/, with a single config.py and dependencies.py at the root.",
+        "Async job-queue pattern using FastAPI BackgroundTasks: POST immediately returns 202 with a UUID job_id while generation runs in the background, decoupling request latency from AI inference time.",
+        "Three-layer service architecture: GeminiProvider (AI inference with JSON-mode and exponential-backoff retry), PresentationService (python-pptx PPTX assembly with theme support), and FileService (safe filename generation, path-traversal defense, TTL-based file cleanup).",
+        "Dependency injection via LRU-cached factory functions in dependencies.py, providing singleton service instances per Uvicorn worker without a DI framework.",
+        "Typed custom exception hierarchy (SlideForgeError → AIServiceError, AIParsingError, PresentationGenerationError, PresentationNotFoundError, RateLimitError, InputValidationError) with structured JSON error responses including machine-readable error_code fields.",
+        "In-memory job store (dict[str, PPTResponse]) intentionally documented as single-worker only, with a code comment indicating Redis as the required upgrade path for horizontal scaling.",
+        "Security hardening: filename sanitization (NFKD normalization, ASCII-only, UUID suffix), Path.resolve() + prefix-check path-traversal guard, non-root Docker user, CORS allowlist, and slowapi rate limiting.",
+        "Structured JSON logging via a custom JSONFormatter emitting ISO-8601 UTC timestamps with module/function/line context, with uvicorn access log and Google API noise suppressed.",
+        "Pydantic v2 schemas with field-level validators (whitespace-only topic rejection, empty bullet filtering, slide count bounds) ensuring clean data enters the service layer.",
+        "CI/CD pipeline enforces ruff lint, mypy strict type checking, and pytest coverage gates before a Docker image is built, preventing untyped or unlinted code from reaching the container registry."
+      ]
+    }    
   ] as const;
