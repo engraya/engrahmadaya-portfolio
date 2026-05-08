@@ -26,6 +26,7 @@ import {
     shopoholics,
     shelterium,
     hireIQ,
+    slideForge,
     coverflow
    } from "@public/projects/projectSources";
 
@@ -92,7 +93,7 @@ export const projects = [
       title: "SlideForge — AI-Powered Presentation Generator 🧠",
       description:
         "SlideForge transforms any topic into a polished, editable PowerPoint deck in under 30 seconds. Powered by Google Gemini AI and a Python FastAPI backend, it handles multi-language slide generation, async job polling, and one-click .pptx download — all without requiring an account. 🌐💬",
-      image: intellislide,
+      image: slideForge,
       tags: ["React", "Nextjs", "TailwindCSS", "Typescript", "ShadCn", "Python", "FastAPI", "AI"],
       category: "web app",
       kind: "fullstack" as const,

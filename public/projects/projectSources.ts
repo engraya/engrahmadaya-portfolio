@@ -34,9 +34,11 @@ import hirescape from "./hirescape.png"
 import genLetterai from "./genletter-ai.png"
 import hireIQ from "./hireIQ.png"
 import coverflow from "./coverflow.png"
+import slideForge from "./slideforge.png"
 
 export {
 echogram,
+slideForge,
 hireIQ,
 coverflow,
 talentmatch,
