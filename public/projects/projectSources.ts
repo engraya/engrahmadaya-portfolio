@@ -35,10 +35,12 @@ import genLetterai from "./genletter-ai.png"
 import hireIQ from "./hireIQ.png"
 import coverflow from "./coverflow.png"
 import slideForge from "./slideforge.png"
+import docupilot from "./docupilot.png"
 
 export {
 echogram,
 slideForge,
+docupilot,
 hireIQ,
 coverflow,
 talentmatch,

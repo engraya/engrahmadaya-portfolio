@@ -3,7 +3,6 @@ import {
     pagemark,
     talentmatch,
     codexai,
-    intellislide,
     echogram,
     remindly,
     creatifyAI,
@@ -20,14 +19,14 @@ import {
     codraft,
     medimatrix,
     snapsavvy,
-    midin ,
     detectify,
     motohub ,
     shopoholics,
     shelterium,
     hireIQ,
     slideForge,
-    coverflow
+    coverflow,
+    docupilot
    } from "@public/projects/projectSources";
 
 export type ProjectKind = "frontend" | "backend" | "fullstack";
@@ -66,6 +65,27 @@ export const projects = [
     },
     {
       id: 2,
+      title: "DocuPilot AI — AI-powered document generation platform",
+      description:
+        "DocuPilot AI is an AI-powered document automation SaaS that eliminates the friction of creating professional documents. Generate resumes, cover letters, proposals, contracts, and more with Gemini AI — then edit, export, and share them instantly.",
+      image: docupilot,
+      tags: [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "ShadCn UI",
+        "Supabase",
+        "Gemini AI",
+        "Stripe",
+      ],
+      category: "web app",
+      kind: "fullstack" as const,
+      github: "https://github.com/engraya/DocupilotAI",
+      webapp: "https://docupilot-ai-seven.vercel.app/",
+    },
+    {
+      id: 3,
       title: "HireIQ — Hiring and job discovery platform",
       description:
         "Full-stack Next.js + Express + MongoDB: listings, applications, and discovery flows with React Query on the client. Emphasis on responsive UX and reliable API integration.",
@@ -77,7 +97,7 @@ export const projects = [
       webapp: "https://hire-iq-123.vercel.app/",
     },
     {
-      id: 3,
+      id: 4,
       title: "CoverFlow — AI cover letters tailored to job posts",
       description:
         "CoverFlow AI is an AI-powered cover letter generation platform built to simplify one of the most frustrating parts of the job application process — writing personalized cover letters for every role.",
@@ -89,7 +109,7 @@ export const projects = [
       webapp: "https://cover-flow.vercel.app/",
     },
     {
-      id: 4,
+      id: 5,  
       title: "SlideForge — AI-Powered Presentation Generator 🧠",
       description:
         "SlideForge transforms any topic into a polished, editable PowerPoint deck in under 30 seconds. Powered by Google Gemini AI and a Python FastAPI backend, it handles multi-language slide generation, async job polling, and one-click .pptx download — all without requiring an account. 🌐💬",
@@ -101,7 +121,7 @@ export const projects = [
       webapp: "https://slide-forge123.vercel.app/",
     },
     {
-      id: 5,
+        id: 6,
       title: "SlideTube-AI – Instantly Turn YouTube Videos into Presentations 🎥➡️",
       description:
         "SlideTube-AI transforms any YouTube video into a professional, editable presentation🌐💬",
@@ -113,7 +133,7 @@ export const projects = [
       webapp: "https://slidetube-ai.vercel.app/",
     },
     {
-      id: 6,
+      id: 7,
       title: "Echogram – Explore Life Through an Interactive Social Feed 📸🎥🌍",
       description:
         "Share your moments with friends and the world through stunning images and posts 🌐💬",
@@ -125,7 +145,7 @@ export const projects = [
       webapp: "https://echogram-io.vercel.app/",
     },
     {
-      id: 7,
+      id: 8,
       title: "CodexAI – Instantly Generate Production-Ready Components with AI ⚛️💡",
       description:
         "With the power of AI, Turn your ideas into clean, production-ready code components with just a prompt.",
@@ -137,7 +157,7 @@ export const projects = [
       webapp: "https://codex-ai-phi-two.vercel.app/",
     },
     {
-      id: 8,
+      id: 9,
       title: "Medimatrix – Patient Record & Appointment Management System 🏥📋🩺",
       description:
         "Manage Patient's records, appointments, and more—all in one place",
@@ -149,7 +169,7 @@ export const projects = [
       webapp: "https://medimatrix.vercel.app/",
     },
     {
-      id: 9,
+      id: 10,
       title: "NetChat – AI-Powered Web Interaction Assistant 🤖💬🌐",
       description:
         "NetChat is an innovative AI-powered app that transforms how you interact with websites.",
@@ -161,7 +181,7 @@ export const projects = [
       webapp: "https://netchat-io.vercel.app/",
     },
     {
-      id: 10,
+      id: 11,
       title: "Detectify-AI – Real-Time Object Detection Powered by AI 🎯🧠📷",
       description:
         "Discover the future of object detection with Detectify AI.",
@@ -173,7 +193,7 @@ export const projects = [
       webapp: "https://detectify-ai.vercel.app/",
     },
     {
-      id: 11,
+      id: 12,
       title: "PennyPlan – Smart Finance Management with AI-Powered Insights 💰📊🤖",
       description:
         "Manage your finances effortlessly with AI-powered insights and personalized financial advice",
@@ -185,7 +205,7 @@ export const projects = [
       webapp: "https://pennyplan.vercel.app/",
     },
     {
-      id: 12,
+      id: 13,
       title: "PlanVault – Simplify Subscription Management & Payments 💼⚙️",
       description:
         "Fantastic UI/UX Payment platform that automates billing, invoicing, and subscription management for businesses.",
@@ -197,7 +217,7 @@ export const projects = [
       webapp: "https://planvault.vercel.app/",
     },
     {
-      id: 13,
+      id: 14,
       title: "Thankful Art – Create Personalized Thank You Cards in Seconds ✨💌🎨",
       description:
         "ThankfulArt is a web app designed to help you Create Your Perfect Thank You Card in Seconds",
@@ -209,7 +229,7 @@ export const projects = [
       webapp: "https://thankfulart.vercel.app/",
     },
     {
-      id: 14,
+      id: 15,
       title: "Creatify_AI – Instantly Generate SEO-Friendly Content for Web 🧠✍️🚀",
       description:
         "Creatify_AI empowers businesses, marketers, and creators with high-quality, SEO-friendly contents in seconds",
@@ -221,7 +241,7 @@ export const projects = [
       webapp: "https://creatify-ai-pro.vercel.app/",
     },
     {
-      id: 15,
+      id: 16,
       title: "Motohub – Explore the World’s Sleekest, Most Stylish Cars 🌍🚗🔥b",
       description:
         "MotoHub - the hottest spot on the web to explore sleek, stylish, and cutting-edge cars from around the globe! 🌐🔥",
@@ -233,7 +253,7 @@ export const projects = [
       webapp: "https://motohub-io.vercel.app/",
     },
     {
-      id: 16,
+      id: 17,
       title: "Shelterium – Buy, Rent & Sell Properties with Real Estate App 🏠🔑📱",
       description:
         "Shelterium, the ultimate real estate app for buying, renting, and selling properties. 🏠🔑✨🌟",
@@ -245,7 +265,7 @@ export const projects = [
       webapp: "https://shelterium.vercel.app/",
     },
     {
-      id: 17,
+      id: 18,
       title: "QuickSumAI – Instantly Summarize Long Articles with AI 🧠📄⚡",
       description:
         "🌐 QuickSum AI is here to transform how you consume content!, a go-to solution for summarizing long articles in seconds. ⏳",
@@ -257,7 +277,7 @@ export const projects = [
       webapp: "https://quicksum-ai.vercel.app/",
     },
     {
-      id: 18,
+      id: 19,
       title: "CoinStream – Real-Time Crypto Stats, Market Trends & Coin Insight 💹🪙",
       description:
         "Explore detailed information on a wide range of coins, from market capitalization to trading volume.",
@@ -269,7 +289,7 @@ export const projects = [
       webapp: "https://coinstream.vercel.app/",
     },
       {
-      id: 19,
+      id: 20,
       title: "Shopoholics – Ecommerce App for Seamless Online Shopping 🛍️🛒⚙️",
       description:
         "Shopoholics, an open-source Fullstack ecommerce app designed to revolutionize your online shopping experience! 🛒",
@@ -281,7 +301,7 @@ export const projects = [
       webapp: "https://shopoholics.vercel.app/",
     },
     {
-      id: 20,
+      id: 21,
       title: "PromptHub – Discover, Organize & Share AI Prompts Effortlessly 💡📚🤖",
       description:
         "The ultimate platform for generating, sharing, and discovering prompts for every need",
@@ -291,18 +311,6 @@ export const projects = [
       kind: "frontend" as const,
       github: "https://github.com/engraya/PromptHub",
       webapp: "https://prompthub-io.vercel.app/",
-    },
-    {
-      id: 21,
-      title: "Midin Project – Saving Communities Through Humanitarian Action 🌍❤️🤝",
-      description:
-        "Web Application for a dedicated humanitarian organization committed to creating positive change in communities.",
-      image: midin,
-      tags: ["React", "Tailwind", "Javascript"],
-      category: "web app",
-      kind: "frontend" as const,
-      github: "https://github.com/engraya/MIDIN-Org-Web-Project",
-      webapp: "https://midin.vercel.app/",
     },
     {
       id: 22,
