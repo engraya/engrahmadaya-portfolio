@@ -36,9 +36,11 @@ import hireIQ from "./hireIQ.png"
 import coverflow from "./coverflow.png"
 import slideForge from "./slideforge.png"
 import docupilot from "./docupilot.png"
+import nutrimindAI from "./nutrimind-ai.png"
 
 export {
 echogram,
+nutrimindAI,
 slideForge,
 docupilot,
 hireIQ,
