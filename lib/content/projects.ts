@@ -169,43 +169,6 @@ export const projects = [
     },
     {
       id: 9,
-      title: "Echogram – Explore Life Through an Interactive Social Feed 📸🎥🌍",
-      description:
-        "Share your moments with friends and the world through stunning images and posts 🌐💬",
-      image: echogram,
-      tags: ["React", "Appwrite", "TailwindCSS", "Typescript", "TanstackQuery"],
-      category: "web app",
-      kind: "frontend" as const,
-      github: "https://github.com/engraya/echogram",
-      webapp: "https://echogram-io.vercel.app/",
-    },
- 
-    {
-      id: 10,
-      title: "NetChat – AI-Powered Web Interaction Assistant 🤖💬🌐",
-      description:
-        "NetChat is an innovative AI-powered app that transforms how you interact with websites.",
-      image: netchat,
-      tags: ["Nextjs", "Typescript", "TailwindCSS", "Shadcn UI", "Clerk", "Vercel AI SDK", "UPSTASH"],
-      category: "web app",
-      kind: "frontend" as const,
-      github: "https://github.com/engraya/netchat",
-      webapp: "https://netchat-io.vercel.app/",
-    },
-    {
-      id: 11,
-      title: "Detectify-AI – Real-Time Object Detection Powered by AI 🎯🧠📷",
-      description:
-        "Discover the future of object detection with Detectify AI.",
-      image: detectify,
-      tags: ["Nextjs", "Typescript", "TailwindCSS", "Threejs", "Tensorflowjs"],
-      category: "web app",
-      kind: "frontend" as const,
-      github: "https://github.com/engraya/detectify-ai",
-      webapp: "https://detectify-ai.vercel.app/",
-    },
-    {
-      id: 12,
       title: "PennyPlan – Smart Finance Management with AI-Powered Insights 💰📊🤖",
       description:
         "Manage your finances effortlessly with AI-powered insights and personalized financial advice",
@@ -217,31 +180,7 @@ export const projects = [
       webapp: "https://pennyplan.vercel.app/",
     },
     {
-      id: 13,
-      title: "PlanVault – Simplify Subscription Management & Payments 💼⚙️",
-      description:
-        "Fantastic UI/UX Payment platform that automates billing, invoicing, and subscription management for businesses.",
-      image: planvault,
-      tags: ["Nextjs", "Typescript", "TailwindCSS", "Stripe"],
-      category: "web app",
-      kind: "frontend" as const,
-      github: "https://github.com/engraya/PlanVault",
-      webapp: "https://planvault.vercel.app/",
-    },
-    {
-      id: 14,
-      title: "Thankful Art – Create Personalized Thank You Cards in Seconds ✨💌🎨",
-      description:
-        "ThankfulArt is a web app designed to help you Create Your Perfect Thank You Card in Seconds",
-      image: thankfulart,
-      tags: ["Nextjs", "Typescript", "TailwindCSS", "Shadcn UI"],
-      category: "web app",
-      kind: "frontend" as const,
-      github: "https://github.com/engraya/thankful_art",
-      webapp: "https://thankfulart.vercel.app/",
-    },
-    {
-      id: 15,
+      id: 10,
       title: "Creatify_AI – Instantly Generate SEO-Friendly Content for Web 🧠✍️🚀",
       description:
         "Creatify_AI empowers businesses, marketers, and creators with high-quality, SEO-friendly contents in seconds",
@@ -253,7 +192,7 @@ export const projects = [
       webapp: "https://creatify-ai-pro.vercel.app/",
     },
     {
-      id: 16,
+      id: 11,
       title: "Motohub – Explore the World’s Sleekest, Most Stylish Cars 🌍🚗🔥b",
       description:
         "MotoHub - the hottest spot on the web to explore sleek, stylish, and cutting-edge cars from around the globe! 🌐🔥",
@@ -265,7 +204,7 @@ export const projects = [
       webapp: "https://motohub-io.vercel.app/",
     },
     {
-      id: 17,
+      id: 12,
       title: "Shelterium – Buy, Rent & Sell Properties with Real Estate App 🏠🔑📱",
       description:
         "Shelterium, the ultimate real estate app for buying, renting, and selling properties. 🏠🔑✨🌟",
@@ -277,7 +216,7 @@ export const projects = [
       webapp: "https://shelterium.vercel.app/",
     },
     {
-      id: 18,
+      id: 13,
       title: "QuickSumAI – Instantly Summarize Long Articles with AI 🧠📄⚡",
       description:
         "🌐 QuickSum AI is here to transform how you consume content!, a go-to solution for summarizing long articles in seconds. ⏳",
@@ -289,7 +228,7 @@ export const projects = [
       webapp: "https://quicksum-ai.vercel.app/",
     },
     {
-      id: 19,
+      id: 14,
       title: "CoinStream – Real-Time Crypto Stats, Market Trends & Coin Insight 💹🪙",
       description:
         "Explore detailed information on a wide range of coins, from market capitalization to trading volume.",
@@ -301,7 +240,7 @@ export const projects = [
       webapp: "https://coinstream.vercel.app/",
     },
       {
-      id: 20,
+      id: 15,
       title: "Shopoholics – Ecommerce App for Seamless Online Shopping 🛍️🛒⚙️",
       description:
         "Shopoholics, an open-source Fullstack ecommerce app designed to revolutionize your online shopping experience! 🛒",
@@ -312,32 +251,8 @@ export const projects = [
       github: "https://github.com/engraya/shopoHolics",
       webapp: "https://shopoholics.vercel.app/",
     },
-    {
-      id: 21,
-      title: "PromptHub – Discover, Organize & Share AI Prompts Effortlessly 💡📚🤖",
-      description:
-        "The ultimate platform for generating, sharing, and discovering prompts for every need",
-      image: promptHub,
-      tags: ["Nextjs", "Typescript", "Tailwind", "Next-Auth", "Shadcn UI"],
-      category: "web app",
-      kind: "frontend" as const,
-      github: "https://github.com/engraya/PromptHub",
-      webapp: "https://prompthub-io.vercel.app/",
-    },
-    {
-      id: 22,
-      title: "OrbitStaff – Smart Workforce & Staff Management Made Simple 🧑‍💼📊🚀",
-      description:
-        "OrbitStaff is a modern staff management solution designed to simplify how businesses manage workforce data.",
-      image: orbitstaff,
-      tags: ["React", "TailwindCSS", "Typescript", "Redux"],
-      category: "web app",
-      kind: "frontend" as const,
-      github: "https://github.com/engraya/orbitStaff",
-      webapp: "https://orbitstaff.vercel.app/",
-    },
       {
-      id: 23,
+      id: 16,
       title: "Remidly – Smart Task & Reminder App to Organize Your Life ⏰📝✅",
       description:
         "Organize, prioritize, and conquer your to-dos with ease, whether it’s work, personal tasks, or long-term goals.",
@@ -348,20 +263,8 @@ export const projects = [
       github: "https://github.com/engraya/remindly",
       webapp: "https://remindly-io.vercel.app/",  
     },
-        {
-      id: 24,
-      title: "TalentMatchAI – AI-Powered Intelligent Job Matching App",
-      description:
-        " TalentMatchAI analyzes your skills, matches them with the best job opportunities, and even helps you apply – all in one seamless experience! 🔍✨",
-      image: talentmatch,
-      tags: ["Nextjs", "Typescript", "TailwindCSS", "Shadcn UI", "AI", "Zustand"],
-      category: "web app",
-      kind: "frontend" as const,
-      github: "https://github.com/engraya/TalentMatch-AI",
-      webapp: "https://talent-match-ai-jade.vercel.app/",
-    },
       {
-      id: 25,
+      id: 17,
       title: "Snapsavvy - Optimize your Photos Powered by AI 📷",
       description:
         " AI-powered application designed to revolutionize the way you enhance and restore your photos.",
@@ -373,7 +276,7 @@ export const projects = [
       webapp: "https://snapsavvy.vercel.app/",
     },
     {
-      id: 26,
+      id: 18,
       title: "Core Post Backend — blog & engagement API",
       description: "Versioned Express REST API (`/api/v1`) for posts, nested comments, likes, and bookmarks on MongoDB. Users register and verify email via OTP email (Nodemailer); JWT protects mutations, with an extra database-backed verified-email check for write operations. List endpoints support query pagination (`page`), and auth-sensitive routes use express-rate-limit. Vitest and Supertest cover HTTP behavior against MongoDB when available.",
       image: pagemark,
@@ -422,7 +325,7 @@ export const projects = [
       ]
     },
     {
-      id: 27,
+      id: 19,
       title: "Jobnest API — job board backend",
       description:
         "REST API for job postings and applications built with Express and TypeScript. Mongoose models link users to jobs they create and jobs they apply to, with JWT-based sessions and role checks for admin-only user deletion. Request bodies for registration and login are validated with Joi; passwords are hashed with bcrypt. Routes are grouped under /api and /api/auth. No OpenAPI spec or health-check route is present in the repository.",
@@ -476,7 +379,7 @@ export const projects = [
       ]
     },
     {
-      id: 28,
+      id: 20,
       title: "SlideForge API",
       description: "SlideForge is a production-grade RESTful API built with FastAPI and Python 3.12 that automates AI-powered PowerPoint generation. It exposes an async job-queue pattern — clients POST a topic and receive a job ID immediately (202 Accepted), then poll for completion before downloading the generated .pptx file. Slide content is synthesized by the Google Gemini API (JSON-mode, gemini-2.0-flash-preview) with configurable language, theme, and slide count. The generated files are assembled using python-pptx with three built-in themes (Professional, Minimal, Vibrant) and served as binary file responses with server-side path-traversal protection. The service layer follows dependency injection via LRU-cached FastAPI dependencies, structured JSON logging, custom exception hierarchy with typed error codes, per-IP rate limiting via slowapi, and a multi-stage Docker build running as a non-root user. No OpenAPI/Swagger UI is exposed in production (docs are disabled). A GitHub Actions CI/CD pipeline covers linting (ruff), static type checking (mypy), test coverage (pytest + httpx), and Docker image build.",
       image: "placeholderImageVariable",
