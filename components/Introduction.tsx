@@ -65,14 +65,12 @@ function Introduction() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I&rsquo;m Ahmad, </span>a{" "}
+        <span className="font-bold">Hi, I&rsquo;m Ahmad</span> &mdash; a{" "}
         <span className="font-bold">Fullstack Engineer</span> with{" "}
-        <span className="font-bold">4 years</span> of experience. I enjoy
-        building <span className="italic">robust, scalable products</span>. My stack is{" "}
-        <span className="underline">
-          React, Next.js, TypeScript, Node.js, Express, Postgres & TailwindCSS
-        </span>
-        .
+        <span className="font-bold">4+ years</span> of experience building{" "}
+        <span className="italic">modern SaaS platforms</span>,{" "}
+        <span className="italic">AI-integrated applications</span>, and{" "}
+        <span className="underline">scalable web systems</span>.
       </motion.h1>
 
       <motion.div

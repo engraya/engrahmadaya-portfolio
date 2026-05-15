@@ -19,23 +19,36 @@ function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3 text-gray-700 dark:text-gray-200">
-        After a degree in{" "}
-        <span className="font-medium">Civil Engineering</span>, I moved into software
-        engineering—the same discipline applied differently: clear requirements, solid
-        structure, and reliable delivery.{" "}
-        <span className="italic">What I enjoy most</span> is narrowing down ambiguous
-        problems and shipping maintainable solutions. My core stack is{" "}
+        I&apos;m a <span className="font-medium">Fullstack Engineer</span> passionate
+        about building scalable, high-performance web applications and{" "}
+        <span className="font-medium">AI-powered products</span> that solve real-world
+        problems.{" "}
+        <span className="italic">I enjoy</span> turning ambiguous ideas into
+        maintainable, production-ready systems with clean architecture and excellent
+        user experience.
+      </p>
+      <p className="mb-3 text-gray-700 dark:text-gray-200">
+        I specialize in building AI-powered web applications using{" "}
         <span className="font-medium">
-          React, Next.js, TypeScript, and Tailwind CSS
+          React, Next.js, TypeScript, Node.js, and Tailwind CSS
         </span>
-        , shipping React/Next.js frontends and Node/Express/Postgres APIs end-to-end,
-        with DevOps and AI-assisted workflows.
-        Recent work includes{" "}
+        , delivering everything from modern frontend systems to scalable backend APIs
+        and intelligent automation workflows. My work spans SaaS platforms, dashboards,
+        document automation systems, recruitment platforms, and AI-integrated
+        applications.
+      </p>
+      <p className="mb-3 text-gray-700 dark:text-gray-200">
+        Recently, I&apos;ve worked as a{" "}
         <span className="font-bold italic">Frontend Developer</span> at{" "}
-        <span className="font-bold italic">DAXAP AS</span>; I am also an{" "}
+        <span className="font-bold italic">DAXAP AS</span> and as an{" "}
         <span className="font-bold italic">Associate Software Engineer</span> at{" "}
-        <span className="font-bold italic">T40 Technologies</span>. I care about
-        collaboration, code quality, and user-visible outcomes.
+        <span className="font-bold italic">T40 Technologies</span>, collaborating with
+        teams to ship high-performance products with strong focus on performance
+        optimization, scalability, and code quality.
+      </p>
+      <p className="mb-3 text-gray-700 dark:text-gray-200">
+        I care deeply about collaboration, developer experience, scalable system design,
+        and building software that creates real user impact.
       </p>
     </motion.section>
   )
