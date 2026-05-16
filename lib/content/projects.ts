@@ -1,24 +1,15 @@
 import { 
     aiPrompts,
-    pagemark,
-    talentmatch,
-    echogram,
+    precisAi,
     remindly,
     creatifyAI,
     pennyplan,
     coinstream,
-    netchat,
-    orbitstaff,
-    quickSumAi,
-    planvault, 
     delectable,
     slideTubeAi,
-    promptHub,
-    thankfulart,
     codraft,
     medimatrix,
     snapsavvy,
-    detectify,
     motohub ,
     shopoholics,
     shelterium,
@@ -132,7 +123,19 @@ export const projects = [
       webapp: "https://slide-forge123.vercel.app/",
     },
     {
-        id: 6,
+      id: 6,
+      title: "Précis — AI-powered article summarizer built for the internet age. 🧠📄⚡",
+      description:
+        "🌐 Précis is an AI-powered article summarization web application that transforms long-form online content into concise, easy-to-read summaries in seconds.⏳",
+      image: precisAi,
+      tags: ["React", "Typescript", "TailwindCSS", "Redux Toolkit", "Gemini AI"],
+      category: "web app",
+      kind: "frontend" as const,
+      github: "https://github.com/engraya/Pr-cis",
+      webapp: "https://precis-ai-123.vercel.app/",
+    },
+    {
+        id: 7,
       title: "SlideTube-AI – Instantly Turn YouTube Videos into Presentations 🎥➡️",
       description:
         "SlideTube-AI transforms any YouTube video into a professional, editable presentation🌐💬",
@@ -144,7 +147,7 @@ export const projects = [
       webapp: "https://slidetube-ai.vercel.app/",
     },
     {
-      id: 7,
+      id: 8,
       title: "HireIQ — Hiring and job discovery platform",
       description:
         "Full-stack Next.js + Express + MongoDB: listings, applications, and discovery flows with React Query on the client. Emphasis on responsive UX and reliable API integration.",
@@ -156,7 +159,7 @@ export const projects = [
       webapp: "https://hire-iq-123.vercel.app/",
     },
        {
-      id: 8,
+      id: 9,
       title: "Medimatrix – Patient Record & Appointment Management System 🏥📋🩺",
       description:
         "Manage Patient's records, appointments, and more—all in one place",
@@ -168,7 +171,7 @@ export const projects = [
       webapp: "https://medimatrix.vercel.app/",
     },
     {
-      id: 9,
+      id: 10,
       title: "PennyPlan – Smart Finance Management with AI-Powered Insights 💰📊🤖",
       description:
         "Manage your finances effortlessly with AI-powered insights and personalized financial advice",
@@ -180,7 +183,7 @@ export const projects = [
       webapp: "https://pennyplan.vercel.app/",
     },
     {
-      id: 10,
+      id: 11,
       title: "Creatify_AI – Instantly Generate SEO-Friendly Content for Web 🧠✍️🚀",
       description:
         "Creatify_AI empowers businesses, marketers, and creators with high-quality, SEO-friendly contents in seconds",
@@ -192,7 +195,7 @@ export const projects = [
       webapp: "https://creatify-ai-pro.vercel.app/",
     },
     {
-      id: 11,
+      id: 12,
       title: "Motohub – Explore the World’s Sleekest, Most Stylish Cars 🌍🚗🔥b",
       description:
         "MotoHub - the hottest spot on the web to explore sleek, stylish, and cutting-edge cars from around the globe! 🌐🔥",
@@ -204,7 +207,7 @@ export const projects = [
       webapp: "https://motohub-io.vercel.app/",
     },
     {
-      id: 12,
+      id: 13,
       title: "Shelterium – Buy, Rent & Sell Properties with Real Estate App 🏠🔑📱",
       description:
         "Shelterium, the ultimate real estate app for buying, renting, and selling properties. 🏠🔑✨🌟",
@@ -214,18 +217,6 @@ export const projects = [
       kind: "frontend" as const,
       github: "https://github.com/engraya/Shelterium",
       webapp: "https://shelterium.vercel.app/",
-    },
-    {
-      id: 13,
-      title: "QuickSumAI – Instantly Summarize Long Articles with AI 🧠📄⚡",
-      description:
-        "🌐 QuickSum AI is here to transform how you consume content!, a go-to solution for summarizing long articles in seconds. ⏳",
-      image: quickSumAi,
-      tags: ["React", "Typescript", "TailwindCSS", "Redux", "Redux Toolkit"],
-      category: "web app",
-      kind: "frontend" as const,
-      github: "https://github.com/engraya/QuickSum-AI",
-      webapp: "https://quicksum-ai.vercel.app/",
     },
     {
       id: 14,
@@ -279,7 +270,7 @@ export const projects = [
       id: 18,
       title: "Core Post Backend — blog & engagement API",
       description: "Versioned Express REST API (`/api/v1`) for posts, nested comments, likes, and bookmarks on MongoDB. Users register and verify email via OTP email (Nodemailer); JWT protects mutations, with an extra database-backed verified-email check for write operations. List endpoints support query pagination (`page`), and auth-sensitive routes use express-rate-limit. Vitest and Supertest cover HTTP behavior against MongoDB when available.",
-      image: pagemark,
+      image: aiPrompts,
       tags: [
         "Node.js",
         "TypeScript",

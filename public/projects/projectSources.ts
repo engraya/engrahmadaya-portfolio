@@ -20,7 +20,6 @@ import polyglotter from "./polyglotterproj.png"
 import echogram from "./echogram.png"
 import promptHub from "./promptHub.png"
 import planvault from "./planvault.png"
-import pagemark from "./pagemark.png"
 import postcraftai from "./postcraftai.png" 
 import detectify from "./detectify.png"
 import remindly from "./remindly.png"
@@ -37,10 +36,12 @@ import coverflow from "./coverflow.png"
 import slideForge from "./slideforge.png"
 import docupilot from "./docupilot.png"
 import nutrimindAI from "./nutrimind-ai.png"
+import precisAi from "./precis.png"
 
 export {
 echogram,
 nutrimindAI,
+precisAi,
 slideForge,
 docupilot,
 hireIQ,
@@ -56,7 +57,6 @@ slideTubeAi,
 detectify,
 remindly,
 postcraftai,
-pagemark,
 planvault,
 promptHub,
 polyglotter,
@@ -68,7 +68,6 @@ medimatrix,
 codraft,
 netchat,
 thankfulart,
-quickSumAi,
 aiPrompts,
 shelterium,
 shopoholics,
