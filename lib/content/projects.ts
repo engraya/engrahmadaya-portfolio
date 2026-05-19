@@ -208,11 +208,11 @@ export const projects = [
     },
     {
       id: 13,
-      title: "Shelterium – Buy, Rent & Sell Properties with Real Estate App 🏠🔑📱",
+      title: "Shelterium – AI Powered Real Estate App",
       description:
-        "Shelterium, the ultimate real estate app for buying, renting, and selling properties. 🏠🔑✨🌟",
+        "Shelterium is your AI-powered real estate platform for discovering, renting, and buying properties in Dubai. With intelligent search, smart price analysis, and verified listings — Shelterium makes finding your next home or investment effortless.",
       image: shelterium,
-      tags: ["Nextjs", "Typescript", "TailwindCSS", "React"],
+      tags: ["Nextjs", "Typescript", "TailwindCSS", "React", "AI"],
       category: "web app",
       kind: "frontend" as const,
       github: "https://github.com/engraya/Shelterium",
