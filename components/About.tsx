@@ -40,8 +40,8 @@ function About() {
       <p className="mb-3 text-gray-700 dark:text-gray-200">
         Recently, I&apos;ve worked as a{" "}
         <span className="font-bold italic">Frontend Developer</span> at{" "}
-        <span className="font-bold italic">DAXAP AS</span> and as an{" "}
-        <span className="font-bold italic">Associate Software Engineer</span> at{" "}
+        <span className="font-bold italic">DAXAP AS</span> and as a{" "}
+        <span className="font-bold italic">Software Engineer</span> at{" "}
         <span className="font-bold italic">T40 Technologies</span>, collaborating with
         teams to ship high-performance products with strong focus on performance
         optimization, scalability, and code quality.
