@@ -12,7 +12,7 @@ type EducationEntry = {
 };
 
 const cardShell =
-  "flex min-h-[20rem] sm:min-h-[22rem] w-full flex-col rounded-2xl border border-black/[0.06] dark:border-white/10 bg-gray-100 dark:bg-white/[0.05] shadow-sm transition-all duration-300 hover:shadow-md hover:border-black/10 dark:hover:border-white/[0.14]";
+  "flex w-full flex-col rounded-2xl border border-black/[0.06] dark:border-white/10 bg-gray-100 dark:bg-white/[0.05] shadow-sm transition-all duration-300 hover:shadow-md hover:border-black/10 dark:hover:border-white/[0.14]";
 
 function NextEducation({ education }: { readonly education: EducationEntry }) {
   return (
@@ -50,7 +50,7 @@ function NextEducation({ education }: { readonly education: EducationEntry }) {
               </div>
             </div>
           </div>
-          <div className="mt-5 flex min-h-0 flex-1 flex-col border-t border-gray-200/90 pt-5 dark:border-white/10">
+          <div className="mt-5 flex min-h-0 flex-1 flex-col pt-5 dark:border-white/10">
             {education.desc ? (
               <p className="text-sm leading-relaxed text-gray-600 dark:text-gray-400">
                 {education.desc}

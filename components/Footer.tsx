@@ -25,20 +25,11 @@ const Footer = () => {
         </a>
       </p>
       <small className="mb-3 block text-xs">
-        &copy; {new Date().getFullYear()} Ahmad Yakubu Ahmad. All rights reserved.
+        &copy; {new Date().getFullYear()}. All rights reserved.
       </small>
       <div className="flex gap-2 items-center justify-center text-center flex-wrap">
         <Link href={Bio.linkedin} target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="inline-flex mt-3 px-3 bg-cyan-200 py-3 rounded-full text-gray-800 outline-none transition hover:bg-cyan-300 focus-visible:ring-2 focus-visible:ring-emerald-400">
           <span className="flex items-center justify-center"><BsLinkedin /></span>
-        </Link>
-        <Link href={Bio.facebook} target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="inline-flex mt-3 px-3 bg-cyan-200 py-3 rounded-full text-gray-800 outline-none transition hover:bg-cyan-300 focus-visible:ring-2 focus-visible:ring-emerald-400">
-          <span className="flex items-center justify-center"><BsFacebook /></span>
-        </Link>
-        <Link href={Bio.twitter} target="_blank" rel="noopener noreferrer" aria-label="Twitter" className="inline-flex mt-3 px-3 bg-cyan-200 py-3 rounded-full text-gray-800 outline-none transition hover:bg-cyan-300 focus-visible:ring-2 focus-visible:ring-emerald-400">
-          <span className="flex items-center justify-center"><BsTwitter /></span>
-        </Link>
-        <Link href={Bio.instagram} target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="inline-flex mt-3 px-3 bg-cyan-200 py-3 rounded-full text-gray-800 outline-none transition hover:bg-cyan-300 focus-visible:ring-2 focus-visible:ring-emerald-400">
-          <span className="flex items-center justify-center"><BsInstagram /></span>
         </Link>
         <Link href={Bio.github} target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="inline-flex mt-3 px-3 bg-cyan-200 py-3 rounded-full text-gray-800 outline-none transition hover:bg-cyan-300 focus-visible:ring-2 focus-visible:ring-emerald-400">
           <span className="flex items-center justify-center"><BsGithub /></span>

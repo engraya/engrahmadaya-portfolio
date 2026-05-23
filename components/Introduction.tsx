@@ -81,17 +81,6 @@ function Introduction() {
           delay: 0.1,
         }}
       >
-        {/* <Link
-          href="#contact"
-          className="group bg-gradient-to-r from-emerald-300 to-blue-500 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none transition focus-visible:ring-2 focus-visible:ring-emerald-400 focus-visible:ring-offset-2 motion-safe:hover:scale-105 motion-safe:active:scale-100 dark:ring-offset-gray-900"
-          onClick={() => {
-            setActiveSection("Contact");
-            setTimeOfLastClick(Date.now());
-          }}
-        >
-          Contact me{" "}
-          <SiWechat className="opacity-70 group-hover:translate-x-1 transition" />
-        </Link> */}
 
         <a
           className="group bg-gradient-to-r from-emerald-300 to-blue-500 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none transition cursor-pointer borderBlack dark:bg-white/10 focus-visible:ring-2 focus-visible:ring-emerald-400 focus-visible:ring-offset-2 motion-safe:hover:scale-105 dark:ring-offset-gray-900"

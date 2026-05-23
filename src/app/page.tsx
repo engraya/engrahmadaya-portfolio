@@ -22,9 +22,9 @@ export default function Home() {
     <Skills />
     <NextExperience />
     <HowIWork />
-    <GotoCertificates />
+    {/* <GotoCertificates /> */}
     <Education />
-    <Membership/>
+    {/* <Membership/> */}
     {/* <Contact /> */}
     </main>
   );

@@ -27,14 +27,14 @@ export const links = [
       name: "Education",
       hash: "#education",
     },
-    {
-      name: "Certifications",
-      hash: "#certifications",
-    },
-    {
-      name: "Memberships",
-      hash: "#memberships",
-    },
+    // {
+    //   name: "Certifications",
+    //   hash: "#certifications",
+    // },
+    // {
+    //   name: "Memberships",
+    //   hash: "#memberships",
+    // },
     // {
     //   name: "Contact",
     //   hash: "#contact",
