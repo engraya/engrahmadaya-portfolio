@@ -135,7 +135,19 @@ export const projects = [
       webapp: "https://precis-ai-123.vercel.app/",
     },
     {
-        id: 7,
+      id: 7,
+      title: "Remindly – Smart AI Task & Reminder App to Organize Your Life ⏰📝✅",
+      description:
+        "Remindly is a focused productivity app that lets you organize tasks into color-coded collections, track completion progress at a glance, and create tasks from plain English",
+      image: remindly,
+      tags: ["React", "Nexjs", "Typescript", "TailwindCSS", "PostgreSQL", "ShadCnUI", "Clerk", "NeonDB"],
+      category: "web app",
+      kind: "fullstack" as const,
+      github: "https://github.com/engraya/remindly",
+      webapp: "https://remindly-io.vercel.app/",  
+    },
+    {
+        id: 8,
       title: "SlideTube-AI – Instantly Turn YouTube Videos into Presentations 🎥➡️",
       description:
         "SlideTube-AI transforms any YouTube video into a professional, editable presentation🌐💬",
@@ -147,7 +159,7 @@ export const projects = [
       webapp: "https://slidetube-ai.vercel.app/",
     },
     {
-      id: 8,
+      id: 9,
       title: "HireIQ — Hiring and job discovery platform",
       description:
         "Full-stack Next.js + Express + MongoDB: listings, applications, and discovery flows with React Query on the client. Emphasis on responsive UX and reliable API integration.",
@@ -159,7 +171,7 @@ export const projects = [
       webapp: "https://hire-iq-123.vercel.app/",
     },
        {
-      id: 9,
+      id: 10,
       title: "Medimatrix – Patient Record & Appointment Management System 🏥📋🩺",
       description:
         "Manage Patient's records, appointments, and more—all in one place",
@@ -171,7 +183,7 @@ export const projects = [
       webapp: "https://medimatrix.vercel.app/",
     },
     {
-      id: 10,
+      id: 11,
       title: "PennyPlan – Smart Finance Management with AI-Powered Insights 💰📊🤖",
       description:
         "Manage your finances effortlessly with AI-powered insights and personalized financial advice",
@@ -183,7 +195,7 @@ export const projects = [
       webapp: "https://pennyplan.vercel.app/",
     },
     {
-      id: 11,
+      id: 12,
       title: "Creatify_AI – Instantly Generate SEO-Friendly Content for Web 🧠✍️🚀",
       description:
         "Creatify_AI empowers businesses, marketers, and creators with high-quality, SEO-friendly contents in seconds",
@@ -195,7 +207,7 @@ export const projects = [
       webapp: "https://creatify-ai-pro.vercel.app/",
     },
     {
-      id: 12,
+      id: 13,
       title: "Motohub – Explore the World’s Sleekest, Most Stylish Cars 🌍🚗🔥b",
       description:
         "MotoHub - the hottest spot on the web to explore sleek, stylish, and cutting-edge cars from around the globe! 🌐🔥",
@@ -207,7 +219,7 @@ export const projects = [
       webapp: "https://motohub-io.vercel.app/",
     },
     {
-      id: 13,
+      id: 14,
       title: "Shelterium – AI Powered Real Estate App",
       description:
         "Shelterium is your AI-powered real estate platform for discovering, renting, and buying properties in Dubai. With intelligent search, smart price analysis, and verified listings — Shelterium makes finding your next home or investment effortless.",
@@ -219,7 +231,7 @@ export const projects = [
       webapp: "https://shelterium.vercel.app/",
     },
     {
-      id: 14,
+      id: 15,
       title: "CoinStream – Real-Time Crypto Stats, Market Trends & Coin Insight 💹🪙",
       description:
         "Explore detailed information on a wide range of coins, from market capitalization to trading volume.",
@@ -231,7 +243,7 @@ export const projects = [
       webapp: "https://coinstream.vercel.app/",
     },
       {
-      id: 15,
+      id: 16,
       title: "Shopoholics – Ecommerce App for Seamless Online Shopping 🛍️🛒⚙️",
       description:
         "Shopoholics, an open-source Fullstack ecommerce app designed to revolutionize your online shopping experience! 🛒",
@@ -241,18 +253,6 @@ export const projects = [
       kind: "frontend" as const,
       github: "https://github.com/engraya/shopoHolics",
       webapp: "https://shopoholics.vercel.app/",
-    },
-      {
-      id: 16,
-      title: "Remidly – Smart Task & Reminder App to Organize Your Life ⏰📝✅",
-      description:
-        "Organize, prioritize, and conquer your to-dos with ease, whether it’s work, personal tasks, or long-term goals.",
-      image: remindly,
-      tags: ["React", "Nexjs", "Typescript", "TailwindCSS", "PostgreSQL", "ShadCnUI", "Clerk", "NeonDB"],
-      category: "web app",
-      kind: "frontend" as const,
-      github: "https://github.com/engraya/remindly",
-      webapp: "https://remindly-io.vercel.app/",  
     },
       {
       id: 17,
