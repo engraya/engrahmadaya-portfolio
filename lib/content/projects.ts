@@ -136,6 +136,18 @@ export const projects = [
     },
     {
       id: 7,
+      title: "PennyPlan – Smart Finance Management with AI-Powered Insights 💰📊🤖",
+      description:
+        "Manage your finances effortlessly with AI-powered insights and personalized financial advice",
+      image: pennyplan,
+      tags: ["Nextjs", "Typescript", "TailwindCSS", "Shadcn UI", "Drizzle", "PostgreSQL", "AI"],
+      category: "web app",
+      kind: "fullstack" as const,
+      github: "https://github.com/engraya/pennyplan",
+      webapp: "https://pennyplan.vercel.app/",
+    },
+    {
+      id: 8,
       title: "Remindly – Smart AI Task & Reminder App to Organize Your Life ⏰📝✅",
       description:
         "Remindly is a focused productivity app that lets you organize tasks into color-coded collections, track completion progress at a glance, and create tasks from plain English",
@@ -147,7 +159,7 @@ export const projects = [
       webapp: "https://remindly-io.vercel.app/",  
     },
     {
-        id: 8,
+        id: 9,
       title: "SlideTube-AI – Instantly Turn YouTube Videos into Presentations 🎥➡️",
       description:
         "SlideTube-AI transforms any YouTube video into a professional, editable presentation🌐💬",
@@ -159,7 +171,7 @@ export const projects = [
       webapp: "https://slidetube-ai.vercel.app/",
     },
     {
-      id: 9,
+      id: 10,
       title: "HireIQ — Hiring and job discovery platform",
       description:
         "Full-stack Next.js + Express + MongoDB: listings, applications, and discovery flows with React Query on the client. Emphasis on responsive UX and reliable API integration.",
@@ -171,7 +183,7 @@ export const projects = [
       webapp: "https://hire-iq-123.vercel.app/",
     },
        {
-      id: 10,
+      id: 11,
       title: "Medimatrix – Patient Record & Appointment Management System 🏥📋🩺",
       description:
         "Manage Patient's records, appointments, and more—all in one place",
@@ -182,18 +194,7 @@ export const projects = [
       github: "https://github.com/engraya/medimatrix",
       webapp: "https://medimatrix.vercel.app/",
     },
-    {
-      id: 11,
-      title: "PennyPlan – Smart Finance Management with AI-Powered Insights 💰📊🤖",
-      description:
-        "Manage your finances effortlessly with AI-powered insights and personalized financial advice",
-      image: pennyplan,
-      tags: ["Nextjs", "Typescript", "TailwindCSS", "Shadcn UI", "Drizzle", "PostgreSQL"],
-      category: "web app",
-      kind: "frontend" as const,
-      github: "https://github.com/engraya/pennyplan",
-      webapp: "https://pennyplan.vercel.app/",
-    },
+
     {
       id: 12,
       title: "Creatify_AI – Instantly Generate SEO-Friendly Content for Web 🧠✍️🚀",
