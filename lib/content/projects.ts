@@ -140,7 +140,7 @@ export const projects = [
       description:
         "Manage your finances effortlessly with AI-powered insights and personalized financial advice",
       image: pennyplan,
-      tags: ["Nextjs", "Typescript", "TailwindCSS", "Shadcn UI", "Drizzle", "PostgreSQL", "AI"],
+      tags: ["Nextjs", "Typescript", "TailwindCSS", "Shadcn UI", "Drizzle", "PostgreSQL", "AI", "Clerk", "NeonDB"],
       category: "web app",
       kind: "fullstack" as const,
       github: "https://github.com/engraya/pennyplan",
@@ -152,7 +152,7 @@ export const projects = [
       description:
         "Remindly is a focused productivity app that lets you organize tasks into color-coded collections, track completion progress at a glance, and create tasks from plain English",
       image: remindly,
-      tags: ["React", "Nexjs", "Typescript", "TailwindCSS", "PostgreSQL", "ShadCnUI", "Clerk", "NeonDB"],
+      tags: ["React", "Nextjs", "Typescript", "TailwindCSS", "PostgreSQL", "ShadCnUI", "Clerk", "NeonDB"],
       category: "web app",
       kind: "fullstack" as const,
       github: "https://github.com/engraya/remindly",
