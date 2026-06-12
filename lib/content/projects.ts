@@ -10,7 +10,7 @@ import {
     codraft,
     medimatrix,
     snapsavvy,
-    motohub ,
+    cinehub ,
     shopoholics,
     shelterium,
     nutrimindAI,
@@ -206,18 +206,17 @@ export const projects = [
       github: "https://github.com/engraya/coinStream",
       webapp: "https://coinstream.vercel.app/",
     },
-
     {
       id: 13,
-      title: "Motohub – Explore the World’s Sleekest, Most Stylish Cars 🌍🚗🔥b",
+      title: "CineHub – Discover Movies & TV Shows from Around the World 🎬🌍✨",
       description:
-        "MotoHub - the hottest spot on the web to explore sleek, stylish, and cutting-edge cars from around the globe! 🌐🔥",
-      image: motohub,
+        "CineHub - your go-to platform to search, filter, and explore trending movies and TV shows from around the globe, powered by TMDB! 🎥🔥",
+      image: cinehub,
       tags: ["Nextjs", "Typescript", "TailwindCSS", "HeadlessUI", "React"],
       category: "web app",
       kind: "frontend" as const,
-      github: "https://github.com/engraya/motohub",
-      webapp: "https://motohub-io.vercel.app/",
+      github: "https://github.com/engraya/cinehub",
+      webapp: "https://cinehub-io.vercel.app/",
     },
     {
       id: 14,

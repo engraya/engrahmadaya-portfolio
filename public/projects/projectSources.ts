@@ -1,7 +1,7 @@
 import delectable from "./delectable.png"
 import global from "./globalescapades.png"
 import midin from "./midin.png"
-import motohub from "./motohub.png"
+import cinehub from "./cinehub.png"
 import movies from "./movies.png"
 import weather from "./weatherapp.png"
 import shopoholics from "./shopoholics.png"
@@ -73,7 +73,7 @@ shopoholics,
 delectable,
 global,
 midin ,
-motohub ,
+cinehub ,
 movies,
 weather ,
 }
