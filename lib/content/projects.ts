@@ -194,19 +194,19 @@ export const projects = [
       github: "https://github.com/engraya/medimatrix",
       webapp: "https://medimatrix.vercel.app/",
     },
-
     {
       id: 12,
-      title: "Creatify_AI – Instantly Generate SEO-Friendly Content for Web 🧠✍️🚀",
+      title: "CoinStream – Real-Time Crypto Stats, Market Trends & Coin Insight 💹🪙",
       description:
-        "Creatify_AI empowers businesses, marketers, and creators with high-quality, SEO-friendly contents in seconds",
-      image: creatifyAI,
-      tags: ["React", "Nextjs", "Typescript", "TailwindCSS", "Shadcn UI", "PostgreSQL", "Clerk", "Stripe", "Docker", "Gemini-AI"],
+        "Explore detailed information on a wide range of coins, from market capitalization to trading volume.",
+      image: coinstream,
+      tags: ["Nextjs", "Typescript", "TailwindCSS"],
       category: "web app",
       kind: "frontend" as const,
-      github: "https://github.com/engraya/creatify_AI",
-      webapp: "https://creatify-ai-pro.vercel.app/",
+      github: "https://github.com/engraya/coinStream",
+      webapp: "https://coinstream.vercel.app/",
     },
+
     {
       id: 13,
       title: "Motohub – Explore the World’s Sleekest, Most Stylish Cars 🌍🚗🔥b",
@@ -233,15 +233,15 @@ export const projects = [
     },
     {
       id: 15,
-      title: "CoinStream – Real-Time Crypto Stats, Market Trends & Coin Insight 💹🪙",
+      title: "Creatify_AI – Instantly Generate SEO-Friendly Content for Web 🧠✍️🚀",
       description:
-        "Explore detailed information on a wide range of coins, from market capitalization to trading volume.",
-      image: coinstream,
-      tags: ["Nextjs", "Typescript", "TailwindCSS"],
+        "Creatify_AI empowers businesses, marketers, and creators with high-quality, SEO-friendly contents in seconds",
+      image: creatifyAI,
+      tags: ["React", "Nextjs", "Typescript", "TailwindCSS", "Shadcn UI", "PostgreSQL", "Clerk", "Stripe", "Docker", "Gemini-AI"],
       category: "web app",
       kind: "frontend" as const,
-      github: "https://github.com/engraya/coinStream",
-      webapp: "https://coinstream.vercel.app/",
+      github: "https://github.com/engraya/creatify_AI",
+      webapp: "https://creatify-ai-pro.vercel.app/",
     },
       {
       id: 16,
