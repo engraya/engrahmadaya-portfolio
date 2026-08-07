@@ -1,5 +1,5 @@
-import { t40, upwork, gaotek } from "@public/experience";
-import { ntic, atbu } from "@public/sources";
+import { t40 } from "@public/experience";
+import { atbu } from "@public/sources";
 
 export const experiences = [
   {

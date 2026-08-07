@@ -212,11 +212,11 @@ export const projects = [
       description:
         "CineHub - your go-to platform to search, filter, and explore trending movies and TV shows from around the globe, powered by TMDB! 🎥🔥",
       image: cinehub,
-      tags: ["Nextjs", "Typescript", "TailwindCSS", "HeadlessUI", "React"],
+      tags: ["Nextjs", "Typescript", "TailwindCSS", "HeadlessUI", "React", "Redux"],
       category: "web app",
       kind: "frontend" as const,
-      github: "https://github.com/engraya/cinehub",
-      webapp: "https://cinehub-io.vercel.app/",
+      github: "https://github.com/engraya/Cinescope",
+      webapp: "https://cinescope-sage.vercel.app/",
     },
     {
       id: 14,
