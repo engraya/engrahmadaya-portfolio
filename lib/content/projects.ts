@@ -244,11 +244,11 @@ export const projects = [
     },
       {
       id: 16,
-      title: "Shopoholics – Ecommerce App for Seamless Online Shopping 🛍️🛒⚙️",
+      title: "Shopoholics – Ecommerce App for Seamless Online Shopping 🛍️🛒",
       description:
-        "Shopoholics, an open-source Fullstack ecommerce app designed to revolutionize your online shopping experience! 🛒",
+        "Shopoholics, an open-source Fullstack e-commerce application designed to revolutionize your online shopping experience.",
       image: shopoholics,
-      tags: ["Nextjs", "Typescript", "TailwindCSS", "Sanity", "Stripe", "ShadCN", "React"],
+      tags: ["Nextjs", "Typescript", "TailwindCSS", "PostgreSQL", "Paystack", "ShadCN"],
       category: "web app",
       kind: "frontend" as const,
       github: "https://github.com/engraya/shopoHolics",
