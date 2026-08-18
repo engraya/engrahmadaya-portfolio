@@ -254,18 +254,6 @@ export const projects = [
       github: "https://github.com/engraya/shopoHolics",
       webapp: "https://shopoholics.vercel.app/",
     },
-      {
-      id: 17,
-      title: "Snapsavvy - Optimize your Photos Powered by AI 📷",
-      description:
-        " AI-powered application designed to revolutionize the way you enhance and restore your photos.",
-      image: snapsavvy,
-      tags: ["Nextjs", "Typescript", "TailwindCSS", "Shadcn UI", "Stripe", "Unsplash AI", "Clerk", "MongoDB"],
-      category: "web app",
-      kind: "frontend" as const,
-      github: "https://github.com/engraya/SnapSavvy",
-      webapp: "https://snapsavvy.vercel.app/",
-    },
     {
       id: 18,
       title: "Core Post Backend — blog & engagement API",
