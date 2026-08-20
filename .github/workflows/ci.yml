@@ -1,0 +1,56 @@
+name: CI
+
+on:
+  push:
+    branches: [master, upgrade]
+  pull_request:
+    branches: [master]
+
+jobs:
+  verify:
+    name: Typecheck, lint & build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      # Guardrail: config files should be tiny. A bloated config is the
+      # signature of an appended obfuscated payload (see the postcss.config.mjs
+      # incident). Fail loudly if any config file grows past a sane threshold.
+      - name: Guard against oversized config files
+        run: |
+          max=4096
+          fail=0
+          for f in postcss.config.* next.config.* tailwind.config.* eslint.config.* *.config.js *.config.mjs *.config.ts; do
+            [ -f "$f" ] || continue
+            size=$(wc -c < "$f")
+            if [ "$size" -gt "$max" ]; then
+              echo "::error file=$f::Config file $f is $size bytes (> $max). Inspect for injected/obfuscated code."
+              fail=1
+            fi
+          done
+          exit $fail
+
+      # Guardrail: no committed .env files.
+      - name: Guard against committed secrets
+        run: |
+          if git ls-files --error-unmatch .env >/dev/null 2>&1; then
+            echo "::error::.env is tracked in git. Remove it and rotate any exposed secrets."
+            exit 1
+          fi
+
+      - name: Typecheck
+        run: npx tsc --noEmit
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Build
+        run: npm run build
