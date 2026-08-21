@@ -5,12 +5,18 @@ import react from "@vitejs/plugin-react";
 const root = fileURLToPath(new URL(".", import.meta.url));
 
 // tsconfig maps "@*" -> "./*", so both `@/lib/x` and `@lib/x` resolve from root.
+// Unlike tsconfig paths, Vite aliases don't fall back to node_modules, so the
+// bare form must enumerate project dirs to avoid capturing scoped packages
+// like @testing-library/*.
 export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: [
       { find: /^@\/(.*)$/, replacement: `${root}$1` },
-      { find: /^@(?!\/)(.*)$/, replacement: `${root}$1` },
+      {
+        find: /^@(actions|components|context|email|hooks|lib|public|src|themes|utils)(\/.*|$)/,
+        replacement: `${root}$1$2`,
+      },
     ],
   },
   test: {
