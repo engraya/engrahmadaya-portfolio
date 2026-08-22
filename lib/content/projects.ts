@@ -17,7 +17,8 @@ import {
     hireIQ,
     slideForge,
     coverflow,
-    docupilot
+    docupilot,
+    fathomUI
    } from "@public/projects/projectSources";
 
 export type ProjectKind = "frontend" | "backend" | "fullstack";
@@ -29,7 +30,18 @@ export type ProjectEndpoint = {
 };
 
 export const projects = [
-   
+      {
+      id: 21,
+      title: "Fathom UI — Accessible, published React component library",
+      description:
+        "An open-source React component library published to npm (@engraya/fathom-ui). Headless behavior from Radix, themeable through CSS-variable design tokens (light/dark), shipped as tree-shakeable ESM + CJS with type definitions. Every component is unit- and accessibility-tested (Vitest + jest-axe), documented in Storybook, and released through a tsup build with CI.",
+      image: fathomUI,
+      tags: ["React", "TypeScript", "Radix UI", "Vitest", "jest-axe", "Storybook", "tsup", "npm"],
+      category: "web app",
+      kind: "frontend" as const,
+      github: "https://github.com/engraya/fathom-ui",
+      webapp: "https://www.npmjs.com/package/@engraya/fathom-ui",
+    },
       {
       id: 0,
       title: "Codraft — Real-time collaboration and document editing",

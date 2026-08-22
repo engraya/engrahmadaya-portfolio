@@ -36,8 +36,10 @@ import slideForge from "./slideforge.png"
 import docupilot from "./docupilot.png"
 import nutrimindAI from "./nutrimind-ai.png"
 import precisAi from "./precis.png"
+import fathomUI from "./fathom-ui.png"
 
 export {
+fathomUI,
 echogram,
 nutrimindAI,
 precisAi,
