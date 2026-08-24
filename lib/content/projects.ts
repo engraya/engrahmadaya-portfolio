@@ -18,7 +18,8 @@ import {
     slideForge,
     coverflow,
     docupilot,
-    fathomUI
+    fathomUI,
+    pulse
    } from "@public/projects/projectSources";
 
 export type ProjectKind = "frontend" | "backend" | "fullstack";
@@ -30,6 +31,18 @@ export type ProjectEndpoint = {
 };
 
 export const projects = [
+      {
+      id: 22,
+      title: "Pulse — Real-time transport & payments analytics dashboard",
+      description:
+        "A data-dense analytics dashboard for an intercity transport operator: gross revenue, bookings, refund rate, seat-fill and payment-provider mix (Paystack/Monnify/Nomba), updating live. The charts are hand-built from SVG over a unit-tested scale/geometry layer — no charting library — and every one is fully accessible (aria-label summaries plus a visually-hidden data table, enforced with jest-axe). Client-side aggregation over ~10k transactions powers instant, URL-synced cross-filtering, and it's built on my own design system, Fathom UI. Tested with Vitest + Playwright.",
+      image: pulse,
+      tags: ["Next.js", "React", "TypeScript", "SVG Charts", "TanStack Query", "Accessibility", "Vitest", "Playwright"],
+      category: "web app",
+      kind: "frontend" as const,
+      github: "https://github.com/engraya/pulse",
+      webapp: "https://pulse-phi-drab.vercel.app/",
+    },
       {
       id: 21,
       title: "Fathom UI — Accessible, published React component library",

@@ -37,8 +37,10 @@ import docupilot from "./docupilot.png"
 import nutrimindAI from "./nutrimind-ai.png"
 import precisAi from "./precis.png"
 import fathomUI from "./fathom-ui.png"
+import pulse from "./pulse.png"
 
 export {
+pulse,
 fathomUI,
 echogram,
 nutrimindAI,
