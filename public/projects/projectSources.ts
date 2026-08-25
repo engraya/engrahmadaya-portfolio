@@ -38,8 +38,10 @@ import nutrimindAI from "./nutrimind-ai.png"
 import precisAi from "./precis.png"
 import fathomUI from "./fathom-ui.png"
 import pulse from "./pulse.png"
+import sonar from "./sonar.png"
 
 export {
+sonar,
 pulse,
 fathomUI,
 echogram,

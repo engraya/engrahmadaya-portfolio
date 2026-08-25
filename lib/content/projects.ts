@@ -19,7 +19,8 @@ import {
     coverflow,
     docupilot,
     fathomUI,
-    pulse
+    pulse,
+    sonar
    } from "@public/projects/projectSources";
 
 export type ProjectKind = "frontend" | "backend" | "fullstack";
@@ -31,6 +32,18 @@ export type ProjectEndpoint = {
 };
 
 export const projects = [
+      {
+      id: 23,
+      title: "Sonar — Accessibility-first React dashboard kit",
+      description:
+        "An open-source React dashboard-kit library: zero-dependency SVG charts (area, bar, donut, sparkline) where every chart ships an aria-label summary and a visually-hidden data table, so screen-reader users get the same numbers as sighted ones — enforced with jest-axe in CI. Plus KPI tiles, a responsive stat grid, and filter primitives. Themeable through CSS variables that pair with my Fathom UI design system, and shipped as tree-shakeable ESM + CJS with types (tsup) and Storybook. It's the kit that powers my Pulse dashboard.",
+      image: sonar,
+      tags: ["React", "TypeScript", "SVG Charts", "Accessibility", "jest-axe", "Storybook", "tsup", "npm"],
+      category: "web app",
+      kind: "frontend" as const,
+      github: "https://github.com/engraya/sonar",
+      webapp: "https://www.npmjs.com/package/@engraya/sonar",
+    },
       {
       id: 22,
       title: "Pulse — Real-time transport & payments analytics dashboard",
