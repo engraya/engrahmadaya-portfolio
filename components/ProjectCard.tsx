@@ -48,6 +48,7 @@ type ProjectProps = {
   readonly imageUrl: string | StaticImageData;
   readonly id: number;
   readonly kind?: ProjectKind;
+  readonly isPackage?: boolean;
   readonly endpoints?: readonly ProjectEndpoint[];
   readonly index?: number;
 };
@@ -59,6 +60,7 @@ function ProjectCard({
   id,
   imageUrl,
   kind = "frontend",
+  isPackage = false,
   endpoints,
   index = 0,
 }: ProjectProps) {
@@ -84,9 +86,13 @@ function ProjectCard({
         >
           <CardBody className="group/card relative flex h-full min-h-[28rem] w-full max-w-none flex-col rounded-2xl border border-black/[0.08] bg-white/90 p-5 shadow-sm backdrop-blur-sm transition-shadow duration-300 [transform-style:preserve-3d] hover:shadow-md dark:border-white/10 dark:bg-white/[0.06] dark:hover:shadow-emerald-500/10 sm:min-h-[30rem] sm:p-6 [&>*]:[transform-style:preserve-3d]">
             <span
-              className={`absolute right-4 top-4 z-10 rounded-full px-2.5 py-0.5 text-[0.65rem] font-semibold uppercase tracking-wide ${kindBadgeClasses(kind)}`}
+              className={`absolute right-4 top-4 z-10 rounded-full px-2.5 py-0.5 text-[0.65rem] font-semibold uppercase tracking-wide ${
+                isPackage
+                  ? "bg-rose-500/15 text-rose-700 ring-1 ring-rose-500/25 dark:text-rose-300 dark:ring-rose-400/30"
+                  : kindBadgeClasses(kind)
+              }`}
             >
-              {kindLabel(kind)}
+              {isPackage ? "npm package" : kindLabel(kind)}
             </span>
             <CardItem
               translateZ="40"
