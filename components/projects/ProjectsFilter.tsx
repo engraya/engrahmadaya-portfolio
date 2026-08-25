@@ -3,32 +3,44 @@
 import React, { useMemo, useState } from "react";
 import { motion } from "framer-motion";
 import { projects } from "@lib/constants";
-import type { ProjectKind } from "@lib/content/projects";
+import { isNpmPackage, type ProjectKind } from "@lib/content/projects";
 import ProjectCard from "@components/ProjectCard";
 
-type FilterKey = "all" | ProjectKind;
+type FilterKey = "all" | ProjectKind | "packages";
 
 const TABS: { readonly key: FilterKey; readonly label: string }[] = [
   { key: "all", label: "All" },
   { key: "fullstack", label: "Fullstack" },
   { key: "frontend", label: "Frontend" },
   { key: "backend", label: "Backend" },
+  { key: "packages", label: "npm Packages" },
 ];
 
 export default function ProjectsFilter() {
   const [active, setActive] = useState<FilterKey>("all");
 
   const counts = useMemo(() => {
-    const c = { all: projects.length, frontend: 0, backend: 0, fullstack: 0 };
+    const c = {
+      all: projects.length,
+      frontend: 0,
+      backend: 0,
+      fullstack: 0,
+      packages: 0,
+    };
     for (const p of projects) {
-      c[p.kind] += 1;
+      if (isNpmPackage(p)) {
+        c.packages += 1;
+      } else {
+        c[p.kind] += 1;
+      }
     }
     return c;
   }, []);
 
   const filtered = useMemo(() => {
     if (active === "all") return projects;
-    return projects.filter((p) => p.kind === active);
+    if (active === "packages") return projects.filter(isNpmPackage);
+    return projects.filter((p) => p.kind === active && !isNpmPackage(p));
   }, [active]);
 
   return (
@@ -82,6 +94,7 @@ export default function ProjectsFilter() {
             tags={project.tags}
             imageUrl={project.image}
             kind={project.kind}
+            isPackage={isNpmPackage(project)}
             endpoints={"endpoints" in project ? project.endpoints : undefined}
             index={index}
           />

@@ -25,6 +25,10 @@ import {
 
 export type ProjectKind = "frontend" | "backend" | "fullstack";
 
+export function isNpmPackage(project: { readonly category?: string }) {
+  return project.category === "npm package";
+}
+
 export type ProjectEndpoint = {
   readonly method: "GET" | "POST" | "PUT" | "PATCH" | "DELETE";
   readonly path: string;
@@ -39,7 +43,7 @@ export const projects = [
         "An open-source React dashboard-kit library: zero-dependency SVG charts (area, bar, donut, sparkline) where every chart ships an aria-label summary and a visually-hidden data table, so screen-reader users get the same numbers as sighted ones — enforced with jest-axe in CI. Plus KPI tiles, a responsive stat grid, and filter primitives. Themeable through CSS variables that pair with my Fathom UI design system, and shipped as tree-shakeable ESM + CJS with types (tsup) and Storybook. It's the kit that powers my Pulse dashboard.",
       image: sonar,
       tags: ["React", "TypeScript", "SVG Charts", "Accessibility", "jest-axe", "Storybook", "tsup", "npm"],
-      category: "web app",
+      category: "npm package",
       kind: "frontend" as const,
       github: "https://github.com/engraya/sonar",
       webapp: "https://www.npmjs.com/package/@engraya/sonar",
@@ -63,7 +67,7 @@ export const projects = [
         "An open-source React component library published to npm (@engraya/fathom-ui). Headless behavior from Radix, themeable through CSS-variable design tokens (light/dark), shipped as tree-shakeable ESM + CJS with type definitions. Every component is unit- and accessibility-tested (Vitest + jest-axe), documented in Storybook, and released through a tsup build with CI.",
       image: fathomUI,
       tags: ["React", "TypeScript", "Radix UI", "Vitest", "jest-axe", "Storybook", "tsup", "npm"],
-      category: "web app",
+      category: "npm package",
       kind: "frontend" as const,
       github: "https://github.com/engraya/fathom-ui",
       webapp: "https://www.npmjs.com/package/@engraya/fathom-ui",
