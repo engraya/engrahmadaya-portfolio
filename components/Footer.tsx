@@ -25,7 +25,7 @@ const Footer = () => {
         </a>
       </p>
       <small className="mb-3 block text-xs">
-        &copy; {new Date().getFullYear()}. All rights reserved.
+        &copy; {new Date().getFullYear()}.
       </small>
       <div className="flex gap-2 items-center justify-center text-center flex-wrap">
         <Link href={Bio.linkedin} target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="inline-flex mt-3 px-3 bg-cyan-200 py-3 rounded-full text-gray-800 outline-none transition hover:bg-cyan-300 focus-visible:ring-2 focus-visible:ring-emerald-400">
