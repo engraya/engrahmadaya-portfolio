@@ -84,7 +84,13 @@ export default function ProjectsFilter() {
         })}
       </div>
 
-      <div className="mx-auto mt-10 grid max-w-7xl grid-cols-1 items-stretch gap-8 md:grid-cols-2 xl:grid-cols-3">
+      {active === "backend" ? (
+        <header className="mx-auto mt-10 max-w-7xl border-l-2 border-emerald-500 pl-5">
+          <h2 className="text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Behind the interface</h2>
+          <p className="mt-2 max-w-2xl text-sm leading-relaxed text-gray-600 dark:text-gray-300">APIs for collaboration, academic administration, publishing, and more. Explore the data models, access controls, and architecture behind each service.</p>
+        </header>
+      ) : null}
+      <div className={`mx-auto mt-10 grid max-w-7xl grid-cols-1 items-stretch gap-8 md:grid-cols-2 ${active === "backend" ? "" : "xl:grid-cols-3"}`}>
         {filtered.map((project, index) => (
           <ProjectCard
             key={project.id}
@@ -96,6 +102,11 @@ export default function ProjectsFilter() {
             kind={project.kind}
             isPackage={isNpmPackage(project)}
             endpoints={"endpoints" in project ? project.endpoints : undefined}
+            github={project.github}
+            baseUrl={"baseUrl" in project ? project.baseUrl : undefined}
+            apiDocs={"apiDocs" in project ? project.apiDocs ?? undefined : undefined}
+            webapp={"webapp" in project ? project.webapp : undefined}
+            highlights={"highlights" in project ? project.highlights : undefined}
             index={index}
           />
         ))}
