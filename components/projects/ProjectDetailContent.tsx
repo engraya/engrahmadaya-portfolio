@@ -27,6 +27,7 @@ type ProjectDetailContentProps = {
   readonly deployment?: string;
   readonly endpoints?: readonly ProjectEndpoint[];
   readonly architectureSummary?: readonly string[];
+  readonly highlights?: readonly string[];
 };
 
 function hostLabel(url: string) {
@@ -108,7 +109,7 @@ function ApiSurfaceBlock({
               >
                 {ep.method}
               </span>
-              <code className="text-sm text-gray-100">{ep.path}</code>
+              <code className="min-w-0 break-all text-sm text-gray-100">{ep.path}</code>
             </div>
             <p className="mt-2 text-sm leading-relaxed text-gray-400">
               {ep.purpose}
@@ -135,6 +136,7 @@ export default function ProjectDetailContent({
   deployment,
   endpoints,
   architectureSummary,
+  highlights,
 }: ProjectDetailContentProps) {
   const isBackend = kind === "backend";
   const endpointList = endpoints ?? [];
@@ -187,7 +189,7 @@ export default function ProjectDetailContent({
                 whileTap={{ scale: 0.98 }}
               >
                 <BsBoxArrowUpRight className="text-lg" aria-hidden />
-                Live demo
+                {isBackend ? "Live API" : "Live demo"}
               </motion.a>
             ) : null}
             {apiDocs ? (
@@ -217,6 +219,17 @@ export default function ProjectDetailContent({
           </div>
         </motion.header>
 
+        {highlights?.length ? (
+          <section aria-label="Project capabilities" className="mt-10 grid gap-3 sm:grid-cols-3">
+            {highlights.map((highlight, index) => (
+              <div key={highlight} className="rounded-xl border border-emerald-600/15 bg-emerald-50/60 p-5 dark:border-emerald-400/20 dark:bg-emerald-400/5">
+                <span className="font-mono text-xs text-emerald-700 dark:text-emerald-400">0{index + 1}</span>
+                <p className="mt-2 text-sm font-medium text-gray-800 dark:text-gray-200">{highlight}</p>
+              </div>
+            ))}
+          </section>
+        ) : null}
+
         <div className="mt-12 grid gap-10 lg:grid-cols-12 lg:gap-14">
           <motion.div
             className="lg:col-span-7"
@@ -231,11 +244,7 @@ export default function ProjectDetailContent({
               ) : (
                 <div className="flex aspect-[16/10] items-center justify-center rounded-2xl border border-dashed border-gray-300 bg-gray-100/80 dark:border-white/20 dark:bg-gray-900/50">
                   <p className="px-6 text-center text-sm text-gray-500 dark:text-gray-400">
-                    Add{" "}
-                    <code className="text-gray-600 dark:text-gray-300">endpoints</code>{" "}
-                    to this project in{" "}
-                    <code className="text-gray-600 dark:text-gray-300">projects.ts</code>{" "}
-                    to show the API surface here.
+                    Explore the source code for API usage and implementation details.
                   </p>
                 </div>
               )
@@ -281,7 +290,7 @@ export default function ProjectDetailContent({
                 {webapp ? (
                   <div>
                     <dt className="text-xs font-medium text-gray-500 dark:text-gray-400">
-                      Live site
+                      {isBackend ? "Live API" : "Live site"}
                     </dt>
                     <dd className="mt-1">
                       <a
