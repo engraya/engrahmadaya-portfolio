@@ -58,6 +58,7 @@ export default function ProjectDetailsPage({ params }: Readonly<Props>) {
       auth={"auth" in project ? project.auth : undefined}
       deployment={"deployment" in project ? project.deployment : undefined}
       endpoints={"endpoints" in project ? project.endpoints : undefined}
+      highlights={"highlights" in project ? project.highlights : undefined}
       architectureSummary={
         "architectureSummary" in project
           ? project.architectureSummary
